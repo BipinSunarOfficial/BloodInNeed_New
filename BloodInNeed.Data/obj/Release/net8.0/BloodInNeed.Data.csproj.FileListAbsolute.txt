@@ -1,0 +1,12 @@
+D:\.Net Programs\BloodInNeed.Data\bin\Release\net8.0\BloodInNeed.Data.deps.json
+D:\.Net Programs\BloodInNeed.Data\bin\Release\net8.0\BloodInNeed.Data.dll
+D:\.Net Programs\BloodInNeed.Data\bin\Release\net8.0\BloodInNeed.Data.pdb
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\BloodInNeed.Data.csproj.AssemblyReference.cache
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\BloodInNeed.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\BloodInNeed.Data.AssemblyInfoInputs.cache
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\BloodInNeed.Data.AssemblyInfo.cs
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\BloodInNeed.Data.csproj.CoreCompileInputs.cache
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\BloodInNeed.Data.dll
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\refint\BloodInNeed.Data.dll
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\BloodInNeed.Data.pdb
+D:\.Net Programs\BloodInNeed.Data\obj\Release\net8.0\ref\BloodInNeed.Data.dll
