@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net Programs\\BloodInNeed\\BloodInNeed.UI.csproj": {}
+    "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\BloodInNeed.UI.csproj": {}
   },
   "projects": {
-    "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj": {
+    "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj",
+        "projectUniqueName": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj",
         "projectName": "BloodInNeed.Data",
-        "projectPath": "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj",
+        "projectPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Programs\\BloodInNeed.Data\\obj\\",
+        "outputPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\.Net Programs\\BloodInNeed\\BloodInNeed.UI.csproj": {
+    "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\BloodInNeed.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Programs\\BloodInNeed\\BloodInNeed.UI.csproj",
+        "projectUniqueName": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\BloodInNeed.UI.csproj",
         "projectName": "BloodInNeed.UI",
-        "projectPath": "D:\\.Net Programs\\BloodInNeed\\BloodInNeed.UI.csproj",
+        "projectPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\BloodInNeed.UI.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Programs\\BloodInNeed\\obj\\",
+        "outputPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj": {
-                "projectPath": "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj"
+              "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj": {
+                "projectPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj"
               }
             }
           }

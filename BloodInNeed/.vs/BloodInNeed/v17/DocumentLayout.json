@@ -1,14 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.Net Programs\\BloodInNeed\\",
+  "WorkspaceRootPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\.net programs\\bloodinneed\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\.net programs\\bloodinneed\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +34,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:20:22.241Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T11:18:53.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:59:05.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T09:58:15.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "style.css",
-              "DocumentMoniker": "D:\\.Net Programs\\BloodInNeed\\wwwroot\\css\\style.css",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
-              "ToolTip": "D:\\.Net Programs\\BloodInNeed\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\style.css",
               "RelativeToolTip": "wwwroot\\css\\style.css",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-16T09:01:47.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\.Net Programs\\BloodInNeed\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\.Net Programs\\BloodInNeed\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-16T07:40:34.702Z",
               "EditorCaption": ""

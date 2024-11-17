@@ -9,39 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BloodInNeed.UI
 build_property.RootNamespace = BloodInNeed.UI
-build_property.ProjectDir = D:\.Net Programs\BloodInNeed\
+build_property.ProjectDir = D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\.Net Programs\BloodInNeed
+build_property.MSBuildProjectDirectory = D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/.Net Programs/BloodInNeed/Views/Home/Index.cshtml]
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Programs/BloodInNeed/Views/Home/Privacy.cshtml]
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Programs/BloodInNeed/Views/Shared/Error.cshtml]
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Programs/BloodInNeed/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Programs/BloodInNeed/Views/_ViewImports.cshtml]
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Programs/BloodInNeed/Views/_ViewStart.cshtml]
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/.Net Programs/BloodInNeed/Views/Shared/_Layout.cshtml]
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ss2qdki2j3

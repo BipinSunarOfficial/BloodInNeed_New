@@ -10,3 +10,16 @@ D:\.Net Programs\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.dll
 D:\.Net Programs\BloodInNeed.Data\obj\Debug\net8.0\refint\BloodInNeed.Data.dll
 D:\.Net Programs\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.pdb
 D:\.Net Programs\BloodInNeed.Data\obj\Debug\net8.0\ref\BloodInNeed.Data.dll
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\bin\Debug\net8.0\BloodInNeed.Data.deps.json
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\bin\Debug\net8.0\BloodInNeed.Data.dll
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\bin\Debug\net8.0\BloodInNeed.Data.pdb
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.csproj.AssemblyReference.cache
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.AssemblyInfoInputs.cache
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.AssemblyInfo.cs
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.csproj.CoreCompileInputs.cache
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.sourcelink.json
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.dll
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\refint\BloodInNeed.Data.dll
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\BloodInNeed.Data.pdb
+D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed.Data\obj\Debug\net8.0\ref\BloodInNeed.Data.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj": {}
+    "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj": {}
   },
   "projects": {
-    "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj": {
+    "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj",
+        "projectUniqueName": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj",
         "projectName": "BloodInNeed.Data",
-        "projectPath": "D:\\.Net Programs\\BloodInNeed.Data\\BloodInNeed.Data.csproj",
+        "projectPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\BloodInNeed.Data.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net Programs\\BloodInNeed.Data\\obj\\",
+        "outputPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -46,7 +46,16 @@
 .mailId:hover {
     color:white;
 }
+.divLoginImg{
+    /*display:flex;*/
+    justify-content:center;
+    justify-items:center;
+    width:100%;
+}
 
+.loginLogo {
+    width: 25%;
+}
 
 
 /*.donate_btn{
