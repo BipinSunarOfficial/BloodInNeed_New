@@ -1,20 +1,38 @@
 using BloodInNeed.Models;
+using BloodInNeed.UI.Controllers;
+using BloodInNeed.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace BloodInNeed.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly SidebarMenuService _sideBarMenuService;
+
+
+        //public HomeController(ILogger<HomeController> logger, SidebarMenuService sidebarMenuService)
+        //{
+        //    _logger = logger;
+        //    _sideBarMenuService = sidebarMenuService;
+        //}
+
+        public HomeController(ILogger<HomeController> logger, SidebarMenuService sidebarMenuService)
+    : base(sidebarMenuService)
         {
             _logger = logger;
+            _sideBarMenuService = sidebarMenuService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            await PopulateSidebarData();
+            //var BloodGroupData = _sideBarMenuService.GetBloodGroupsAll();
+
+            //Console.WriteLine(BloodGroupData);
+
             return View();
         }
 

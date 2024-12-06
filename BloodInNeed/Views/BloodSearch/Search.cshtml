@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Blood Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="search"> 
+        <div class="row"> 
+            <div class="col-md-6"> 
+                <div class="search-1"> 
+                    <i class='bx bx-search-alt'></i> 
+                    <input type="text" id="bloodGroup" placeholder="Blood Group">
+                     @* <datalist id="bloodGroups">
+                        <option value="-1">All</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </datalist> *@
+                </div> 
+             </div>
+             <div class="col-md-6"> 
+                 <div> 
+                     <div class="search-2">
+                        <i class="fa fa-map-marker" style="color:red"></i>
+                        <input type="text" placeholder="City/Town">
+                         <button>Search</button> 
+                     </div>
+                 </div> 
+             </div> 
+        </div>
+     </div>
+</div>
+
+
+
+<script src="~/js/bloodsearch.js"></script>

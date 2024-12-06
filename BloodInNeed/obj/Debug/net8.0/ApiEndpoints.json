@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.LogInApiController",
+    "Method": "LogInCheck",
+    "RelativePath": "api/login/CheckLogin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

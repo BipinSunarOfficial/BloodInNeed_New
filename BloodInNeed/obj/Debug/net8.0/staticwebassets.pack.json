@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BloodInNeed.UI.bundle.scp.css"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\Toast.css",
+      "PackagePath": "staticwebassets\\css\\Toast.css"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -21,8 +25,32 @@
       "PackagePath": "staticwebassets\\images\\LoginImage.webp"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\droplet.png",
+      "PackagePath": "staticwebassets\\images\\droplet.png"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ApiCall.js",
+      "PackagePath": "staticwebassets\\js\\ApiCall.js"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\BloodSearch.js",
+      "PackagePath": "staticwebassets\\js\\BloodSearch.js"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Login.js",
+      "PackagePath": "staticwebassets\\js\\Login.js"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Toast.js",
+      "PackagePath": "staticwebassets\\js\\Toast.js"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\site.js",

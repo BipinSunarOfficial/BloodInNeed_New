@@ -1,12 +1,21 @@
 using BloodInNeed.Data.DataAccess;
 using BloodInNeed.Data.Repository;
+using BloodInNeed.UI.DBCtx;
+using BloodInNeed.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+builder.Services.AddControllers();
+builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+builder.Services.AddScoped<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<LogInService>();
+builder.Services.AddTransient<SidebarMenuService>();
+builder.Services.AddTransient<SideBarDBCtx>(); // Register SideBarDBCtx
+builder.Services.AddScoped<LogInDBCtx>();
+
 
 
 var app = builder.Build();
@@ -25,6 +34,11 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseDeveloperExceptionPage();
+
+
+app.MapControllers();
 
 app.MapControllerRoute(
     name: "default",

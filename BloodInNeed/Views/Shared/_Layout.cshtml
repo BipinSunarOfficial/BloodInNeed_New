@@ -3,76 +3,110 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - BloodInNeed</title>
+    <title>@ViewBag.Title-Blood In Need</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/BloodInNeed.styles.css" asp-append-version="true" />
+    <link href="~/css/toast.css" rel="stylesheet" />
+    @* <link rel="stylesheet" href="~/BloodInNeed.styles.css" asp-append-version="true" /> *@
     <link href="~/css/style.css" rel="stylesheet" />
+    <link rel="icon" href="~/images/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- jQuery UI -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <div class="divLogo">
-                    <a class="logo_img" asp-area="" asp-controller="Home" asp-action="Index">
-                        <img src="~/images/logo.png" /> 
-                    </a>
+    <header class="header">
+        <!-- Top Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger text-light">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="/Home/Index">
+                    <img src="~/images/logo.png" alt="Logo" style="height: 40px;" />
+                    <span class="ms-2" style="color:#dc3545">BloodInNeed</span>
+                </a>
 
-                </div>
-
-                <div class="nav_middle text-light">
-                        <div class="d-flex">
-                        <p>Support: </p> <a class="mailId" href="mailto:bipin.sunarofficial@gmail.com">bipin.sunarofficial@gmail.com
-                            <span class="tooltiptext">Send email to Support team.</span>
+                <!-- Support Section -->
+                <div class="nav_middle text-light text-center">
+                    <p class="mb-0">
+                        Support:
+                        <a class="mailId text-white" href="mailto:bipin.sunarofficial@gmail.com">
+                            bipin.sunarofficial@gmail.com
                         </a>
-                        
-                        </div>
-                        
-
-                </div>
-
-
-                <div class="nav_right">
-                    @* <button class="btn donate_btn">Click Button</button> *@
-                    <p class="text-light">
-                        A true human donates to save lives.
                     </p>
-
                 </div>
 
-
-                @* <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BloodInNeed</a> *@
-               @*  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> *@
-                @* <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div> *@
+                <!-- Right Section -->
+                <div class="nav_right text-light text-end">
+                    <p class="mb-0">A true human donates to save lives.</p>
+                </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+
+    <div class="container-fluid d-flex">
+        <!-- Sidebar -->
+        <nav class="sidebar navbar-expand-lg navbar-light bg-light">
+           @*  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> *@
+
+            <div class="collapse navbar-collapse" id="sidebarMenu">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link @(ViewContext.RouteData.Values["action"].ToString() == "Index" ? "active" : "")" href="/Home/Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" role="button" aria-expanded="false" aria-controls="submenu1">
+                            Blood Groups
+                        </a>
+                        <div class="collapse" id="submenu1">
+                            <ul class="btn-toggle-nav list-unstyled">
+
+                                @if (ViewBag.BloodGroups != null)
+                                {
+                                    foreach (var a in ViewBag.BloodGroups)
+                                    {
+                                        <li><a class="dropdown-item" href="" data-value = "@a.Bid" >@a.Symbol</a></li>
+                                        @* <li><a class="dropdown-item" href="">View Donors</a></li> *@
+                                    }
+                                }
+                                                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BloodSearch" && ViewContext.RouteData.Values["action"].ToString() == "Search" ? "active" : "")" href="/BloodSearch/Search">Search Blood</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-grow-1 p-4">
+            <!-- Your main content here (i.e., platform statistics, charts, etc.) -->
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <!-- Footer -->
+    <footer class="border-top footer text-center text-muted py-3">
         <div class="container">
-            &copy; 2024 - BloodInNeed - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; @DateTime.Now.Year - BloodInNeed - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-reset">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/script.js"></script>
+    <script src="~/js/apicall.js"></script>
+    <script src="~/js/toast.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

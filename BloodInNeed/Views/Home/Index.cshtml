@@ -1,8 +1,152 @@
-﻿@{
+﻿@model IEnumerable<BloodInNeed.UI.Models.BloodGroups>
+
+@{
     ViewData["Title"] = "Home Page";
 }
-
+@* 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+   @*  <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+
+@* 
+@foreach (var a in Model)
+{
+       <table>
+           <thead>
+
+           </thead>
+           <tbody>
+               <tr>
+                    <td>@a.BGType</td>
+
+               </tr>
+           </tbody>
+       </table>
+
+} *@
+
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Platform Statistics</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h3 class="card-title">10,000+</h3>
+                    <p class="card-text">Registered Donors</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h3 class="card-title">5,000+</h3>
+                    <p class="card-text">Blood Requests Fulfilled</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h3 class="card-title">1,000+</h3>
+                    <p class="card-text">Active Donors</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="container mt-5">
+    <h2 class="text-center">Platform Statistics by Country</h2>
+    <table class="table table-striped table-bordered text-center">
+        <thead class="table-light">
+            <tr>
+                <th>Country</th>
+                <th>Total Users</th>
+                <th>Total Donors</th>
+                <th>Requests Fulfilled</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://flagcdn.com/w40/np.png" alt="Nepal Flag" class="flag">
+                    <span class="ms-2">Nepal</span>
+                </td>
+                <td>10,000+</td>
+                <td>5,000+</td>
+                <td>4,500+</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://flagcdn.com/w40/in.png" alt="India Flag" class="flag">
+                    <span class="ms-2">India</span>
+                </td>
+                <td>15,000+</td>
+                <td>7,000+</td>
+                <td>6,500+</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://flagcdn.com/w40/us.png" alt="USA Flag" class="flag">
+                    <span class="ms-2">USA</span>
+                </td>
+                <td>25,000+</td>
+                <td>12,000+</td>
+                <td>11,000+</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://flagcdn.com/w40/gb.png" alt="UK Flag" class="flag">
+                    <span class="ms-2">United Kingdom</span>
+                </td>
+                <td>20,000+</td>
+                <td>10,000+</td>
+                <td>9,000+</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://flagcdn.com/w40/ca.png" alt="Canada Flag" class="flag">
+                    <span class="ms-2">Canada</span>
+                </td>
+                <td>8,000+</td>
+                <td>4,000+</td>
+                <td>3,500+</td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://flagcdn.com/w40/au.png" alt="Australia Flag" class="flag">
+                    <span class="ms-2">Australia</span>
+                </td>
+                <td>12,000+</td>
+                <td>6,000+</td>
+                <td>5,500+</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+<script>
+    const donorData = {
+        Nepal: 500,
+        USA: 300,
+        UK: 200,
+        India: 800
+    };
+
+    function updateDonorCount() {
+        // const country = document.getElementById("countrySelect").value;
+        // const count = donorData[country] || 0;
+        // document.getElementById("donorCount").innerText = `Total Donors: ${count}`;
+        // document.getElementById("donorSlider").value = count;
+    }
+
+    // Initialize with the first country's data
+    updateDonorCount();
+</script>
+
+

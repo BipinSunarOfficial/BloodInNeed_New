@@ -1,0 +1,35 @@
+﻿/* Toast container styling - positioned at the bottom-left */
+.toast-container {
+    position: fixed;
+    bottom: 20px; /* Position toast container at the bottom-left */
+    left: 20px; /* Position toast container at the left */
+    z-index: 9999;
+}
+
+/* Toast notification styling */
+.toast {
+    display: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Success toast (green) */
+.toast-success {
+    background-color: green;
+}
+
+/* Error toast (red) */
+.toast-error {
+    background-color: red;
+}
+
+
+
+
+
+

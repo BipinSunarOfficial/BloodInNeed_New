@@ -1,11 +1,9 @@
-﻿.logo_img img {
-    width: 50%;
-    transition: 0.10s ease-out;
-}
+﻿/* Top Navbar */
 .navbar {
-    background: rgb(249,249,249);
-    background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(219,21,21,0.6867997198879552) 100%);
+    background: rgb(249, 249, 249);
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1) 0%, rgba(219, 21, 21, 0.69) 100%);
 }
+
 .nav_middle {
     width: 75%;
     text-align: center;
@@ -13,80 +11,355 @@
     justify-content: center;
     align-items: center;
 }
+
 .nav_right {
     width: 15%;
 }
-.mailId{
-    text-decoration:none;
+
+.mailId {
+    text-decoration: none;
     color: white;
     padding-left: 10px;
 }
 
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+    color:red;
+}
+.nav-link {
+    color: red;
+}
+    /*.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px;*/ /* Hide sidebar off-screen */
+    /*background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    padding: 1rem;
+    transition: left 0.3s ease-in-out;*/ /* Transition the 'left' property */
+    /*}*/
+    /* Sidebar links */
+    .sidebar .nav-link {
+        padding: 10px;
+        font-size: 16px;
+        color:red;
+    }
+
+    .sidebar .collapse .btn-toggle-nav {
+        padding-left: 15px;
+    }
+    .sidebar.show {
+        left: 0; /* Move the sidebar into view */
+    }
+
+.nav-link.active, .nav-link:hover, a.dropdown-item:hover {
+    /*background-color: #f10f0fcf;*/
+   background: linear-gradient(90deg, rgba(249, 249, 249, 1) -80%, rgba(219, 21, 21, 0.69) 100%);
+    color: white !important;
+    border-radius: 5px; /* Optional for rounded corners */
+}
+/*
+.nav-link:hover {
+    color: white !important;
+}*/
+
+
+/* Sidebar hidden by default on small screens */
+@media (max-width: 768px) {
+   /* .sidebar {
+        transform: translateX(-100%);
+        position: absolute;
+        z-index: 1030;
+    }
+*/
+    .sidebar {
+        left: -250px; /* Hidden off-screen by default */
+    }
+
+        .sidebar.show {
+            left: 0; /* Move the sidebar into view when toggled */
+        }
+        /*.sidebar.show {
+            transform: translateX(0);*/ /* Show the sidebar */
+        /*}*/
+
+        .sidebar .nav-link {
+            font-size: 14px;
+        }
+
+    .navbar-toggler {
+        display: block;
+    }
+}
+
+/* Small screen adjustments */
+@media (max-width: 576px) {
+    .nav_right {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+/* Navbar Toggler */
+/*.navbar-toggler {*/
+    /*display: none;*/ /* Hidden by default on larger screens */
+    /*border: none;
+}*/
+.navbar-toggler {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+/*.navbar-toggler-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    height: 20px;
+    width: 20px;
+}*/
+.navbar-toggler-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    height: 20px;
+    width: 20px;
+}
+
+/* Table Styling */
+.table thead th {
+    background: linear-gradient(to right, #FF5858, #FF9A9A);
+    color: #fff;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.table tbody tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+.table tbody tr td {
+    vertical-align: middle;
+}
+
+/* Tooltip on Hover */
 .tooltiptext {
     visibility: hidden;
-    /*width: 90px;*/
-    font-size:12px;
-    filter:opacity(0.7);
-    background-color: rgba(219,21,21,0.6867997198879552);
+    font-size: 12px;
+    filter: opacity(0.7);
+    background-color: rgba(219, 21, 21, 0.69);
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px;
-    /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    transition:0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .mailId:hover .tooltiptext {
     visibility: visible;
-    /*transition: 2s ease-out;*/
 }
 
 .mailId:hover {
-    color:white;
-}
-.divLoginImg{
-    /*display:flex;*/
-    justify-content:center;
-    justify-items:center;
-    width:100%;
+    color: white;
 }
 
-.loginLogo {
-    width: 25%;
+/* Footer */
+footer {
+    border-top: 1px solid #ddd;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 10px;
+}
+
+/* Main Content */
+main {
+    flex-grow: 1;
+    padding: 1.5rem;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .table {
+        font-size: 12px;
+    }
 }
 
 
-/*.donate_btn{
-    outline:solid #000000;
-    width:100%;
-    height:100%;
+/*.collapse {
+    display: none;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
 }*/
-@media screen and (max-width:575px) {
-    .logo_img img {
-        width: 40%;
-        transition: 0.10s ease-in;
+
+.collapse.show, .collapse{
+    display: block !important;
+}
+
+.nav-link.dropdown-toggle {
+    cursor: pointer;
+}
+
+.btn-toggle-nav .dropdown-item {
+    padding-left: 20px;
+}
+
+
+
+.search {
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid #e485878a;
+}
+
+.search-1 {
+    position: relative;
+    width: 100%
+}
+
+    .search-1 input {
+        height: 45px;
+        border: none;
+        width: 100%;
+        padding-left: 40px; /* Increased padding to create space for the icon */
+        padding-right: 10px;
+        border-right: 2px solid #ff7676;
+        background-color: white; /* Optional, for a clean look */
+        background-image: url('/images/droplet.png'); /* Replace with the correct path to your image */
+        background-position: 5px center; /* Align the icon inside the input */
+        background-repeat: no-repeat; /* Prevent the icon from repeating */
+        background-size: 20px 20px;
+        caret-color: #ff7676;
+    }
+
+    .search-1 input:focus {
+        border-color: none;
+        box-shadow: none;
+        outline: none;
+    }
+
+   /* .search-1 i {
+        position: absolute;
+        top: 12px;
+        left: 5px;
+        font-size: 24px;
+        color: #ff7676
+    }*/
+
+::placeholder {
+    color: #ff7676;
+    opacity: 1
+}
+
+.search-2 {
+    position: relative;
+    width: 100%
+}
+
+    .search-2 input {
+        height: 45px;
+        border: none;
+        width: 100%;
+        padding-left: 18px;
+        padding-right: 100px;
+        caret-color: #ff7676;
+    }
+
+        .search-2 input:focus {
+            border-color: none;
+            box-shadow: none;
+            outline: none
+        }
+
+    .search-2 i {
+        position: absolute;
+        top: 12px;
+        left: -10px;
+        font-size: 24px;
+        color: #ff7676
+    }
+
+    .search-2 button {
+        position: absolute;
+        right: 1px;
+        top: 0px;
+        border: none;
+        height: 45px;
+        background-color: red;
+        color: #fff;
+        width: 90px;
+        border-radius: 4px
+    }
+
+@media (max-width:800px) {
+    .search-1 input {
+        border-right: none;
+        border-bottom: 1px solid #ff7676
+    }
+
+    .search-2 i {
+        left: 4px
+    }
+
+    .search-2 input {
+        padding-left: 34px
+    }
+
+    .search-2 button {
+        height: 37px;
+        top: 5px
     }
 }
 
-@media screen and (max-width:450px) {
-    .logo_img img {
-        width: 30%;
-        transition: 0.10s ease-in;
-    }
+
+
+
+/* Loader container - Centered on the page */
+.loader-container {
+    position: fixed;
+    top: 50%; /* Vertically center the loader */
+    left: 50%; /* Horizontally center the loader */
+    transform: translate(-50%, -50%); /* Adjust positioning to perfectly center */
+    z-index: 9999;
+    display: none; /* Initially hidden */
 }
 
-@media screen and (max-width:375px) {
-    .logo_img img {
-        width: 20%;
-        transition: 0.10s ease-in;
-    }
+/* The actual spinner */
+.loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid red; /* Red color for loading */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
 }
 
-@media screen and (max-width:250px) {
-    .logo_img {
-        width: 15%;
-        transition: 0.10s ease-in;
+/* Keyframe for the spinner animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }
