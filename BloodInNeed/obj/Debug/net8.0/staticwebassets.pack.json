@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\5e6ad515-a964-42e9-9441-96c3cb604df5.webp",
+      "PackagePath": "staticwebassets\\images\\5e6ad515-a964-42e9-9441-96c3cb604df5.webp"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\LoginImage.webp",
       "PackagePath": "staticwebassets\\images\\LoginImage.webp"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\signup.jpg",
+      "PackagePath": "staticwebassets\\images\\signup.jpg"
     },
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ApiCall.js",

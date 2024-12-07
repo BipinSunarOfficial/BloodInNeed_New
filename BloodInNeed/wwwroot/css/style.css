@@ -363,3 +363,8 @@ main {
         transform: rotate(360deg);
     }
 }
+
+
+.img-fluid {
+    height: -webkit-fill-available !important;
+}

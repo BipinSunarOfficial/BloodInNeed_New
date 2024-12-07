@@ -1,0 +1,104 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-Blood in Need</title>
+    <link rel="icon" href="~/images/logo.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet">
+    <link href="~/css/toast.css" rel="stylesheet" />
+</head>
+<body>
+
+    <section class="vh-100" style="background-color: rgba(237, 9, 9, 0.6);">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-xl-10">
+                    <div class="card" style="border-radius: 1rem;">
+                        <div class="row g-0">
+                            <div class="col-md-6 col-lg-5 d-none d-md-block">
+                                <img src="~/images/signup.jpg"
+                                     alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                            </div>
+                            <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                                <div class="card-body p-4 p-lg-5 text-black">
+
+                                    <div>
+
+                                        <div class="d-flex align-items-center mb-3 pb-1 divLoginImg">
+                                            @* <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i> *@
+                                            @* <img class="loginLogo" src="~/images/logo.png" /> *@
+                                        </div>
+
+                                        <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Register your account</h5>
+
+                                        <div class="row mb-4">
+                                            <div class="col">
+                                                <input type="text" id="signupFirstName" class="form-control form-control-lg" placeholder="First Name" required />
+                                                <label for="signupFirstName" class="form-label">First Name</label>
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" id="signupMiddleName" class="form-control form-control-lg" placeholder="Middle Name" />
+                                                <label for="signupMiddleName" class="form-label">Middle Name</label>
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" id="signupLastName" class="form-control form-control-lg" placeholder="Last Name" required />
+                                                <label for="signupLastName" class="form-label">Last Name</label>
+                                            </div>
+                                        </div>
+
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <input type="email" id="signupEmail" class="form-control form-control-lg" />
+                                            <label class="form-label" for="signupEmail">Email address</label>
+                                        </div>
+
+                                        <div class="row mb-4">
+                                            <div class="col">
+                                                <input type="password" id="signupPassword" class="form-control form-control-lg" required />
+                                                <label class="form-label" for="signupPassword">Password</label>
+                                            </div>
+
+                                            <div class="col">
+                                                <input type="password" id="signupRePassword" class="form-control form-control-lg" required />
+                                                <label class="form-label" for="signupRePassword">Retype Password</label>
+                                            </div>
+                                            
+                                        </div>
+
+                                        <div class="pt-1 mb-4">
+                                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-lg btn-block" id="registerBtn">Register</button>
+                                        </div>
+
+                                        @* <a class="small text-muted" href="#!">Forgot password?</a> *@
+                                        <p class="mb-5 pb-lg-2" style="color: #393f81;">
+                                            Already have an account? <a href="/Login"
+                                                                      style="color: #393f81;">Sign In</a>
+                                        </p>
+                                        @* <a href="#!" class="small text-muted">Terms of use.</a>
+                                        <a href="#!" class="small text-muted">Privacy policy</a> *@
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<!-- Include jQuery first -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Include jQuery UI (optional) -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="~/js/toast.js"></script>
+
+<script src="~/js/login.js"></script>
+<script src="~/js/apicall.js"></script>

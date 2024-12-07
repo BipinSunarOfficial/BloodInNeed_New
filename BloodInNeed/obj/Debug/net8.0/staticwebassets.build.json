@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "adH7xmSb6ntmvWDFwVOvxOCe6pzSuo3TcX27dSt91/o=",
+  "Hash": "RgETq4AVrOoF/DezclC0VztJlqWbuX3j3LoJ/Gp1e+Y=",
   "Source": "BloodInNeed.UI",
   "BasePath": "_content/BloodInNeed.UI",
   "Mode": "Default",
@@ -131,6 +131,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\5e6ad515-a964-42e9-9441-96c3cb604df5.webp",
+      "SourceId": "BloodInNeed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\",
+      "BasePath": "_content/BloodInNeed.UI",
+      "RelativePath": "images/5e6ad515-a964-42e9-9441-96c3cb604df5.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5e6ad515-a964-42e9-9441-96c3cb604df5.webp"
+    },
+    {
       "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\droplet.png",
       "SourceId": "BloodInNeed.UI",
       "SourceType": "Discovered",
@@ -186,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
+    },
+    {
+      "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\signup.jpg",
+      "SourceId": "BloodInNeed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\",
+      "BasePath": "_content/BloodInNeed.UI",
+      "RelativePath": "images/signup.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\signup.jpg"
     },
     {
       "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ApiCall.js",
