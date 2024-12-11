@@ -30,8 +30,6 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
 
             var result = _logInService.CheckLogIn(UserName, Password);
 
-
-
             return Ok(result);
 
         }

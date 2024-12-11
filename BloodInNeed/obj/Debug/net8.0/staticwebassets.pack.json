@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\js\\Login.js"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Signup.js",
+      "PackagePath": "staticwebassets\\js\\Signup.js"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Toast.js",
       "PackagePath": "staticwebassets\\js\\Toast.js"
     },

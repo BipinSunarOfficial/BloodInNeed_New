@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RgETq4AVrOoF/DezclC0VztJlqWbuX3j3LoJ/Gp1e+Y=",
+  "Hash": "iGgRpcaPqIAvvQwLT97FjWgXlFBdH0mfXeQaIQuwR2s=",
   "Source": "BloodInNeed.UI",
   "BasePath": "_content/BloodInNeed.UI",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
+    },
+    {
+      "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Signup.js",
+      "SourceId": "BloodInNeed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\",
+      "BasePath": "_content/BloodInNeed.UI",
+      "RelativePath": "js/Signup.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Signup.js"
     },
     {
       "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\site.js",

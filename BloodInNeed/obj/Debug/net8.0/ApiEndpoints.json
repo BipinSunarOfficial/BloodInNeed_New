@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.BaseApiController",
+    "Method": "AutoCompleteGet",
+    "RelativePath": "api/base/AutoCompleteGet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SearchValue",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.LogInApiController",
     "Method": "LogInCheck",
     "RelativePath": "api/login/CheckLogin",
@@ -16,6 +37,22 @@
         "Name": "Password",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.SignupApiController",
+    "Method": "SignUpUser",
+    "RelativePath": "api/signup/SignUpUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BloodInNeed.UI.Models.UserRegistrarionModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

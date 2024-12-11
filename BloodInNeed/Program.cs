@@ -12,9 +12,13 @@ builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 builder.Services.AddScoped<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddTransient<LogInService>();
+builder.Services.AddTransient<SignupService>();
+builder.Services.AddTransient<BaseService>();
 builder.Services.AddTransient<SidebarMenuService>();
 builder.Services.AddTransient<SideBarDBCtx>(); // Register SideBarDBCtx
 builder.Services.AddScoped<LogInDBCtx>();
+builder.Services.AddScoped<SignupDBCtx>();
+builder.Services.AddScoped<BaseDBCtx>();
 
 
 

@@ -53,6 +53,7 @@
                                         </div>
 
                                         <div data-mdb-input-init class="form-outline mb-4">
+                                            <small id="emailError" class="text-danger" style="display: none;">Invalid email format</small>
                                             <input type="email" id="signupEmail" class="form-control form-control-lg" />
                                             <label class="form-label" for="signupEmail">Email address</label>
                                         </div>
@@ -61,24 +62,52 @@
                                             <div class="col">
                                                 <input type="password" id="signupPassword" class="form-control form-control-lg" required />
                                                 <label class="form-label" for="signupPassword">Password</label>
+                                                <br/>
+                                                <small id="signupPasswordError" class="text-danger" style="display: none;">Input Strong Password</small>
                                             </div>
 
                                             <div class="col">
                                                 <input type="password" id="signupRePassword" class="form-control form-control-lg" required />
                                                 <label class="form-label" for="signupRePassword">Retype Password</label>
+                                                <br />
+                                                <small id="rePasswordError" class="text-danger" style="display: none;">Passwords do not match.</small>
                                             </div>
                                             
                                         </div>
 
+                                        
+                                        <div class="row mb-4">
+                                            <div class="col-3">
+                                            <label>Registering as: </label>
+
+                                            </div>
+                                            <div class="col">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <input type="radio" id="seeker" value="seeker" name="DonorSeeker" />
+                                                        <label for="seeker">Seeker</label>
+                                                    </div>
+                                                    <div class="col">
+                                                        <input type="radio" id="donor" value="donor" name="DonorSeeker" />
+                                                        <label for="donor">Donor</label>
+                                                    </div>
+                                                </div>                                            
+
+                                            </div>
+                                        </div>
+
+
+
                                         <div class="pt-1 mb-4">
-                                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-lg btn-block" id="registerBtn">Register</button>
+                                            <button class="btn btn-dark btn-lg btn-block" id="registerBtn" disabled>Register</button>
                                         </div>
 
                                         @* <a class="small text-muted" href="#!">Forgot password?</a> *@
                                         <p class="mb-5 pb-lg-2" style="color: #393f81;">
-                                            Already have an account? <a href="/Login"
-                                                                      style="color: #393f81;">Sign In</a>
+                                            Already have an account? <a href="/Login" style="color: #393f81;">Sign In</a>
                                         </p>
+                                        <small id="alreadyExists" class="text-danger" style="display: none;">Account with this email already exists.</small>
+
                                         @* <a href="#!" class="small text-muted">Terms of use.</a>
                                         <a href="#!" class="small text-muted">Privacy policy</a> *@
                                     </div>
@@ -100,5 +129,5 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script src="~/js/toast.js"></script>
 
-<script src="~/js/login.js"></script>
+<script src="~/js/Signup.js"></script>
 <script src="~/js/apicall.js"></script>
