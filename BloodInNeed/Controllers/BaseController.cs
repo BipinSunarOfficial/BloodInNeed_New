@@ -22,7 +22,7 @@ namespace BloodInNeed.UI.Controllers
 
         public async Task PopulateSidebarData()
         {
-            var BloodGroupData =  _sideBarMenuService.GetBloodGroupsAll();
+            var BloodGroupData = await _sideBarMenuService.GetBloodGroupsAll();
 
             ViewBag.BloodGroups = BloodGroupData;
             ViewBag.CurrentUsername = HttpContext.Session.GetString("IsLoggedIn");
@@ -40,6 +40,22 @@ namespace BloodInNeed.UI.Controllers
             {
                 return false;
             }
+        }
+
+        public async Task<IActionResult> DonateDetail(int BGId)
+        {
+            await PopulateSidebarData();
+
+            ViewBag.Username = CurrentUsername;
+
+            var data = _sideBarMenuService.DonateDetail(BGId);
+
+            if (data == null)
+            {
+                return NotFound();
+            }
+
+            return View(data);
         }
 
     }

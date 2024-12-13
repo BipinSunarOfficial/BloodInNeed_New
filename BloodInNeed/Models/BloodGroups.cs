@@ -9,5 +9,6 @@
         public string CanGiveToGroups { get; set; }
         public string CanReceiveFromGroups { get; set; }
         public bool IsActive { get; set; }
+        public string Characteristics { get; set; }
     }
 }

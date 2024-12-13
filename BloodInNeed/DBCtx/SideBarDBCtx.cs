@@ -16,7 +16,7 @@ namespace BloodInNeed.UI.DBCtx
 
 
 
-        public IEnumerable<BloodGroups> GetBloodGroupsAll()
+        public async Task<IEnumerable<BloodGroups>> GetBloodGroupsAll()
         {
             try
             {
@@ -29,6 +29,26 @@ namespace BloodInNeed.UI.DBCtx
                 throw new Exception("Exception : " + ex);
             }
         }
+
+
+        public BloodGroups DonateDetail(int BGId)
+        {
+            try
+            {
+                DynamicParameters p = new DynamicParameters();
+
+                p.Add("@BGId", BGId);
+
+                return ExecuteAsObject<BloodGroups>("[dbo].[Blood.Group.Details.Get]", p);
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception : " + ex);
+            }
+        }
+
+
 
     }
 }

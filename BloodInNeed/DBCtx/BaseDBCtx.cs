@@ -38,5 +38,25 @@ namespace BloodInNeed.UI.DBCtx
 
 
 
+
+        public IEnumerable<BloodGroups> DonateDetail(int BGId)
+        {
+            try
+            {
+                DynamicParameters p = new DynamicParameters();
+
+                p.Add("@BGId", BGId);               
+
+                return ExecuteAsList<BloodGroups>("[dbo].[Blood.Group.Details.Get]", p);
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception : " + ex);
+            }
+        }
+
+
+
     }
 }

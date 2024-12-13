@@ -14,11 +14,11 @@ namespace BloodInNeed.UI.Services
         }
 
 
-        public  IEnumerable<BloodGroups> GetBloodGroupsAll()
+        public async Task<IEnumerable<BloodGroups>> GetBloodGroupsAll()
         {
             try
             {
-                var data = _sideBarDBCtx.GetBloodGroupsAll();
+                var data = await _sideBarDBCtx.GetBloodGroupsAll();
                 return data.ToList();
             }
             catch (Exception ex)
@@ -26,6 +26,12 @@ namespace BloodInNeed.UI.Services
                 throw new Exception("Error in SidebarMenuService while fetching blood groups: " + ex);
                 //return false;
             }
+        }
+
+        public BloodGroups DonateDetail(int BGId)
+        {
+            var data = _sideBarDBCtx.DonateDetail(BGId);
+            return data;
         }
 
 

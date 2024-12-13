@@ -19,5 +19,11 @@ namespace BloodInNeed.UI.Services
             return data;
         }
 
+        public IEnumerable<BloodGroups> DonateDetail(int BGId)
+        {
+            var data = _baseDBCtx.DonateDetail(BGId);
+            return data;
+        }
+
     }
 }

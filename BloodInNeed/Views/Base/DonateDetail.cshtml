@@ -1,0 +1,30 @@
+﻿
+@model BloodInNeed.UI.Models.BloodGroups
+
+@{
+    ViewBag.Title = "Blood Group Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1 class="text-center text-danger mb-4">Blood Group Details: @Model.BloodGroup</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <p><strong>Blood Group (BG):</strong> @Model.Symbol</p>
+            <p><strong>Blood Group Type:</strong> @Model.BGType</p>
+            <p><strong>Symbol:</strong>@Model.Symbol</p>
+            <p><strong>Can Give Blood To:</strong> @Model.CanGiveToGroups</p>
+            <p><strong>Can Receive Blood From:</strong> @Model.CanReceiveFromGroups</p>
+            <p><strong>Characteristics:</strong> @Model.Characteristics</p>
+        </div>
+
+       @*  <div class="col-md-6">
+            <p><strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")</p>
+        </div> *@
+    </div>
+
+    @* <div class="text-center">
+        <a href="/Home/Index" class="btn btn-danger mt-4">Back to Home</a>
+    </div> *@
+</div>

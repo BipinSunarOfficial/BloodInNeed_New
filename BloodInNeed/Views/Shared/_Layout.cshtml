@@ -86,7 +86,7 @@
                                 {
                                     foreach (var a in ViewBag.BloodGroups)
                                     {
-                                        <li><a class="dropdown-item" href="" data-value = "@a.Bid" >@a.Symbol</a></li>
+                                        <li><a class="dropdown-item" href="/Base/DonateDetail?BGId=@a.Bid" data-value="@a.Bid">@a.Symbol</a></li>
                                         @* <li><a class="dropdown-item" href="">View Donors</a></li> *@
                                     }
                                 }
@@ -104,6 +104,20 @@
                     
                 </ul>
             </div>
+
+
+            <div class="sidebar-footer">
+                @if (ViewBag.Username != "" && ViewBag.Username != null)
+                {
+                    <a class="editProfile" href="/UnderConstruction/Index">Edit My Profile</a>
+                }
+
+              
+            </div>
+
+
+
+
         </nav>
 
         <!-- Main Content -->
