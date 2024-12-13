@@ -20,6 +20,15 @@ builder.Services.AddScoped<LogInDBCtx>();
 builder.Services.AddScoped<SignupDBCtx>();
 builder.Services.AddScoped<BaseDBCtx>();
 
+// Add session services
+builder.Services.AddDistributedMemoryCache(); // Use in-memory session storage
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Set session timeout
+    options.Cookie.HttpOnly = true; // Protect against XSS
+    options.Cookie.IsEssential = true; // Ensure cookies are essential
+});
+
 
 
 var app = builder.Build();
@@ -37,6 +46,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+
+app.UseSession();
+
 app.UseAuthorization();
 
 app.UseDeveloperExceptionPage();
@@ -46,6 +58,6 @@ app.MapControllers();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Login}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

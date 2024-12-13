@@ -28,12 +28,25 @@ namespace BloodInNeed.Controllers
 
         public async Task<IActionResult> Index()
         {
-            await PopulateSidebarData();
-            //var BloodGroupData = _sideBarMenuService.GetBloodGroupsAll();
 
-            //Console.WriteLine(BloodGroupData);
+            //if (IsSessionLogIn())
+            //{
+
+            await PopulateSidebarData();
+
+            //    return View();
+
+            //}
+
+            ViewBag.Username = CurrentUsername;
+            //else
+            //{
+            //    return RedirectToAction("Index", "Login");
+            //}
 
             return View();
+
+
         }
 
         public IActionResult Privacy()

@@ -30,6 +30,12 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
 
             var result = _logInService.CheckLogIn(UserName, Password);
 
+            if(result.MsgType == "success")
+            {
+                HttpContext.Session.SetString("Username", UserName);
+                HttpContext.Session.SetString("IsLoggedIn", "true");
+            }
+
             return Ok(result);
 
         }
