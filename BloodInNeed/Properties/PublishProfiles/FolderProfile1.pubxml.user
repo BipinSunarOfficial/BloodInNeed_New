@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\bin\Release\net8.0\publish\</_PublishTargetUrl>
-    <History>True|2024-12-13T03:26:02.1396354Z||;True|2024-12-08T00:07:59.8564364+00:00||;True|2024-12-08T00:07:34.6989683+00:00||;</History>
+    <History>True|2024-12-18T12:57:20.2704995Z||;True|2024-12-13T12:39:04.3862645+00:00||;True|2024-12-13T03:26:02.1396354+00:00||;True|2024-12-08T00:07:59.8564364+00:00||;True|2024-12-08T00:07:34.6989683+00:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

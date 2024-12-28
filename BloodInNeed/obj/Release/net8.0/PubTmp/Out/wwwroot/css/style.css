@@ -33,6 +33,9 @@
     padding: 1rem;
     transition: transform 0.3s ease-in-out;
     color:red;
+    /*display:flex;
+    flex-direction:column;
+    justify-content:space-around;*/
 }
 .nav-link {
     color: red;
@@ -368,3 +371,78 @@ main {
 .img-fluid {
     height: -webkit-fill-available !important;
 }
+
+.loginregbtn {
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.loginregbtn:hover {
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1) -70%, rgba(219, 21, 21, 0.69) 100%);
+}
+
+.sidebar-footer {
+    margin-top: auto; /* Pushes this section to the bottom of the sidebar */
+    /*text-align: center;*/
+    padding: 10px 0;
+    cursor:pointer;
+}
+    .sidebar-footer a {
+        cursor: pointer;
+        text-decoration:none;
+        color:red;
+    }
+
+    /*.sidebar-footer a {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+    }*/
+
+.btn-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    margin-top: 10px;
+}
+
+.editProfile{
+    cursor:pointer;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+    .home-button:hover {
+        background-color: #c0392b;
+    }
+
+.construction-container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+    .construction-container img {
+        width: 150px;
+        height: auto;
+        margin-bottom: 20px;
+    }

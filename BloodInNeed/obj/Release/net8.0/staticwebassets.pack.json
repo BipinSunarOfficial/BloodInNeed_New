@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\signup.jpg"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\underconstruction.webp",
+      "PackagePath": "staticwebassets\\images\\underconstruction.webp"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ApiCall.js",
       "PackagePath": "staticwebassets\\js\\ApiCall.js"
     },

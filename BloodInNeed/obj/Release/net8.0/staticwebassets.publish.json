@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MTpdvCQ8Y5I4dLLEYlYW2R0KJ1cSfxt+hHRCbXf7tuo=",
+  "Hash": "ujj1ooGJIEaANeYcYG0O7IYvczTF+eACzu1J6eFoDSA=",
   "Source": "BloodInNeed.UI",
   "BasePath": "_content/BloodInNeed.UI",
   "Mode": "Default",
@@ -224,6 +224,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\signup.jpg"
+    },
+    {
+      "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\underconstruction.webp",
+      "SourceId": "BloodInNeed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\",
+      "BasePath": "_content/BloodInNeed.UI",
+      "RelativePath": "images/underconstruction.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\underconstruction.webp"
     },
     {
       "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ApiCall.js",

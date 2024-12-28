@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "Edit Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    .sidebar {
+        display: none;
+    }
+</style>
+
+
+<h5 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">Edit profile</h5>
+
+
+<div class="catagory-box">
+
+    <h6 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">General Information</h6>
+
+    <div class="row mb-4">
+        <div class="col">
+            <select class="form-select form-select-lg" id="salutation" name="salutation">
+                <option value="" disabled selected>Select your Salutation</option>
+                <option value="Mr">Mr</option>
+                <option value="Ms">Ms</option>
+                <option value="Miss">Miss</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="salutation" class="form-label">Salutation</label>
+
+        </div>
+        <div class="col">
+            <input type="text" id="editFirstName" class="form-control form-control-lg" placeholder="First Name" required />
+            <label for="editFirstName" class="form-label">First Name</label>
+        </div>
+        <div class="col">
+            <input type="text" id="editMiddleName" class="form-control form-control-lg" placeholder="Middle Name" />
+            <label for="editMiddleName" class="form-label">Middle Name</label>
+        </div>
+        <div class="col">
+            <input type="text" id="editLastName" class="form-control form-control-lg" placeholder="Last Name" required />
+            <label for="editLastName" class="form-label">Last Name</label>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+
+        <div class="col">
+            <select class="form-select form-select-lg" id="gender" name="gender">
+                <option value="" disabled selected>Select your Gender</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Rather not say</option>
+            </select>
+            <label for="gender" class="form-label">Gender</label>
+
+        </div>
+
+
+        <div class="col form-outline mb-4">
+            <input type="email" id="editEmail" class="form-control form-control-lg" disabled />
+            <label class="form-label" for="editEmail">Email address</label>
+        </div>
+
+        <div class="col form-outline mb-4">
+            <input type="text" id="editUsername" class="form-control form-control-lg" />
+            <label class="form-label" for="editUsername">Username</label>
+        </div>
+
+        <div class="col">
+            <input type="password" id="editPassword" class="form-control form-control-lg" disabled />
+            <label class="form-label" for="editPassword">Password</label>
+            <br />
+            <small id="editPasswordError" class="text-danger" style="display: none;">Input Strong Password</small>
+        </div>
+
+    </div>
+
+
+
+    <div class="row mb-4">
+        <div class="col">
+            <select class="form-select form-select-lg" id="donorseeker" name="donorseeker" disabled>
+                <option value="donor">Donor</option>
+                <option value="seeker">Seeker</option>
+            </select>
+            <label for="donorseeker" class="form-label">I am a</label>
+        </div>
+
+        <div class="col">
+            <input type="date" class="form-control form-control-lg" id="dob" name="dob" />
+            <label for="dob" class="form-label">Date of Birth</label>
+
+        </div>
+
+        <div class="col">
+            <input type="text" id="editOccupation" class="form-control form-control-lg" />
+            <label class="form-label" for="editOccupation">Occupation</label>
+        </div>
+
+
+        <div class="col">
+            <input type="text" id="editFatherName" class="form-control form-control-lg" />
+            <label class="form-label" for="editFatherName">Father Name</label>
+        </div>
+
+         <div class="col">
+            <input type="text" id="editMotherName" class="form-control form-control-lg" />
+            <label class="form-label" for="editMotherName">Mother Name</label>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+
+
+<div class="catagory-box">
+    <h6 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">Contact Information</h6>
+
+
+
+
+</div>
