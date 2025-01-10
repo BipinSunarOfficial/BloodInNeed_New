@@ -15,10 +15,14 @@ builder.Services.AddTransient<LogInService>();
 builder.Services.AddTransient<SignupService>();
 builder.Services.AddTransient<BaseService>();
 builder.Services.AddTransient<SidebarMenuService>();
+builder.Services.AddTransient<ProfileService>();
+
+
 builder.Services.AddTransient<SideBarDBCtx>(); // Register SideBarDBCtx
 builder.Services.AddScoped<LogInDBCtx>();
 builder.Services.AddScoped<SignupDBCtx>();
 builder.Services.AddScoped<BaseDBCtx>();
+builder.Services.AddScoped<ProfileDBCtx>();
 
 // Add session services
 builder.Services.AddDistributedMemoryCache(); // Use in-memory session storage
@@ -56,8 +60,10 @@ app.UseDeveloperExceptionPage();
 
 app.MapControllers();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute
+    (
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
 
 app.Run();

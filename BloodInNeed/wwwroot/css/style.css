@@ -486,3 +486,8 @@ main {
 .themeColor{
     color : var(--redThemeColor);
 }
+
+.hovered-option{
+    background-color: var(--redThemeColor);
+    color: white;
+}

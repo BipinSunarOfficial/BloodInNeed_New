@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\js\\BloodSearch.js"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\EditProfile.js",
+      "PackagePath": "staticwebassets\\js\\EditProfile.js"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Login.js",
       "PackagePath": "staticwebassets\\js\\Login.js"
     },

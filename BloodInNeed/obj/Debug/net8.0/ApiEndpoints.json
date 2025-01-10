@@ -21,6 +21,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.ProfileApiController",
+    "Method": "CitybyCountryId",
+    "RelativePath": "api/editProfile/CitybyCountryId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.LogInApiController",
     "Method": "LogInCheck",
     "RelativePath": "api/login/CheckLogin",

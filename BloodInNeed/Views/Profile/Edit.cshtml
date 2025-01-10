@@ -1,4 +1,6 @@
-﻿@{
+﻿@model BloodInNeed.Data.Models.PagedDataEditProfile<BloodInNeed.UI.Models.Country,BloodInNeed.UI.Models.BloodGroups>
+
+@{
     ViewBag.Title = "Edit Profile";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -18,7 +20,7 @@
 
     <h6 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">General Information</h6>
 
-    <div class="row mb-4">
+    <div class="row mb-3">
         <div class="col">
             <select class="form-select form-select-lg" id="salutation" name="salutation">
                 <option value="" disabled selected>Select your Salutation</option>
@@ -45,7 +47,7 @@
         </div>
     </div>
 
-    <div class="row mb-4">
+    <div class="row mb-3">
 
         <div class="col">
             <select class="form-select form-select-lg" id="gender" name="gender">
@@ -59,12 +61,12 @@
         </div>
 
 
-        <div class="col form-outline mb-4">
+        <div class="col form-outline mb-3">
             <input type="email" id="editEmail" class="form-control form-control-lg" disabled />
             <label class="form-label" for="editEmail">Email address</label>
         </div>
 
-        <div class="col form-outline mb-4">
+        <div class="col form-outline mb-3">
             <input type="text" id="editUsername" class="form-control form-control-lg" />
             <label class="form-label" for="editUsername">Username</label>
         </div>
@@ -80,7 +82,7 @@
 
 
 
-    <div class="row mb-4">
+    <div class="row mb-3">
         <div class="col">
             <select class="form-select form-select-lg" id="donorseeker" name="donorseeker" disabled>
                 <option value="donor">Donor</option>
@@ -106,7 +108,7 @@
             <label class="form-label" for="editFatherName">Father Name</label>
         </div>
 
-         <div class="col">
+        <div class="col">
             <input type="text" id="editMotherName" class="form-control form-control-lg" />
             <label class="form-label" for="editMotherName">Mother Name</label>
         </div>
@@ -121,9 +123,192 @@
 
 
 <div class="catagory-box">
-    <h6 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">Contact Information</h6>
+    <h6 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">Contact &amp; Address Information</h6>
+
+    <div class="row">
+
+
+        <div class="col">
+            <select class="form-select form-select-lg" id="userCountryId" name="userCountry">
+                <option value="0">Select Country</option>
+                @foreach (var a in Model.Data)
+                {
+                    <option value="@a.Cid" data-code="@a.PhoneCode">@a.CountryName</option>
+                }
+            </select>
+            <label for="userCountry" class="form-label">Country</label>
+        </div>
+
+
+        <div class="col">
+            <select class="form-select form-select-lg" id="userCityId" name="userCity">
+                <option value="0">Select Country first</option>
+
+            </select>
+            <label for="userCity" class="form-label">City/Town</label>
+        </div>
+
+
+        <div class="col">
+
+            <div class="input-group" name="contactNumberDiv">
+                <span class="input-group-text" id="telCountryCode" style="width: 15%; padding:5px;"></span>
+                <input type="text" aria-label="phone" class="form-control" id="contactNumber" maxlength="15">
+            </div>
+            <label for="contactNumberDiv" class="form-label">Contact Number</label>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="col">
+            <input type="text" id="editAddress1" class="form-control form-control-lg" name="editAddress1" />
+            <label class="form-label" for="editAddress1">Address 1</label>
+        </div>
+
+        <div class="col">
+            <input type="text" id="editAddress2" class="form-control form-control-lg" name="editAddress2" />
+            <label class="form-label" for="editAddress2">Address 2<i>(optional)</i></label>
+        </div>
+
+
+        <div class="col">
+            <input type="text" id="editAddress3" class="form-control form-control-lg" name="editAddress3" />
+            <label class="form-label" for="editAddress3">Address 3<i>(optional)</i></label>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+
+<div class="catagory-box">
+    <h6 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">Blood Group Information</h6>
+
+
+    <div class="row">
+
+        <div class="col">
+
+            <div class="row">
+
+                <div class="col-7">
+                    <label>Select your Blood Group</label>
+
+                </div>
+
+                <div class="col-5">
+                    <select class="form-select" id="bloodGroup" name="bloodGroup">
+                        <option value="" disabled selected>Select your Blood Group</option>
+                        @foreach (var a in Model.Data2)
+                        {
+                            <option value="@a.Bid" data-bg="@a.Symbol">@a.Symbol</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col">
+
+            <div class="row">
+
+                <div class="col-6">
+                    <label>Have you donated Blood before ? </label>
+
+                </div>
+
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col">
+                            <input class="donateBefore" type="radio" value="1" name="donateBefore" />
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div class="col">
+                            <input class="donateBefore" type="radio" value="0" name="donateBefore" />
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row mt-2">
+
+        <div class="col">
+            <div class="row">
+
+                <div class="col">
+                    <label>
+                        If yes, how many times do you donated till date?
+                    </label>
+
+                </div>
+
+                <div class="col-5">
+                    <input type="number" class="form-control" min="0" placeholder="0"/>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col">
+            <div class="row">
+
+                <div class="col">
+                    <label>
+                        If yes, when was the recent date you donated?
+                    </label>
+
+                </div>
+
+                <div class="col">
+                    <input type="date" class="form-control" />
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="row mt-2">
+
+        <div class="col-3" style="margin-right:5%;">
+            <label>What makes you to donate Blood?<i>(if any)</i></label>
+        </div>
+
+        <div class="col">
+            <textarea class="form-control">
+
+            </textarea>
+        </div>
+
+    </div>
+
+
 
 
 
 
 </div>
+
+
+
+<script src="~/js/editprofile.js"></script>

@@ -27,7 +27,7 @@ var Login = {
 
         ApiCall.get(apiUrl + 'CheckLogin', data, function (result) {
             Login.CheckLoginCallBack(result);
-        }, Login.failureCallback);
+        }, Login.failureCallback());
 
     }
 

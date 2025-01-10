@@ -1,4 +1,5 @@
 ﻿using BloodInNeed.Controllers;
+using BloodInNeed.UI.Models.ViewModels;
 using BloodInNeed.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,12 +12,15 @@ namespace BloodInNeed.UI.Controllers
 
         private readonly SidebarMenuService _sideBarMenuService;
 
+        private readonly ProfileService _profileService;
 
-        public ProfileController(ILogger<HomeController> logger, SidebarMenuService sidebarMenuService)
+
+        public ProfileController(ILogger<HomeController> logger, SidebarMenuService sidebarMenuService, ProfileService profileService)
    : base(sidebarMenuService)
         {
             _logger = logger;
             _sideBarMenuService = sidebarMenuService;
+            _profileService = profileService;
         }
         public IActionResult Edit()
         {
@@ -33,7 +37,12 @@ namespace BloodInNeed.UI.Controllers
             //    return RedirectToAction("Index", "Home");
             //}
 
-            return View();
+            //var viewModel = new EditProfileViewModel();
+
+
+            var data = _profileService.GetCountryList();
+                        
+            return View(data);
         }
     }
 }
