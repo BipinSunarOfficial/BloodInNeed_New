@@ -91,17 +91,17 @@ namespace BloodInNeed.Data.DataAccess
             }
         }
 
-        //public BossDataReader ExecuteMultiple(string query, DynamicParameters p = null)
-        //{
-        //    var con = OpenConnection();
-        //    var reader = con.QueryMultiple(query, p, commandType: CommandType.StoredProcedure, commandTimeout: 240);
+        public DataReader ExecuteMultiple(string query, DynamicParameters p = null)
+        {
+            var con = OpenConnection();
+            var reader = con.QueryMultiple(query, p, commandType: CommandType.StoredProcedure, commandTimeout: 240);
 
-        //    return new BossDataReader
-        //    {
-        //        Reader = reader,
-        //        Connection = con
-        //    };
-        //}
+            return new DataReader
+            {
+                Reader = reader,
+                Connection = con
+            };
+        }
 
         //public DbMessage BulkInsert<T1>(IEnumerable<T1> data, string tableName, int batchSize, int timeout, params string[] columns)
         //{

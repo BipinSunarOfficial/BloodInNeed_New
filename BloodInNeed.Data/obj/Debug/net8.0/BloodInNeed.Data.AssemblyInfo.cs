@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BloodInNeed.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fde3615787f96167efc36b2bf0269800ec937be3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3d40e72ffc7010cc2f688dd258fd198e59657b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BloodInNeed.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BloodInNeed.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
