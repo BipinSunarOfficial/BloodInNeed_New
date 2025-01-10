@@ -83,8 +83,7 @@
               "RelativeToolTip": "wwwroot\\js\\script.js",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-01T22:33:36.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T22:33:36.257Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "Services\\ProfileService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:13:53.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T12:13:53.476Z"
             },
             {
               "$type": "Document",
@@ -107,7 +105,7 @@
               "RelativeDocumentMoniker": "Views\\Profile\\Edit.cshtml",
               "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Profile\\Edit.cshtml",
               "RelativeToolTip": "Views\\Profile\\Edit.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-28T11:04:12.005Z",
               "EditorCaption": ""
@@ -122,8 +120,7 @@
               "RelativeToolTip": "Models\\Country.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T13:54:15.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T13:54:15.199Z"
             },
             {
               "$type": "Document",
@@ -135,8 +132,7 @@
               "RelativeToolTip": "Controllers\\ApiControllers\\ProfileApiController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAYwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T13:49:29.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T13:49:29.455Z"
             },
             {
               "$type": "Document",
@@ -148,8 +144,7 @@
               "RelativeToolTip": "..\\BloodInNeed.Data\\Models\\PagedData.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAASwBEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T13:08:04.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T13:08:04.063Z"
             },
             {
               "$type": "Document",
@@ -161,8 +156,7 @@
               "RelativeToolTip": "Controllers\\ProfileController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAQwCsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T11:03:31.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T11:03:31.402Z"
             },
             {
               "$type": "Document",
@@ -174,8 +168,7 @@
               "RelativeToolTip": "Models\\ViewModels\\EditProfileViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:00:47.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T12:00:47.546Z"
             },
             {
               "$type": "Document",
@@ -187,8 +180,7 @@
               "RelativeToolTip": "wwwroot\\css\\style.css",
               "ViewState": "AgIAAN0BAAAAAAAAAAAAAOkBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-28T10:34:24.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T10:34:24.51Z"
             },
             {
               "$type": "Document",
@@ -200,8 +192,7 @@
               "RelativeToolTip": "DBCtx\\ProfileDBCtx.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:04:18.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T12:04:18.344Z"
             },
             {
               "$type": "Document",
@@ -213,8 +204,7 @@
               "RelativeToolTip": "wwwroot\\js\\EditProfile.js",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-29T13:38:44.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T13:38:44.161Z"
             },
             {
               "$type": "Document",
@@ -226,8 +216,7 @@
               "RelativeToolTip": "..\\BloodInNeed.Data\\DataAccess\\SqlDataAccess.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAswF0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:53:16.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T12:53:16.112Z"
             },
             {
               "$type": "Document",
@@ -239,8 +228,7 @@
               "RelativeToolTip": "..\\BloodInNeed.Data\\Models\\DataReader.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:54:39.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T12:54:39.275Z"
             },
             {
               "$type": "Document",
@@ -252,8 +240,7 @@
               "RelativeToolTip": "Controllers\\BloodSearchController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwCYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T11:08:37.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T11:08:37.878Z"
             },
             {
               "$type": "Document",
@@ -265,8 +252,7 @@
               "RelativeToolTip": "Models\\ViewModels\\SideBarViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T12:00:57.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T12:00:57.213Z"
             }
           ]
         }
