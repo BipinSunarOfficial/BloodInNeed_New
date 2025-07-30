@@ -1,4 +1,5 @@
 ﻿using BloodInNeed.Controllers;
+using BloodInNeed.UI.Models;
 using BloodInNeed.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Drawing;
@@ -25,8 +26,26 @@ namespace BloodInNeed.UI.Controllers
             var BloodGroupData = await _sideBarMenuService.GetBloodGroupsAll();
 
             ViewBag.BloodGroups = BloodGroupData;
-            ViewBag.CurrentUsername = HttpContext.Session.GetString("IsLoggedIn");
+            ViewBag.BloodCount = BloodGroupData.Count();
+            ViewBag.CurrentUsername = HttpContext.Session.GetString("Username");
         }
+
+
+        public HighlightDataCounts HighlightsData()
+        {
+            var HighlightsData = _sideBarMenuService.HighlightData();
+            
+            return HighlightsData;
+        }
+
+
+        public IEnumerable<StatByCountry> GetStatByCountry(int CountryId)
+        {
+            var GetStatByCountry = _sideBarMenuService.GetStatByCountry(CountryId);
+
+            return GetStatByCountry;
+        }
+
 
         public bool IsSessionLogIn()
         {

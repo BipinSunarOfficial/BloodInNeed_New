@@ -32,7 +32,7 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
 
             if(result.MsgType == "success")
             {
-                HttpContext.Session.SetString("Username", UserName);
+                HttpContext.Session.SetString("Username", result.Username);
                 HttpContext.Session.SetString("IsLoggedIn", "true");
             }
 

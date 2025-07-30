@@ -35,5 +35,17 @@ namespace BloodInNeed.UI.Services
         }
 
 
+        public HighlightDataCounts HighlightData()
+        {
+            var data = _sideBarDBCtx.HighlightData();
+            return data;
+        }
+
+        public IEnumerable<StatByCountry> GetStatByCountry(int CountryId)
+        {
+            var data = _sideBarDBCtx.GetStatByCountry(CountryId);
+            return data;
+        }
+
     }
 }

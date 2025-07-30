@@ -1,12 +1,12 @@
 ﻿:root {
-    --redThemeColor: #dc3545;
+    --redThemeColor: #b30808e6;
 }
 
 
 /* Top Navbar */
 .navbar {
     background: rgb(249, 249, 249);
-    background: linear-gradient(90deg, rgba(249, 249, 249, 1) 0%, rgba(219, 21, 21, 0.69) 100%);
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1) -80%, var(--redThemeColor) 100%);
 }
 
 .nav_middle {
@@ -28,7 +28,7 @@
 }
 
 /* Sidebar */
-.sidebar {
+/*.sidebar {
     width: 250px;
     height: 100vh;
     position: sticky;
@@ -37,11 +37,11 @@
     border-right: 1px solid #ddd;
     padding: 1rem;
     transition: transform 0.3s ease-in-out;
-    color: red;
+    color: red;*/
     /*display:flex;
     flex-direction:column;
     justify-content:space-around;*/
-}
+/*}*/
 
 .nav-link {
     color: red;
@@ -58,7 +58,7 @@
     transition: left 0.3s ease-in-out;*/ /* Transition the 'left' property */
 /*}*/
 /* Sidebar links */
-.sidebar .nav-link {
+/*.sidebar .nav-link {
     padding: 10px;
     font-size: 16px;
     color: red;
@@ -69,8 +69,8 @@
 }
 
 .sidebar.show {
-    left: 0; /* Move the sidebar into view */
-}
+    left: 0;*/ /* Move the sidebar into view */
+/*}*/
 
 .nav-link.active, .nav-link:hover, a.dropdown-item:hover {
     /*background-color: #f10f0fcf;*/
@@ -82,7 +82,7 @@
 .nav-link:hover {
     color: white !important;
 }*/
-
+/*
 .sidebar-footer:hover, .sidebar-footer.active {
     background: linear-gradient(90deg, rgba(249, 249, 249, 1) -80%, rgba(219, 21, 21, 0.69) 100%);
     color: white !important;
@@ -94,7 +94,7 @@
     }
 
 
-
+*/
 
 .catagory-box {
     border: 1px solid #ccc; /* Light border */
@@ -103,8 +103,6 @@
     background-color: #f9f9f9; /* Light background for the box */
     margin-bottom: 20px; /* Spacing at the bottom */
 }
-
-
 
 
 
@@ -151,11 +149,11 @@
 /*display: none;*/ /* Hidden by default on larger screens */
 /*border: none;
 }*/
-.navbar-toggler {
+/*.navbar-toggler {
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
-}
+}*/
 
 /*.navbar-toggler-icon {
     background-color: rgba(0, 0, 0, 0.5);
@@ -163,12 +161,12 @@
     height: 20px;
     width: 20px;
 }*/
-.navbar-toggler-icon {
+/*.navbar-toggler-icon {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     height: 20px;
     width: 20px;
-}
+}*/
 
 /* Table Styling */
 .table thead th {
@@ -414,10 +412,10 @@ main {
         background: linear-gradient(90deg, rgba(249, 249, 249, 1) -70%, rgba(219, 21, 21, 0.69) 100%);
     }
 
-.sidebar-footer {
-    margin-top: auto; /* Pushes this section to the bottom of the sidebar */
+/*.sidebar-footer {
+    margin-top: auto;*/ /* Pushes this section to the bottom of the sidebar */
     /*text-align: center;*/
-    padding: 8px 2px;
+    /*padding: 8px 2px;
     cursor: pointer;
     width: 50%;
 }
@@ -426,7 +424,7 @@ main {
         cursor: pointer;
         text-decoration: none;
         color: red;
-    }
+    }*/
 
 /*.sidebar-footer a {
         width: 100%;
@@ -490,4 +488,20 @@ main {
 .hovered-option{
     background-color: var(--redThemeColor);
     color: white;
+}
+/*
+
+@media (min-width: 992px) {
+    collapse:not(.show) {
+        display: none !important;
+    }
+
+    collapse {
+            display: block !important;
+    }
+}*/
+
+
+#profileDropdown{
+    font-size: 3vh;
 }

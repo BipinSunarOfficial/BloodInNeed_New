@@ -11,10 +11,24 @@ namespace BloodInNeed.Data.Models
         public string MsgType { get; set; }
 
         public string Msg { get; set; }
+        public int UserId { get; set; }
 
         public List<string> ErrorList { get; set; }
+
     }
 
+    public class DbMessageUserName
+    {
+        public string MsgType { get; set; }
+        public string Msg { get; set; }
+        public string Username { get; set; }
+        public int UserId { get; set; }
+
+        public List<string> ErrorList { get; set; }
+
+
+
+    }
     public class DbMessageFlag
     {
         public string MsgType { get; set; }
@@ -22,6 +36,12 @@ namespace BloodInNeed.Data.Models
         public string Msg { get; set; }
 
         public bool IsUnknownError { get; set; }
+    }
+
+    public class GoogleUserId
+    {
+        public int UserId { get; set; }
+
     }
 
 }

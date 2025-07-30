@@ -8,18 +8,18 @@
             , contentType: "application/json"
             , success: function (result) {
                 if (isSync) {
-                    ////hideProcessing();
+                    hideProcessing();
                     successCallback(result);
                 }
                 else {
                     successCallback(result);
-                    ////hideProcessing();
+                    hideProcessing();
                 }
             }
             , error: function (xhr, s, e) {
                 ApiCall.checkAjaxFailure(xhr);
-                failureCallback(xhr, s, e);
-                ////hideProcessing();
+                hideProcessing();
+                //failureCallback(xhr, s, e);
             }
         });
     }
@@ -32,18 +32,18 @@
             , contentType: "application/json"
             , success: function (result) {
                 if (isSync) {
-                    ////hideProcessing();
+                    hideProcessing();
                     successCallback(result);
                 }
                 else {
                     successCallback(result);
-                    ////hideProcessing();
+                    hideProcessing();
                 }
             }
             , error: function (xhr, s, e) {
                 ApiCall.checkAjaxFailure(xhr);
                 failureCallback(xhr, s, e);
-                ////hideProcessing();
+                hideProcessing();
             }
         });
     }
@@ -57,7 +57,7 @@
             , success: successCallback
             , success: function (result) {
                 successCallback(result);
-                ////hideProcessing();
+                hideProcessing();
             }
             , error: function (xhr, s, e) {
                 ApiCall.checkAjaxFailure(xhr);

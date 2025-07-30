@@ -25,18 +25,22 @@ namespace BloodInNeed.UI.Controllers
         [Route("Search")]
         public IActionResult Search()
         {
-            if (IsSessionLogIn())
-            {
 
-                PopulateSidebarData();
-                ViewBag.Username = CurrentUsername;
-                return View();
+            PopulateSidebarData();
 
-            }
-            else
-            {
-                return RedirectToAction("Index", "Home");
-            }
+            ViewBag.Username = CurrentUsername;
+            return View();
+            //if (IsSessionLogIn())
+            //{
+
+            //    ViewBag.Username = CurrentUsername;
+            //    return View();
+
+            //}
+            //else
+            //{
+            //    return RedirectToAction("Index", "Home");
+            //}
         }
     }
 }

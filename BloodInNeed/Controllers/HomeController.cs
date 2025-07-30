@@ -1,5 +1,6 @@
 using BloodInNeed.Models;
 using BloodInNeed.UI.Controllers;
+using BloodInNeed.UI.Models.ViewModels;
 using BloodInNeed.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -28,23 +29,36 @@ namespace BloodInNeed.Controllers
 
         public async Task<IActionResult> Index()
         {
-
-            //if (IsSessionLogIn())
-            //{
+            var homepageViewModel = new HomePageViewModel();
 
             await PopulateSidebarData();
 
-            //    return View();
+            var HighlightsDatas = HighlightsData();
 
-            //}
+            var getStatByCountry = GetStatByCountry(0);
 
-            ViewBag.Username = CurrentUsername;
-            //else
-            //{
-            //    return RedirectToAction("Index", "Login");
-            //}
+            homepageViewModel.statByCountries = getStatByCountry;
 
-            return View();
+            ViewBag.RegisteredDonors = HighlightsDatas.RegisteredDonors;
+            ViewBag.BloodRequestsFulfilled = HighlightsDatas.BloodRequestsFulfilled;
+            ViewBag.ActiveDonors = HighlightsDatas.ActiveDonors;
+
+            if (IsSessionLogIn())
+            {
+
+                ViewBag.Username = CurrentUsername;
+
+                return View(homepageViewModel);
+
+            }
+
+            else
+            {
+                //await PopulateSidebarData();
+                //return RedirectToAction("Index", "Login");
+                return View(homepageViewModel);
+            }
+
 
 
         }

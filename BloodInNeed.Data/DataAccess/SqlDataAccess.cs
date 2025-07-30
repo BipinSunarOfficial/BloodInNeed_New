@@ -86,7 +86,22 @@ namespace BloodInNeed.Data.DataAccess
                 return new DbMessage
                 {
                     MsgType = p.Get<string>("@MsgType"),
-                    Msg = p.Get<string>("@Msg")
+                    Msg = p.Get<string>("@Msg")                    
+                };
+            }
+        }
+
+
+        public DbMessageUserName ExecuteNonQueryResult2(string query, DynamicParameters p = null)
+        {
+            using (var con = OpenConnection())
+            {
+                con.Execute(query, p, commandType: CommandType.StoredProcedure, commandTimeout: 240);
+                return new DbMessageUserName
+                {
+                    MsgType = p.Get<string>("@MsgType"),
+                    Msg = p.Get<string>("@Msg"),
+                    Username = p.Get<string>("@UserName")
                 };
             }
         }

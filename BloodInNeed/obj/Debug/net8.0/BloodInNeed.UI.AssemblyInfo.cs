@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BloodInNeed.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cbce97433a42721aac9bd298e1760d1f4a6ba4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+284cfff4dda6cb24e9ec1a8fbd74a341ba61bee2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BloodInNeed.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BloodInNeed.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

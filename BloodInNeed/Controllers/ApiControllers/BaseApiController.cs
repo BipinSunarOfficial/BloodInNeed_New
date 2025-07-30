@@ -24,5 +24,13 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
             return Ok(data);
         }
 
+        [HttpGet("GetStatByCountry")]
+        public IEnumerable<StatByCountry> GetStatByCountry(int CountryId)
+        {
+            var GetStatByCountry = _baseService.GetStatByCountry(CountryId);
+
+            return GetStatByCountry;
+        }
+
     }
 }

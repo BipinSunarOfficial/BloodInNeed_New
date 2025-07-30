@@ -48,6 +48,39 @@ namespace BloodInNeed.UI.DBCtx
             }
         }
 
+        public HighlightDataCounts HighlightData()
+        {
+            try
+            {
+               
+                return ExecuteAsObject<HighlightDataCounts>("[dbo].[HightLight.Data.Get]");
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception : " + ex);
+            }
+        }
+
+        public IEnumerable<StatByCountry> GetStatByCountry(int CountryId)
+        {
+            try
+            {
+                DynamicParameters p = new DynamicParameters();
+
+                p.Add("@CountryId", CountryId);
+
+                return ExecuteAsList<StatByCountry>("[dbo].[StatByCountry.Get]",p);
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception : " + ex);
+            }
+        }
+
+
+
 
 
     }

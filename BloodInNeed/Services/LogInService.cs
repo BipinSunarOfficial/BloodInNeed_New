@@ -14,9 +14,16 @@ namespace BloodInNeed.UI.Services
         }
 
 
-        public DbMessage CheckLogIn(string UserName, string Password)
+        public DbMessageUserName CheckLogIn(string Email, string Password)
         {
-            var data = _logInDBCtx.CheckLogIn(UserName, Password);
+            var data = _logInDBCtx.CheckLogIn(Email, Password);
+
+            return data;
+        }
+
+        public DbMessage CheckGoogleLogIn(string email, string firstName, string lastName, string username, string ip)
+        {
+            var data = _logInDBCtx.CheckGoogleLogIn(email, firstName, lastName, username, ip);
 
             return data;
         }
