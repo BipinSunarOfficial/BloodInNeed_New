@@ -17,11 +17,20 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
         }
 
         [HttpPost("SignUpUser")]
-        public IActionResult SignUpUser(UserRegistrarionModel model)
+        public async Task<IActionResult> SignUpUser(UserRegistrarionModel model)
         {
-            var result = _signupService.SignUpUser(model);
+            var result = await _signupService.SignUpUser(model);
 
             return Ok(result);
         }
+
+        [HttpPost("VerifyEmail")]
+        public IActionResult VerifyEmail(string Email, int code)
+        {
+            var result = _signupService.VerifyEmail(Email, code);
+
+            return Ok(result);
+        }
+
     }
 }

@@ -5,6 +5,7 @@ using BloodInNeed.UI.Models;
 using BloodInNeed.UI.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -63,6 +64,21 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true; // Ensure cookies are essential
 });
 
+
+builder.Services.Configure<SMTPSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddScoped<EmailService>();
+
+
+
+// Setup Serilog
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log-.txt",
+        rollingInterval: RollingInterval.Day,      // creates a new file every day
+        outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 
 

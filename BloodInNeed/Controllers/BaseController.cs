@@ -38,6 +38,13 @@ namespace BloodInNeed.UI.Controllers
             return HighlightsData;
         }
 
+        public SMTPSettings getSmtpSettings()
+        {
+            var SMTPSettingsData = _sideBarMenuService.getSmtpSettings();
+
+            return SMTPSettingsData;
+        }
+
 
         public IEnumerable<StatByCountry> GetStatByCountry(int CountryId)
         {

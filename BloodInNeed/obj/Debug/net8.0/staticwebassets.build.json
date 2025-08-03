@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r3K6GwPNPkEnIbsOcZzVA+PcyDc2b0Rq4CiCqIoWMzU=",
+  "Hash": "LECdPEiOYF4/gBrdNALXkugwAOuuad7tQrNqvyMR6Ts=",
   "Source": "BloodInNeed.UI",
   "BasePath": "_content/BloodInNeed.UI",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Toast.css"
+    },
+    {
+      "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\VerifyCode.css",
+      "SourceId": "BloodInNeed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\",
+      "BasePath": "_content/BloodInNeed.UI",
+      "RelativePath": "css/VerifyCode.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\VerifyCode.css"
     },
     {
       "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\favicon.ico",
@@ -948,6 +967,25 @@
       "OriginalItemSpec": "wwwroot\\images\\underconstruction.webp"
     },
     {
+      "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\verifyPage.png",
+      "SourceId": "BloodInNeed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\",
+      "BasePath": "_content/BloodInNeed.UI",
+      "RelativePath": "images/verifyPage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\verifyPage.png"
+    },
+    {
       "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ApiCall.js",
       "SourceId": "BloodInNeed.UI",
       "SourceType": "Discovered",
@@ -1117,6 +1155,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Toast.js"
+    },
+    {
+      "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\VerifyEmail.js",
+      "SourceId": "BloodInNeed.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\",
+      "BasePath": "_content/BloodInNeed.UI",
+      "RelativePath": "js/VerifyEmail.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\VerifyEmail.js"
     },
     {
       "Identity": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

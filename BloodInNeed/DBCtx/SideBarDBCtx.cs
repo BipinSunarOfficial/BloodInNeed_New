@@ -62,6 +62,20 @@ namespace BloodInNeed.UI.DBCtx
             }
         }
 
+        public SMTPSettings getSmtpSettings()
+        {
+            try
+            {
+
+                return ExecuteAsObject<SMTPSettings>("[dbo].[SMTPSettings.Get]");
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception : " + ex);
+            }
+        }
+
         public IEnumerable<StatByCountry> GetStatByCountry(int CountryId)
         {
             try

@@ -41,11 +41,19 @@ namespace BloodInNeed.UI.Services
             return data;
         }
 
+        public SMTPSettings getSmtpSettings()
+        {
+            var data = _sideBarDBCtx.getSmtpSettings();
+            return data;
+        }
+
         public IEnumerable<StatByCountry> GetStatByCountry(int CountryId)
         {
             var data = _sideBarDBCtx.GetStatByCountry(CountryId);
             return data;
         }
+
+
 
     }
 }

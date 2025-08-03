@@ -3,48 +3,46 @@
   "WorkspaceRootPath": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B999E06F-065D-4817-B24A-E9A114F175C1}|..\\BloodInNeed.Data\\BloodInNeed.Data.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed.data\\models\\dbmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\controllers\\apicontrollers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:controllers\\apicontrollers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\services\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:services\\signupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\controllers\\apicontrollers\\signupapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:controllers\\apicontrollers\\signupapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\wwwroot\\js\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:wwwroot\\js\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\dbctx\\sidebardbctx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:dbctx\\sidebardbctx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\services\\sidebarmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:services\\sidebarmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\wwwroot\\js\\verifyemail.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:wwwroot\\js\\verifyemail.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\views\\login\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:views\\login\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\models\\highlightdatacounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:models\\highlightdatacounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\wwwroot\\css\\verifycode.css||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:wwwroot\\css\\verifycode.css||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\dbctx\\signupdbctx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:dbctx\\signupdbctx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed\\models\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF0D73A-450E-40F3-868C-BEA945E47A12}|BloodInNeed.UI.csproj|solutionrelative:models\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B999E06F-065D-4817-B24A-E9A114F175C1}|..\\BloodInNeed.Data\\BloodInNeed.Data.csproj|d:\\software\\bloodinneed\\bloodinneed_new\\bloodinneed.data\\dataaccess\\sqldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +52,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,136 +64,146 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HighlightDataCounts.cs",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Models\\HighlightDataCounts.cs",
-              "RelativeDocumentMoniker": "Models\\HighlightDataCounts.cs",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Models\\HighlightDataCounts.cs",
-              "RelativeToolTip": "Models\\HighlightDataCounts.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA/wBQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:22:00.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAAG0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T11:49:09.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Services\\BaseService.cs",
-              "RelativeDocumentMoniker": "Services\\BaseService.cs",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Services\\BaseService.cs",
-              "RelativeToolTip": "Services\\BaseService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T13:13:31.146Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseApiController.cs",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\ApiControllers\\BaseApiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ApiControllers\\BaseApiController.cs",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\ApiControllers\\BaseApiController.cs",
-              "RelativeToolTip": "Controllers\\ApiControllers\\BaseApiController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T13:15:18.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.js",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Home.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\Home.js",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Home.js",
-              "RelativeToolTip": "wwwroot\\js\\Home.js",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "VerifyEmail.js",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\VerifyEmail.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\VerifyEmail.js",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\VerifyEmail.js",
+              "RelativeToolTip": "wwwroot\\js\\VerifyEmail.js",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-28T13:12:04.104Z",
+              "WhenOpened": "2025-08-03T17:50:05.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VerifyEmail.cshtml",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Login\\VerifyEmail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\VerifyEmail.cshtml",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Login\\VerifyEmail.cshtml",
+              "RelativeToolTip": "Views\\Login\\VerifyEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-03T16:54:30.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SideBarDBCtx.cs",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\DBCtx\\SideBarDBCtx.cs",
-              "RelativeDocumentMoniker": "DBCtx\\SideBarDBCtx.cs",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\DBCtx\\SideBarDBCtx.cs",
-              "RelativeToolTip": "DBCtx\\SideBarDBCtx.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAUwEYAAAAvAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:34:27.705Z"
+              "WhenOpened": "2025-08-03T16:53:34.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignupDBCtx.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\DBCtx\\SignupDBCtx.cs",
+              "RelativeDocumentMoniker": "DBCtx\\SignupDBCtx.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\DBCtx\\SignupDBCtx.cs",
+              "RelativeToolTip": "DBCtx\\SignupDBCtx.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAASwHIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T14:48:36.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAkwCUAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T11:50:40.883Z"
+              "Title": "Signup.js",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Signup.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\Signup.js",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Signup.js",
+              "RelativeToolTip": "wwwroot\\js\\Signup.js",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwGMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-03T14:17:24.73Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "Controllers\\BaseController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAnwCsAAABHAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SignupApiController.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\ApiControllers\\SignupApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ApiControllers\\SignupApiController.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Controllers\\ApiControllers\\SignupApiController.cs",
+              "RelativeToolTip": "Controllers\\ApiControllers\\SignupApiController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:32:04.096Z"
+              "WhenOpened": "2025-08-03T14:48:28.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SidebarMenuService.cs",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Services\\SidebarMenuService.cs",
-              "RelativeDocumentMoniker": "Services\\SidebarMenuService.cs",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Services\\SidebarMenuService.cs",
-              "RelativeToolTip": "Services\\SidebarMenuService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAIwC0AAAA1AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SignupService.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Services\\SignupService.cs",
+              "RelativeDocumentMoniker": "Services\\SignupService.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Services\\SignupService.cs",
+              "RelativeToolTip": "Services\\SignupService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAawA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:33:57.615Z"
+              "WhenOpened": "2025-08-03T14:48:33.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMBAAAAAAAAAAAswBMBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T11:48:35.996Z"
+              "DocumentIndex": 0,
+              "Title": "DbMessage.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\Models\\DbMessage.cs",
+              "RelativeDocumentMoniker": "..\\BloodInNeed.Data\\Models\\DbMessage.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\Models\\DbMessage.cs",
+              "RelativeToolTip": "..\\BloodInNeed.Data\\Models\\DbMessage.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAEwCQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T15:15:14.992Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "HomePageViewModel.cs",
-              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Models\\ViewModels\\HomePageViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\HomePageViewModel.cs",
-              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Models\\ViewModels\\HomePageViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\HomePageViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Title": "SqlDataAccess.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\DataAccess\\SqlDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\BloodInNeed.Data\\DataAccess\\SqlDataAccess.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed.Data\\DataAccess\\SqlDataAccess.cs",
+              "RelativeToolTip": "..\\BloodInNeed.Data\\DataAccess\\SqlDataAccess.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAmwGwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T12:29:16.837Z"
+              "WhenOpened": "2025-08-03T14:50:04.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VerifyCode.css",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\VerifyCode.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\VerifyCode.css",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\VerifyCode.css",
+              "RelativeToolTip": "wwwroot\\css\\VerifyCode.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-03T17:36:12.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwDAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T16:24:49.597Z",
+              "EditorCaption": ""
             }
           ]
         }

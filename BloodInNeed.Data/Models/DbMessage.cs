@@ -29,6 +29,15 @@ namespace BloodInNeed.Data.Models
 
 
     }
+
+    public class DbMessageWithValue
+    {
+        public string MsgType { get; set; }
+        public string Msg { get; set; }
+        public string Value { get; set; }
+        
+    }
+
     public class DbMessageFlag
     {
         public string MsgType { get; set; }

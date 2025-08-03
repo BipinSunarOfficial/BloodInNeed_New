@@ -35,5 +35,10 @@ namespace BloodInNeed.UI.Services
             return GetStatByCountry;
         }
 
+        public SMTPSettings getSmtpSettings()
+        {
+            var data = _sideBarMenuService.getSmtpSettings();
+            return data;
+        }
     }
 }

@@ -98,5 +98,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.SignupApiController",
+    "Method": "VerifyEmail",
+    "RelativePath": "api/signup/VerifyEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "code",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

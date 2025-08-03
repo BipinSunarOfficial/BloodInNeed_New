@@ -39,6 +39,16 @@ namespace BloodInNeed.UI.Controllers
             }
         }
 
+        [HttpGet]       
+        public IActionResult VerifyEmail(string Email)
+        {
+            ViewBag.VerificationEmail = Email;
+
+            return View();
+        }
+
+
+
         public IActionResult Verify(LoginModel login) 
         { 
 

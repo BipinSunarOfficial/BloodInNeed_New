@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\Toast.css"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\VerifyCode.css",
+      "PackagePath": "staticwebassets\\css\\VerifyCode.css"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -193,6 +197,10 @@
       "PackagePath": "staticwebassets\\images\\underconstruction.webp"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\verifyPage.png",
+      "PackagePath": "staticwebassets\\images\\verifyPage.png"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ApiCall.js",
       "PackagePath": "staticwebassets\\js\\ApiCall.js"
     },
@@ -219,6 +227,10 @@
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Toast.js",
       "PackagePath": "staticwebassets\\js\\Toast.js"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\VerifyEmail.js",
+      "PackagePath": "staticwebassets\\js\\VerifyEmail.js"
     },
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\script.js",

@@ -2,6 +2,36 @@
     --redThemeColor: #b30808e6;
 }
 
+/* Entire scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Vertical scrollbar */
+    height: 8px; /* Horizontal scrollbar */
+}
+
+/* Track (the background) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+    background: var(--redThemeColor);
+    border-radius: 10px;
+}
+
+    /* Thumb on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a93226;
+        cursor:grab;
+    }
+
+    ::-webkit-scrollbar-thumb:hover:active {
+        background: #a93226;
+        cursor: grabbing;
+    }
+
+
 
 /* Top Navbar */
 .navbar {

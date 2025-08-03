@@ -13,9 +13,16 @@ namespace BloodInNeed.UI.Services
             _SignupDBCtx = signupDBCtx ?? throw new ArgumentNullException(nameof(signupDBCtx));
         }
 
-        public DbMessage SignUpUser(UserRegistrarionModel model)
+        public async Task<DbMessageWithValue> SignUpUser(UserRegistrarionModel model)
         {
-            var data = _SignupDBCtx.SignUpUser(model);
+            var data = await _SignupDBCtx.SignUpUser(model);
+            return data;
+        }
+
+
+        public DbMessage VerifyEmail(string Email, int code)
+        {
+            var data =  _SignupDBCtx.VerifyEmail(Email, code);
             return data;
         }
 

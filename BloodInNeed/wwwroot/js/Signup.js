@@ -69,7 +69,7 @@ var Signup = {
 
 
         $('#registerBtn').on('click', function () {
-
+           
             showProcessing();
 
             var data = {
@@ -86,21 +86,18 @@ var Signup = {
             }, Signup.failureCallback);
             
         });
-
-
-
-
     },
 
     SignupCallBack: function (result) {
-        //console.log(result);
+        debugger
+        console.log(result);
 
         if (result.msgType === "success") {
             showProcessing();
             // Redirect to the Home page after a short delay
             setTimeout(() => {
-                window.location.href = result.redirectUrl || "/Login/Index";
-                showToast(result.msg + " Sign In to continue.", "success"); // Display success toast
+                window.location.href ="/Login/VerifyEmail?Email=" + result.value;
+                showToast(result.msg , "success"); // Display success toast
 
                 hideProcessing();
             }, 3000); // Wait 3 seconds before redirecting
@@ -140,7 +137,7 @@ var Signup = {
 
 
     failureCallback: function () {
-        console.log("API Call Failed.");
+        console.log("API Call Failed. Error: " + error);
     }
 };
 
