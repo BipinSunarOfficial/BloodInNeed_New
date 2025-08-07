@@ -84,6 +84,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.LogInApiController",
+    "Method": "CheckUser",
+    "RelativePath": "api/login/CheckUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BloodInNeed.UI.Models.VerifyEmail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.LogInApiController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/login/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BloodInNeed.UI.Models.PasswordReset",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.LogInApiController",
+    "Method": "VerifyResetCode",
+    "RelativePath": "api/login/VerifyResetCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BloodInNeed.UI.Models.VerifyEmail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController",
     "Method": "SendCode",
     "RelativePath": "api/sendcode/SendCode",

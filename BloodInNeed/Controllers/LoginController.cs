@@ -89,6 +89,15 @@ namespace BloodInNeed.UI.Controllers
 
 
 
+        public IActionResult ForgetPassword()
+        {
+
+            return View();
+        }
+
+
+
+
 
 
 

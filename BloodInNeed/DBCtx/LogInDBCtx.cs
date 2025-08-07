@@ -39,6 +39,75 @@ namespace BloodInNeed.UI.DBCtx
         }
 
 
+        public DbMessage CheckUser(string Email)
+        {
+            try
+            {
+                DynamicParameters p = new DynamicParameters();
+
+                p.Add("@Email", Email);
+                
+                p.Add("@MsgType", direction: ParameterDirection.Output, size: 20);
+                p.Add("@Msg", direction: ParameterDirection.Output, size: 4000);
+
+                return ExecuteNonQueryResult("[dbo].[User.Check]", p);
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception : " + ex);
+            }
+        }
+
+
+
+        public DbMessage VerifyResetCode(string Email, int Code)
+        {
+            try
+            {
+                DynamicParameters p = new DynamicParameters();
+
+                p.Add("@Email", Email);
+                p.Add("@Code", Code);
+
+                p.Add("@MsgType", direction: ParameterDirection.Output, size: 20);
+                p.Add("@Msg", direction: ParameterDirection.Output, size: 4000);
+
+                return ExecuteNonQueryResult("[dbo].[Reset.Password.Check]", p);
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception : " + ex);
+            }
+        }
+
+
+
+        public DbMessage ResetPassword(string Email, string Password)
+        {
+            try
+            {
+                DynamicParameters p = new DynamicParameters();
+
+                p.Add("@Email", Email);
+                p.Add("@Password", Password);
+
+                p.Add("@MsgType", direction: ParameterDirection.Output, size: 20);
+                p.Add("@Msg", direction: ParameterDirection.Output, size: 4000);
+
+                return ExecuteNonQueryResult("[dbo].[Password.Reset.Update]", p);
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Exception : " + ex);
+            }
+        }
+
+
+
+
         public DbMessage CheckGoogleLogIn(string email, string firstName, string lastName, string username, string ip)
         {
             try

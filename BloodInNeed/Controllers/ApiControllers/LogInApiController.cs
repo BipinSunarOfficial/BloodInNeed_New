@@ -18,10 +18,12 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
     {
 
         private readonly LogInService _logInService;
+        private readonly SendCodeService _sendCodeService;
 
-        public LogInApiController(LogInService logInService)
+        public LogInApiController(LogInService logInService,SendCodeService sendCodeService)
         {
             _logInService = logInService;
+            _sendCodeService = sendCodeService;
         }
 
 
@@ -48,6 +50,61 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
             return Ok(result);
 
         }
+
+        [HttpPost("CheckUser")]
+        public async Task<IActionResult> CheckUser(VerifyEmail model)
+        {
+
+            var result = _logInService.CheckUser(model.Email);
+
+
+            if(result.MsgType == "success")
+            {
+
+                SendCode sendCodeModel = new SendCode();
+
+                sendCodeModel.Email = model.Email;
+                sendCodeModel.Type = "Forget Password";
+
+                var sendResetCodeRespose = await _sendCodeService.SendCode(sendCodeModel);
+
+                return Ok(sendResetCodeRespose);
+                 
+            }
+            
+            else
+            {
+                return Ok(result);
+            }
+
+
+
+        }
+
+        [HttpPost("VerifyResetCode")]
+        public IActionResult VerifyResetCode(VerifyEmail model)
+        {
+
+            var result = _logInService.VerifyResetCode(model.Email, model.Code);
+
+            return Ok(result);
+           
+
+        }
+        
+        [HttpPost("ResetPassword")]
+        public IActionResult ResetPassword(PasswordReset model)
+        {
+
+            var result = _logInService.ResetPassword(model.Email, model.Password);
+
+            return Ok(result);
+           
+
+        }
+
+
+
 
 
     }

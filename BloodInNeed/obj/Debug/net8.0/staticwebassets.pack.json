@@ -185,6 +185,10 @@
       "PackagePath": "staticwebassets\\images\\droplet.png"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\forgetPassword.png",
+      "PackagePath": "staticwebassets\\images\\forgetPassword.png"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
@@ -211,6 +215,10 @@
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\EditProfile.js",
       "PackagePath": "staticwebassets\\js\\EditProfile.js"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ForgetPassword.js",
+      "PackagePath": "staticwebassets\\js\\ForgetPassword.js"
     },
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Home.js",
