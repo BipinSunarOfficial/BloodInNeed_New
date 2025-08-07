@@ -31,6 +31,8 @@ namespace BloodInNeed.UI.Controllers
         }
 
 
+
+
         public HighlightDataCounts HighlightsData()
         {
             var HighlightsData = _sideBarMenuService.HighlightData();

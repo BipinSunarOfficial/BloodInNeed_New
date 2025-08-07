@@ -32,5 +32,9 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
             return GetStatByCountry;
         }
 
+
+
+
+
     }
 }

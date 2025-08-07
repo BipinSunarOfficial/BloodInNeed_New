@@ -8,6 +8,7 @@ using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
 using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
+using Serilog;
 
 namespace BloodInNeed.UI.Controllers.ApiControllers
 {
@@ -30,11 +31,19 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
 
             var result = _logInService.CheckLogIn(UserName, Password);
 
-            if(result.MsgType == "success")
+            if(result.MsgType == "success" && result.Msg == "User found but need to verify email address.")
+            {
+                HttpContext.Session.SetString("Username", result.Username);
+                HttpContext.Session.SetString("IsLoggedIn", "false");               
+
+            }
+
+            if (result.MsgType == "success" && result.Msg == "Login Successful.")
             {
                 HttpContext.Session.SetString("Username", result.Username);
                 HttpContext.Session.SetString("IsLoggedIn", "true");
             }
+
 
             return Ok(result);
 

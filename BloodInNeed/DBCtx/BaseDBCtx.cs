@@ -1,6 +1,7 @@
 ﻿using BloodInNeed.Data.DataAccess;
 using BloodInNeed.Data.Models;
 using BloodInNeed.UI.Models;
+using BloodInNeed.UI.Services;
 using Dapper;
 using System.Buffers;
 using System.Data;
@@ -10,11 +11,14 @@ namespace BloodInNeed.UI.DBCtx
     public class BaseDBCtx : SqlDataAccess
     {
         private readonly ISqlDataAccess _dataAccess;
+        private readonly ILogger<SignupDBCtx> _logger;
+        private readonly IConfiguration _config;
 
-
-        public BaseDBCtx(IConfiguration config, ISqlDataAccess dataAccess) : base(config)
+        public BaseDBCtx(IConfiguration config, ISqlDataAccess dataAccess, ILogger<SignupDBCtx> logger) : base(config)
         {
             _dataAccess = dataAccess;
+            _logger = logger;
+            _config = config;
         }
 
 
@@ -35,8 +39,6 @@ namespace BloodInNeed.UI.DBCtx
                 throw new Exception("Exception : " + ex);
             }
         }
-
-
 
 
         public IEnumerable<BloodGroups> DonateDetail(int BGId)

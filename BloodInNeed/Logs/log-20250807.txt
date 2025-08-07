@@ -1,0 +1,1366 @@
+2025-08-07 11:27:26 [INF] User profile is available. Using 'C:\Users\Acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-07 11:27:27 [INF] Request starting HTTP/2 GET https://localhost:44330/ - null null
+2025-08-07 11:27:27 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-07 11:27:27 [INF] Hosting environment: Development
+2025-08-07 11:27:27 [INF] Content root path: D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed
+2025-08-07 11:27:27 [INF] Executing endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 11:27:27 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.Controllers.HomeController (BloodInNeed.UI).
+2025-08-07 11:27:48 [INF] Executing ViewResult, running view Index.
+2025-08-07 11:27:49 [INF] Executed ViewResult - view Index executed in 19539.7517ms.
+2025-08-07 11:27:49 [INF] Executed action BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI) in 21214.4285ms
+2025-08-07 11:27:49 [INF] Executed endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 11:27:49 [INF] Request finished HTTP/2 GET https://localhost:44330/ - 200 null text/html; charset=utf-8 22036.1741ms
+2025-08-07 11:27:49 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:27:49 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.2901ms
+2025-08-07 11:27:49 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:27:49 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.6959ms
+2025-08-07 11:27:49 [INF] Request starting HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - application/json null
+2025-08-07 11:27:49 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 11:27:49 [INF] Route matched with {action = "GetStatByCountry", controller = "BaseApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[BloodInNeed.UI.Models.StatByCountry] GetStatByCountry(Int32) on controller BloodInNeed.UI.Controllers.ApiControllers.BaseApiController (BloodInNeed.UI).
+2025-08-07 11:27:49 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BloodInNeed.UI.Models.StatByCountry, BloodInNeed.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-07 11:27:49 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI) in 71.5913ms
+2025-08-07 11:27:49 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 11:27:49 [INF] Request finished HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - 200 null application/json; charset=utf-8 95.2897ms
+2025-08-07 11:28:13 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/Index - null null
+2025-08-07 11:28:13 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 11:28:13 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:28:14 [INF] Executing ViewResult, running view Index.
+2025-08-07 11:28:14 [INF] Executed ViewResult - view Index executed in 527.4541ms.
+2025-08-07 11:28:14 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI) in 530.0842ms
+2025-08-07 11:28:14 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 11:28:14 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/Index - 200 null text/html; charset=utf-8 558.5467ms
+2025-08-07 11:28:14 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:28:14 [INF] Request starting HTTP/2 GET https://localhost:44330/js/login.js?v=1.0.0.1 - null null
+2025-08-07 11:28:14 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:28:14 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.3132ms
+2025-08-07 11:28:14 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.7084ms
+2025-08-07 11:28:14 [INF] Sending file. Request path: '/js/login.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Login.js'
+2025-08-07 11:28:14 [INF] Request finished HTTP/2 GET https://localhost:44330/js/login.js?v=1.0.0.1 - 200 2026 text/javascript 89.0379ms
+2025-08-07 11:28:18 [INF] Request starting HTTP/2 GET https://localhost:44330/api/login/CheckLogin?UserName=sahityalovers%40gmail.com&Password=Bipin%40123 - application/json null
+2025-08-07 11:28:18 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.LogInApiController.LogInCheck (BloodInNeed.UI)'
+2025-08-07 11:28:18 [INF] Route matched with {action = "LogInCheck", controller = "LogInApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogInCheck(System.String, System.String) on controller BloodInNeed.UI.Controllers.ApiControllers.LogInApiController (BloodInNeed.UI).
+2025-08-07 11:28:18 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageUserName'.
+2025-08-07 11:28:18 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.LogInApiController.LogInCheck (BloodInNeed.UI) in 42.3462ms
+2025-08-07 11:28:18 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.LogInApiController.LogInCheck (BloodInNeed.UI)'
+2025-08-07 11:28:18 [INF] Request finished HTTP/2 GET https://localhost:44330/api/login/CheckLogin?UserName=sahityalovers%40gmail.com&Password=Bipin%40123 - 200 null application/json; charset=utf-8 55.8454ms
+2025-08-07 11:28:21 [INF] Request starting HTTP/2 GET https://localhost:44330/Signup - null null
+2025-08-07 11:28:21 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.SignupController.Index (BloodInNeed.UI)'
+2025-08-07 11:28:21 [INF] Route matched with {action = "Index", controller = "Signup"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BloodInNeed.UI.Controllers.SignupController (BloodInNeed.UI).
+2025-08-07 11:28:21 [INF] Executing ViewResult, running view Index.
+2025-08-07 11:28:21 [INF] Executed ViewResult - view Index executed in 228.3991ms.
+2025-08-07 11:28:21 [INF] Executed action BloodInNeed.UI.Controllers.SignupController.Index (BloodInNeed.UI) in 229.3009ms
+2025-08-07 11:28:21 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.SignupController.Index (BloodInNeed.UI)'
+2025-08-07 11:28:21 [INF] Request finished HTTP/2 GET https://localhost:44330/Signup - 200 null text/html; charset=utf-8 237.2482ms
+2025-08-07 11:28:21 [INF] Request starting HTTP/2 GET https://localhost:44330/images/signup.jpg - null null
+2025-08-07 11:28:21 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:28:21 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.6755ms
+2025-08-07 11:28:21 [INF] Request starting HTTP/2 GET https://localhost:44330/js/Signup.js - null null
+2025-08-07 11:28:21 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:28:21 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.0525ms
+2025-08-07 11:28:21 [INF] Sending file. Request path: '/images/signup.jpg'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\signup.jpg'
+2025-08-07 11:28:21 [INF] Request finished HTTP/2 GET https://localhost:44330/images/signup.jpg - 200 313484 image/jpeg 60.2164ms
+2025-08-07 11:28:21 [INF] Sending file. Request path: '/js/Signup.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Signup.js'
+2025-08-07 11:28:21 [INF] Request finished HTTP/2 GET https://localhost:44330/js/Signup.js - 200 5183 text/javascript 59.1274ms
+2025-08-07 11:28:32 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/SignUpUser - application/json 141
+2025-08-07 11:28:32 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.SignUpUser (BloodInNeed.UI)'
+2025-08-07 11:28:32 [INF] Route matched with {action = "SignUpUser", controller = "SignupApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SignUpUser(BloodInNeed.UI.Models.UserRegistrarionModel) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:28:32 [INF] Signnig up User: sahityalovers@gmail.com
+2025-08-07 11:28:32 [INF] Sending Email data : System.Net.Mail.MailMessage
+2025-08-07 11:28:34 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageWithValue'.
+2025-08-07 11:28:34 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.SignUpUser (BloodInNeed.UI) in 2200.8147ms
+2025-08-07 11:28:34 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.SignUpUser (BloodInNeed.UI)'
+2025-08-07 11:28:34 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/SignUpUser - 200 null application/json; charset=utf-8 2208.3672ms
+2025-08-07 11:28:37 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:28:37 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:28:37 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:28:38 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:28:38 [INF] Executed ViewResult - view VerifyEmail executed in 190.9012ms.
+2025-08-07 11:28:38 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 196.0814ms
+2025-08-07 11:28:38 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:28:38 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 249.6359ms
+2025-08-07 11:28:38 [INF] Request starting HTTP/2 GET https://localhost:44330/css/verifycode.css - null null
+2025-08-07 11:28:38 [INF] The file /css/verifycode.css was not modified
+2025-08-07 11:28:38 [INF] Request starting HTTP/2 GET https://localhost:44330/images/verifypage.png - null null
+2025-08-07 11:28:38 [INF] Request finished HTTP/2 GET https://localhost:44330/css/verifycode.css - 304 null text/css 2.3283ms
+2025-08-07 11:28:38 [INF] The file /images/verifypage.png was not modified
+2025-08-07 11:28:38 [INF] Request finished HTTP/2 GET https://localhost:44330/images/verifypage.png - 304 null image/png 0.6285ms
+2025-08-07 11:28:38 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:28:38 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:28:38 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:28:38 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 4.3635ms
+2025-08-07 11:28:38 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:28:38 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.162ms
+2025-08-07 11:28:38 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 11.2291ms
+2025-08-07 11:28:38 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 11:28:38 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:28:38 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2617 text/javascript 44.3926ms
+2025-08-07 11:29:11 [INF] Request starting HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - application/json 51
+2025-08-07 11:29:11 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 11:29:11 [INF] Route matched with {action = "SendCode", controller = "SendCodeApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[BloodInNeed.Data.Models.DbMessageWithValue] SendCode(BloodInNeed.UI.Models.SendCode) on controller BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController (BloodInNeed.UI).
+2025-08-07 11:29:20 [INF] Sending Code for Resend to the email sahityalovers@gmail.com
+2025-08-07 11:29:52 [INF] Sending Email data : System.Net.Mail.MailMessage
+2025-08-07 11:29:53 [INF] Executing ObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageWithValue'.
+2025-08-07 11:29:53 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI) in 42529.0906ms
+2025-08-07 11:29:53 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 11:29:53 [INF] Request finished HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - 200 null application/json; charset=utf-8 42535.147ms
+2025-08-07 11:30:42 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:30:42 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.5972ms
+2025-08-07 11:31:48 [INF] Request starting HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - application/json 51
+2025-08-07 11:31:48 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 11:31:48 [INF] Route matched with {action = "SendCode", controller = "SendCodeApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[BloodInNeed.Data.Models.DbMessageWithValue] SendCode(BloodInNeed.UI.Models.SendCode) on controller BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController (BloodInNeed.UI).
+2025-08-07 11:31:50 [INF] Sending Code for Resend to the email sahityalovers@gmail.com
+2025-08-07 11:31:50 [INF] Sending Email data : System.Net.Mail.MailMessage
+2025-08-07 11:31:51 [INF] Executing ObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageWithValue'.
+2025-08-07 11:31:51 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI) in 3440.1823ms
+2025-08-07 11:31:51 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 11:31:51 [INF] Request finished HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - 200 null application/json; charset=utf-8 3442.1022ms
+2025-08-07 11:32:34 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:32:34 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.0017ms
+2025-08-07 11:33:03 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:33:03 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:33:03 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:33:03 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:33:03 [INF] Executed ViewResult - view VerifyEmail executed in 2.9315ms.
+2025-08-07 11:33:03 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 3.6364ms
+2025-08-07 11:33:03 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:33:03 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 15.7742ms
+2025-08-07 11:33:03 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:33:03 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:33:03 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.1541ms
+2025-08-07 11:33:03 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:33:03 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2616 text/javascript 59.387ms
+2025-08-07 11:33:03 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:33:03 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.0563ms
+2025-08-07 11:33:05 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:33:05 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:33:05 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:33:05 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:33:05 [INF] Executed ViewResult - view VerifyEmail executed in 1.2993ms.
+2025-08-07 11:33:05 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.7053ms
+2025-08-07 11:33:05 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:33:05 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 5.6938ms
+2025-08-07 11:33:05 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:33:05 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:33:05 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2616 text/javascript 7.6344ms
+2025-08-07 11:33:05 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:33:05 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:33:05 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.9772ms
+2025-08-07 11:33:05 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.1151ms
+2025-08-07 11:33:19 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:33:19 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.9976ms
+2025-08-07 11:33:21 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:33:21 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:33:21 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:33:21 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:33:21 [INF] Executed ViewResult - view VerifyEmail executed in 1.8149ms.
+2025-08-07 11:33:21 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 2.22ms
+2025-08-07 11:33:21 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:33:21 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 7.1721ms
+2025-08-07 11:33:21 [INF] Request starting HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-07 11:33:21 [INF] Request starting HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - null null
+2025-08-07 11:33:21 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\site.css'
+2025-08-07 11:33:21 [INF] Request finished HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - 200 1080 text/css 3.7128ms
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/css/toast.css - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/css/verifycode.css - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/css/style.css - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/css/toast.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\Toast.css'
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/css/verifycode.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\VerifyCode.css'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/css/verifycode.css - 200 1923 text/css 44.4223ms
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\style.css'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/css/toast.css - 200 668 text/css 47.3753ms
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/css/style.css - 200 10805 text/css 44.3283ms
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 41.1906ms
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/js/ApiCall.js - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/images/verifypage.png - null null
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 1501.7999ms
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/images/verifypage.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\verifyPage.png'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/images/verifypage.png - 200 71027 image/png 16.5942ms
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/js/toast.js - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/js/Toast.js - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/js/apicall.js - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/js/script.js - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2616 text/javascript 9.2916ms
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\site.js'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 5.5986ms
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 9.7336ms
+2025-08-07 11:33:23 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 9.0507ms
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/js/apicall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/js/ApiCall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/js/apicall.js - 200 6589 text/javascript 30.3974ms
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/js/ApiCall.js - 200 6589 text/javascript 67.704ms
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.5518ms
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/js/toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/js/Toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/js/toast.js - 200 2075 text/javascript 54.9377ms
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/js/Toast.js - 200 2075 text/javascript 55.2134ms
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/js/script.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\script.js'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/js/script.js - 200 948 text/javascript 53.315ms
+2025-08-07 11:33:23 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:33:23 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:33:23 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 4.3672ms
+2025-08-07 11:33:25 [INF] Request starting HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - application/json 51
+2025-08-07 11:33:25 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 11:33:25 [INF] Route matched with {action = "SendCode", controller = "SendCodeApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[BloodInNeed.Data.Models.DbMessageWithValue] SendCode(BloodInNeed.UI.Models.SendCode) on controller BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController (BloodInNeed.UI).
+2025-08-07 11:33:27 [INF] Sending Code for Resend to the email sahityalovers@gmail.com
+2025-08-07 11:33:27 [INF] Sending Email data : System.Net.Mail.MailMessage
+2025-08-07 11:33:28 [INF] Executing ObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageWithValue'.
+2025-08-07 11:33:28 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI) in 3003.5892ms
+2025-08-07 11:33:28 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 11:33:28 [INF] Request finished HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - 200 null application/json; charset=utf-8 3006.2566ms
+2025-08-07 11:33:33 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:33:33 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:33:33 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:33:33 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:33:33 [INF] Executed ViewResult - view VerifyEmail executed in 2.3652ms.
+2025-08-07 11:33:33 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 3.6214ms
+2025-08-07 11:33:33 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:33:33 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 9.4751ms
+2025-08-07 11:33:33 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:33:33 [INF] The file /js/verifyemail.js was not modified
+2025-08-07 11:33:33 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 304 null text/javascript 0.7475ms
+2025-08-07 11:33:33 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:33:33 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:33:33 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.6868ms
+2025-08-07 11:33:33 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.1661ms
+2025-08-07 11:43:14 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:43:14 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:43:14 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:43:14 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:43:14 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:43:14 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 35.4802ms
+2025-08-07 11:43:14 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:43:14 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 39.3717ms
+2025-08-07 11:43:22 [INF] Request starting HTTP/2 GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-08-07 11:43:22 [INF] Request finished HTTP/2 GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json - 404 null null 1.0577ms
+2025-08-07 11:43:22 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-08-07 11:43:27 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:43:27 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:43:27 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:43:27 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:43:27 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:43:27 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 3.3693ms
+2025-08-07 11:43:27 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:43:27 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 4.482ms
+2025-08-07 11:44:22 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:44:22 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:44:22 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:44:25 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:44:25 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:44:25 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 3151.7866ms
+2025-08-07 11:44:25 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:44:25 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 3152.9436ms
+2025-08-07 11:45:10 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:45:10 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:45:10 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:45:12 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:45:12 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:45:12 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 2497.3853ms
+2025-08-07 11:45:12 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:45:12 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 2498.5644ms
+2025-08-07 11:45:54 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:45:55 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:45:55 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:45:55 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:45:55 [INF] Executed ViewResult - view VerifyEmail executed in 239.1927ms.
+2025-08-07 11:45:55 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 239.5423ms
+2025-08-07 11:45:55 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 246.0936ms
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - null null
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/css/toast.css - null null
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/css/toast.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\Toast.css'
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/css/style.css - null null
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\site.css'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/css/toast.css - 200 668 text/css 7.8046ms
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - 200 1080 text/css 7.935ms
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/css/verifycode.css - null null
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\style.css'
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/css/verifycode.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\VerifyCode.css'
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/css/verifycode.css - 200 1923 text/css 12.3409ms
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 14.8963ms
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/css/style.css - 200 10805 text/css 15.8513ms
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/ApiCall.js - null null
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/images/verifypage.png - null null
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/js/ApiCall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/ApiCall.js - 200 6589 text/javascript 9.0464ms
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/images/verifypage.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\verifyPage.png'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 36.487ms
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/images/verifypage.png - 200 71027 image/png 13.1519ms
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/Toast.js - null null
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2616 text/javascript 4.8174ms
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/js/Toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/Toast.js - 200 2075 text/javascript 3.3976ms
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/toast.js - null null
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/js/toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/toast.js - 200 2075 text/javascript 3.1648ms
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\site.js'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 2.8825ms
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/script.js - null null
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/apicall.js - null null
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.4859ms
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/js/apicall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/apicall.js - 200 6589 text/javascript 5.3168ms
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/js/script.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\script.js'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/script.js - 200 948 text/javascript 7.1114ms
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.0255ms
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 1.5097ms
+2025-08-07 11:45:55 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 11:45:55 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:45:55 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:45:55 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 3.9755ms
+2025-08-07 11:45:58 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:45:58 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:45:58 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:46:05 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:46:05 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:46:05 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 6360.1812ms
+2025-08-07 11:46:05 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:46:05 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 6360.9751ms
+2025-08-07 11:47:19 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:47:19 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:19 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:47:19 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:47:19 [INF] Executed ViewResult - view VerifyEmail executed in 1.4701ms.
+2025-08-07 11:47:19 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.8824ms
+2025-08-07 11:47:19 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:19 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 8.8591ms
+2025-08-07 11:47:19 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:47:19 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:47:19 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.0192ms
+2025-08-07 11:47:19 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:47:19 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.2247ms
+2025-08-07 11:47:19 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:47:19 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 70.2702ms
+2025-08-07 11:47:21 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:47:21 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:21 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:47:21 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:47:21 [INF] Executed ViewResult - view VerifyEmail executed in 1.024ms.
+2025-08-07 11:47:21 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.3042ms
+2025-08-07 11:47:21 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:21 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.2022ms
+2025-08-07 11:47:21 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:47:21 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:47:21 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:47:21 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 4.922ms
+2025-08-07 11:47:21 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 2.5389ms
+2025-08-07 11:47:21 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:47:21 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.3126ms
+2025-08-07 11:47:22 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:47:22 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:22 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:47:22 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:47:22 [INF] Executed ViewResult - view VerifyEmail executed in 1.7193ms.
+2025-08-07 11:47:22 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 2.0548ms
+2025-08-07 11:47:22 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:22 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.9052ms
+2025-08-07 11:47:22 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:47:22 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:47:22 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:47:22 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 4.2991ms
+2025-08-07 11:47:22 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.6893ms
+2025-08-07 11:47:22 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:47:22 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.7466ms
+2025-08-07 11:47:26 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:47:26 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:26 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:47:26 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:47:26 [INF] Executed ViewResult - view VerifyEmail executed in 1.303ms.
+2025-08-07 11:47:26 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.6232ms
+2025-08-07 11:47:26 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:26 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.3897ms
+2025-08-07 11:47:26 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:47:26 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:47:26 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:47:26 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 4.3178ms
+2025-08-07 11:47:26 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7235ms
+2025-08-07 11:47:26 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:47:26 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.1783ms
+2025-08-07 11:47:27 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:47:27 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:27 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:47:27 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:47:27 [INF] Executed ViewResult - view VerifyEmail executed in 0.9714ms.
+2025-08-07 11:47:27 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.4123ms
+2025-08-07 11:47:27 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:27 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.9877ms
+2025-08-07 11:47:27 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:47:27 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:47:27 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:47:27 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 4.8287ms
+2025-08-07 11:47:27 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.2631ms
+2025-08-07 11:47:27 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:47:27 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2691ms
+2025-08-07 11:47:30 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:47:30 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:30 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:47:30 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:47:30 [INF] Executed ViewResult - view VerifyEmail executed in 1.0516ms.
+2025-08-07 11:47:30 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.4873ms
+2025-08-07 11:47:30 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:47:30 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.3712ms
+2025-08-07 11:47:30 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:47:30 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:47:30 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:47:30 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 4.4997ms
+2025-08-07 11:47:30 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.5791ms
+2025-08-07 11:47:30 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:47:30 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.6345ms
+2025-08-07 11:50:00 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:50:00 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:00 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:50:00 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:50:00 [INF] Executed ViewResult - view VerifyEmail executed in 1.532ms.
+2025-08-07 11:50:00 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.9681ms
+2025-08-07 11:50:00 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:00 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 8.627ms
+2025-08-07 11:50:01 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:50:01 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:50:01 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7165ms
+2025-08-07 11:50:01 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:50:01 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2699 text/javascript 46.3932ms
+2025-08-07 11:50:01 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:50:01 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.1094ms
+2025-08-07 11:50:02 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:50:02 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:02 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:50:02 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:50:02 [INF] Executed ViewResult - view VerifyEmail executed in 0.9927ms.
+2025-08-07 11:50:02 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.2992ms
+2025-08-07 11:50:02 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:02 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.4218ms
+2025-08-07 11:50:02 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:50:02 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:50:02 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2699 text/javascript 4.3815ms
+2025-08-07 11:50:02 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:50:02 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.6379ms
+2025-08-07 11:50:02 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:50:02 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.3342ms
+2025-08-07 11:50:04 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:50:04 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:04 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:50:04 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:50:04 [INF] Executed ViewResult - view VerifyEmail executed in 1.0671ms.
+2025-08-07 11:50:04 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.3464ms
+2025-08-07 11:50:04 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:04 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.1254ms
+2025-08-07 11:50:04 [INF] Request starting HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - null null
+2025-08-07 11:50:04 [INF] Request starting HTTP/2 GET https://localhost:44330/css/style.css - null null
+2025-08-07 11:50:04 [INF] Request starting HTTP/2 GET https://localhost:44330/css/toast.css - null null
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\site.css'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - 200 1080 text/css 7.774ms
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/css/toast.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\Toast.css'
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\style.css'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/css/toast.css - 200 668 text/css 9.478ms
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/css/style.css - 200 10805 text/css 11.656ms
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 20.0542ms
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/css/verifycode.css - null null
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/css/verifycode.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\VerifyCode.css'
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/css/verifycode.css - 200 1923 text/css 5.1604ms
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 5.3379ms
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/js/ApiCall.js - null null
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/images/verifypage.png - null null
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/images/verifypage.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\verifyPage.png'
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/js/ApiCall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/js/ApiCall.js - 200 6589 text/javascript 4.9881ms
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/images/verifypage.png - 200 71027 image/png 5.2251ms
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/js/Toast.js - null null
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/js/Toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/js/Toast.js - 200 2075 text/javascript 4.9759ms
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2699 text/javascript 5.2901ms
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/js/toast.js - null null
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/js/toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/js/toast.js - 200 2075 text/javascript 2.7806ms
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\site.js'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 3.0128ms
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/js/script.js - null null
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/js/apicall.js - null null
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/js/apicall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 2.179ms
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/js/apicall.js - 200 6589 text/javascript 5.1183ms
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/js/script.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\script.js'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/js/script.js - 200 948 text/javascript 9.6747ms
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.2984ms
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 1.9143ms
+2025-08-07 11:50:05 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 11:50:05 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:50:05 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:50:05 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 3.8106ms
+2025-08-07 11:50:13 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:50:13 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:13 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:50:15 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:50:15 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:50:15 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 2335.0878ms
+2025-08-07 11:50:15 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:15 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 2335.9619ms
+2025-08-07 11:50:55 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:50:55 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:55 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:50:55 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:50:55 [INF] Executed ViewResult - view VerifyEmail executed in 127.0455ms.
+2025-08-07 11:50:55 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 127.4448ms
+2025-08-07 11:50:55 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:55 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 130.2127ms
+2025-08-07 11:50:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:50:55 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:50:55 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:50:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 4.511ms
+2025-08-07 11:50:55 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7741ms
+2025-08-07 11:50:55 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:50:55 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.0764ms
+2025-08-07 11:50:56 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:50:56 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:56 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:50:56 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:50:56 [INF] Executed ViewResult - view VerifyEmail executed in 1.261ms.
+2025-08-07 11:50:56 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.5717ms
+2025-08-07 11:50:56 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:56 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.5157ms
+2025-08-07 11:50:56 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:50:56 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:50:56 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:50:56 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 4.5212ms
+2025-08-07 11:50:56 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.6018ms
+2025-08-07 11:50:56 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:50:56 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.9676ms
+2025-08-07 11:50:57 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:50:57 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:57 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:50:57 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:50:57 [INF] Executed ViewResult - view VerifyEmail executed in 0.9962ms.
+2025-08-07 11:50:57 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.3338ms
+2025-08-07 11:50:57 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:50:57 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.2575ms
+2025-08-07 11:50:57 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:50:57 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:50:57 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:50:57 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 4.985ms
+2025-08-07 11:50:57 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7974ms
+2025-08-07 11:50:57 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:50:57 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.0844ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:51:50 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:51:50 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:51:50 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:51:50 [INF] Executed ViewResult - view VerifyEmail executed in 119.6387ms.
+2025-08-07 11:51:50 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 120.3414ms
+2025-08-07 11:51:50 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 123.407ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/css/toast.css - null null
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/css/toast.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\Toast.css'
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - null null
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/css/toast.css - 200 668 text/css 5.0574ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/css/verifycode.css - null null
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/css/verifycode.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\VerifyCode.css'
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\site.css'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - 200 1080 text/css 11.8694ms
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/css/style.css - null null
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/css/verifycode.css - 200 1923 text/css 14.16ms
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 14.7384ms
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\style.css'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/css/style.css - 200 10805 text/css 7.0297ms
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 31.2438ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/js/ApiCall.js - null null
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/images/verifypage.png - null null
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/js/ApiCall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/images/verifypage.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\verifyPage.png'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/js/ApiCall.js - 200 6589 text/javascript 5.0961ms
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/images/verifypage.png - 200 71027 image/png 6.8817ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/js/Toast.js - null null
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/js/Toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/js/Toast.js - 200 2075 text/javascript 7.1671ms
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 7.1719ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/js/toast.js - null null
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/js/toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/js/toast.js - 200 2075 text/javascript 2.7738ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\site.js'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 2.7707ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/js/apicall.js - null null
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/js/script.js - null null
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.2294ms
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/js/script.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\script.js'
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/js/apicall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/js/script.js - 200 948 text/javascript 6.023ms
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/js/apicall.js - 200 6589 text/javascript 6.2108ms
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.9502ms
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 1.281ms
+2025-08-07 11:51:50 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 11:51:50 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:51:50 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:51:50 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 3.1624ms
+2025-08-07 11:52:17 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:52:17 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:52:17 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:52:18 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:52:18 [INF] Executed ViewResult - view VerifyEmail executed in 136.0348ms.
+2025-08-07 11:52:18 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 136.607ms
+2025-08-07 11:52:18 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 143.0563ms
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/css/toast.css - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/css/style.css - null null
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/css/toast.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\Toast.css'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/css/toast.css - 200 668 text/css 9.0499ms
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\site.css'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - 200 1080 text/css 13.2822ms
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/css/verifycode.css - null null
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/css/verifycode.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\VerifyCode.css'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 15.043ms
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/css/verifycode.css - 200 1923 text/css 5.6294ms
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\style.css'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/css/style.css - 200 10805 text/css 16.7662ms
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 25.1274ms
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/js/ApiCall.js - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/images/verifypage.png - null null
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/js/ApiCall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/js/ApiCall.js - 200 6589 text/javascript 5.6778ms
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/images/verifypage.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\verifyPage.png'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/images/verifypage.png - 200 71027 image/png 7.4393ms
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/js/Toast.js - null null
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/js/Toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/js/Toast.js - 200 2075 text/javascript 6.6409ms
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2661 text/javascript 6.6415ms
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/js/toast.js - null null
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/js/toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/js/toast.js - 200 2075 text/javascript 3.1865ms
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\site.js'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 2.8049ms
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/js/apicall.js - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/js/script.js - null null
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/js/apicall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/js/script.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\script.js'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/js/apicall.js - 200 6589 text/javascript 6.2459ms
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/js/script.js - 200 948 text/javascript 6.4173ms
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.5121ms
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.0927ms
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 1.5702ms
+2025-08-07 11:52:18 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 11:52:18 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:52:18 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:52:18 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 3.4413ms
+2025-08-07 11:52:36 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:52:36 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:52:36 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:52:36 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:52:36 [INF] Executed ViewResult - view VerifyEmail executed in 1.0584ms.
+2025-08-07 11:52:36 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.3303ms
+2025-08-07 11:52:36 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:52:36 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.1185ms
+2025-08-07 11:52:36 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:52:36 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:52:36 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7676ms
+2025-08-07 11:52:36 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:52:36 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:52:36 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2696 text/javascript 43.8145ms
+2025-08-07 11:52:36 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.1407ms
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:52:38 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:52:38 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:52:38 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:52:38 [INF] Executed ViewResult - view VerifyEmail executed in 0.8991ms.
+2025-08-07 11:52:38 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.1366ms
+2025-08-07 11:52:38 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 4.0752ms
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - null null
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/css/toast.css - null null
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/css/verifycode.css - null null
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\site.css'
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/css/style.css - null null
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/css/toast.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\Toast.css'
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - 200 1080 text/css 9.8899ms
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/css/toast.css - 200 668 text/css 10.2563ms
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/css/verifycode.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\VerifyCode.css'
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 10.5883ms
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/css/verifycode.css - 200 1923 text/css 9.8163ms
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 17.6495ms
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/images/verifypage.png - null null
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/js/ApiCall.js - null null
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/js/ApiCall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\style.css'
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/js/ApiCall.js - 200 6589 text/javascript 7.1769ms
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/css/style.css - 200 10805 text/css 18.5291ms
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/images/verifypage.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\verifyPage.png'
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/js/Toast.js - null null
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/images/verifypage.png - 200 71027 image/png 15.0133ms
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/js/Toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/js/Toast.js - 200 2075 text/javascript 6.9981ms
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2696 text/javascript 9.9288ms
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/js/toast.js - null null
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/js/toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/js/toast.js - 200 2075 text/javascript 2.8379ms
+2025-08-07 11:52:38 [INF] Request starting HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-07 11:52:38 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\site.js'
+2025-08-07 11:52:38 [INF] Request finished HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 2.9366ms
+2025-08-07 11:52:39 [INF] Request starting HTTP/2 GET https://localhost:44330/js/apicall.js - null null
+2025-08-07 11:52:39 [INF] Sending file. Request path: '/js/apicall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:52:39 [INF] Request finished HTTP/2 GET https://localhost:44330/js/apicall.js - 200 6589 text/javascript 3.035ms
+2025-08-07 11:52:39 [INF] Request starting HTTP/2 GET https://localhost:44330/js/script.js - null null
+2025-08-07 11:52:39 [INF] Sending file. Request path: '/js/script.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\script.js'
+2025-08-07 11:52:39 [INF] Request finished HTTP/2 GET https://localhost:44330/js/script.js - 200 948 text/javascript 3.1715ms
+2025-08-07 11:52:39 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:52:39 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.577ms
+2025-08-07 11:52:39 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:52:39 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.8304ms
+2025-08-07 11:52:39 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:52:39 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 1.5717ms
+2025-08-07 11:52:39 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 11:52:39 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:52:39 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:52:39 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 3.0256ms
+2025-08-07 11:52:55 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:52:55 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:52:55 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:52:55 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:52:55 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:52:55 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 24.5821ms
+2025-08-07 11:52:55 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:52:55 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 25.6048ms
+2025-08-07 11:53:08 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:53:08 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:53:08 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:53:08 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:53:09 [INF] Executed ViewResult - view VerifyEmail executed in 127.0001ms.
+2025-08-07 11:53:09 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 127.3485ms
+2025-08-07 11:53:09 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 130.5506ms
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/css/toast.css - null null
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - null null
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\site.css'
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/css/style.css - null null
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/css/verifycode.css - null null
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/css/site.css?v=nREv-C81dvgflzvOkbiHhYRWJ1siMcato2mOxgBErww - 200 1080 text/css 4.9984ms
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/css/style.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\style.css'
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/css/toast.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\Toast.css'
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/css/toast.css - 200 668 text/css 10.8947ms
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/css/verifycode.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\css\VerifyCode.css'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/css/style.css - 200 10805 text/css 11.1354ms
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/css/verifycode.css - 200 1923 text/css 14.2972ms
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 15.7254ms
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 25.5114ms
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/js/ApiCall.js - null null
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/images/verifypage.png - null null
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/images/verifypage.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\verifyPage.png'
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/js/ApiCall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/js/ApiCall.js - 200 6589 text/javascript 5.1414ms
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/images/verifypage.png - 200 71027 image/png 5.4639ms
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/js/Toast.js - null null
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/js/Toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/js/verifyemail.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\VerifyEmail.js'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 200 2696 text/javascript 4.7727ms
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/js/Toast.js - 200 2075 text/javascript 4.7729ms
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/js/toast.js - null null
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/js/toast.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\Toast.js'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/js/toast.js - 200 2075 text/javascript 3.1075ms
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\site.js'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 2.9538ms
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/js/apicall.js - null null
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/js/apicall.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\ApiCall.js'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/js/apicall.js - 200 6589 text/javascript 3.3616ms
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/js/script.js - null null
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.9767ms
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/js/script.js'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\js\script.js'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/js/script.js - 200 948 text/javascript 1.1062ms
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.4111ms
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 1.5474ms
+2025-08-07 11:53:09 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 11:53:09 [INF] Request starting HTTP/2 GET https://localhost:44330/images/logo.png - null null
+2025-08-07 11:53:09 [INF] Sending file. Request path: '/images/logo.png'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\images\logo.png'
+2025-08-07 11:53:09 [INF] Request finished HTTP/2 GET https://localhost:44330/images/logo.png - 200 28648 image/png 3.7107ms
+2025-08-07 11:53:11 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:53:11 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:53:11 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:53:11 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:53:11 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:53:11 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 18.4629ms
+2025-08-07 11:53:11 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:53:11 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 19.0403ms
+2025-08-07 11:53:53 [INF] Request starting HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - application/json 51
+2025-08-07 11:53:53 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 11:53:53 [INF] Route matched with {action = "SendCode", controller = "SendCodeApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[BloodInNeed.Data.Models.DbMessageWithValue] SendCode(BloodInNeed.UI.Models.SendCode) on controller BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController (BloodInNeed.UI).
+2025-08-07 11:53:53 [INF] Sending Code for Resend to the email sahityalovers@gmail.com
+2025-08-07 11:53:53 [INF] Sending Email data : System.Net.Mail.MailMessage
+2025-08-07 11:53:55 [INF] Executing ObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageWithValue'.
+2025-08-07 11:53:55 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI) in 1963.081ms
+2025-08-07 11:53:55 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 11:53:55 [INF] Request finished HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - 200 null application/json; charset=utf-8 1964.1239ms
+2025-08-07 11:54:00 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:54:00 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:54:00 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:54:00 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:54:00 [INF] Executed ViewResult - view VerifyEmail executed in 7.4235ms.
+2025-08-07 11:54:00 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 8.9037ms
+2025-08-07 11:54:00 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:54:00 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 12.6193ms
+2025-08-07 11:54:00 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:54:00 [INF] The file /js/verifyemail.js was not modified
+2025-08-07 11:54:00 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 304 null text/javascript 0.5087ms
+2025-08-07 11:54:00 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:54:00 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7245ms
+2025-08-07 11:54:00 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:54:00 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.2029ms
+2025-08-07 11:54:14 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 11:54:14 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:54:14 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 11:54:14 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 11:54:14 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 11:54:14 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 20.1329ms
+2025-08-07 11:54:14 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:54:14 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 21.06ms
+2025-08-07 11:54:19 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/Index - null null
+2025-08-07 11:54:19 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 11:54:19 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:54:19 [INF] Executing ViewResult, running view Index.
+2025-08-07 11:54:19 [INF] Executed ViewResult - view Index executed in 2.0678ms.
+2025-08-07 11:54:19 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI) in 2.4818ms
+2025-08-07 11:54:19 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 11:54:19 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/Index - 200 null text/html; charset=utf-8 8.7932ms
+2025-08-07 11:54:19 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:54:19 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.8984ms
+2025-08-07 11:54:19 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:54:19 [INF] Request starting HTTP/2 GET https://localhost:44330/js/login.js?v=1.0.0.1 - null null
+2025-08-07 11:54:19 [INF] The file /js/login.js was not modified
+2025-08-07 11:54:19 [INF] Request finished HTTP/2 GET https://localhost:44330/js/login.js?v=1.0.0.1 - 304 null text/javascript 1.3427ms
+2025-08-07 11:54:19 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.901ms
+2025-08-07 11:54:23 [INF] Request starting HTTP/2 GET https://localhost:44330/api/login/CheckLogin?UserName=sahityalovers%40gmail.com&Password=Bipin%40123 - application/json null
+2025-08-07 11:54:23 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.LogInApiController.LogInCheck (BloodInNeed.UI)'
+2025-08-07 11:54:23 [INF] Route matched with {action = "LogInCheck", controller = "LogInApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogInCheck(System.String, System.String) on controller BloodInNeed.UI.Controllers.ApiControllers.LogInApiController (BloodInNeed.UI).
+2025-08-07 11:54:23 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageUserName'.
+2025-08-07 11:54:23 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.LogInApiController.LogInCheck (BloodInNeed.UI) in 17.0502ms
+2025-08-07 11:54:23 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.LogInApiController.LogInCheck (BloodInNeed.UI)'
+2025-08-07 11:54:23 [INF] Session started; Key:08a768e0-a052-805b-ee53-48befd32c6f2, Id:c711dd63-af07-9d59-062a-d4a498c3d924
+2025-08-07 11:54:23 [INF] Request finished HTTP/2 GET https://localhost:44330/api/login/CheckLogin?UserName=sahityalovers%40gmail.com&Password=Bipin%40123 - 200 null application/json; charset=utf-8 20.7408ms
+2025-08-07 11:54:26 [INF] Request starting HTTP/2 GET https://localhost:44330/Home/Index - null null
+2025-08-07 11:54:26 [INF] Executing endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 11:54:26 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.Controllers.HomeController (BloodInNeed.UI).
+2025-08-07 11:54:26 [INF] Executing ViewResult, running view Index.
+2025-08-07 11:54:26 [INF] Executed ViewResult - view Index executed in 2.1615ms.
+2025-08-07 11:54:26 [INF] Executed action BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI) in 16.9334ms
+2025-08-07 11:54:26 [INF] Executed endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 11:54:26 [INF] Request finished HTTP/2 GET https://localhost:44330/Home/Index - 200 null text/html; charset=utf-8 22.4768ms
+2025-08-07 11:54:26 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:54:26 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:54:26 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7439ms
+2025-08-07 11:54:26 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.0803ms
+2025-08-07 11:54:26 [INF] Request starting HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - application/json null
+2025-08-07 11:54:26 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 11:54:26 [INF] Route matched with {action = "GetStatByCountry", controller = "BaseApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[BloodInNeed.UI.Models.StatByCountry] GetStatByCountry(Int32) on controller BloodInNeed.UI.Controllers.ApiControllers.BaseApiController (BloodInNeed.UI).
+2025-08-07 11:54:26 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BloodInNeed.UI.Models.StatByCountry, BloodInNeed.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-07 11:54:26 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI) in 2.9402ms
+2025-08-07 11:54:26 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 11:54:26 [INF] Request finished HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - 200 null application/json; charset=utf-8 5.4532ms
+2025-08-07 11:55:21 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:55:21 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:55:21 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:55:21 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:55:21 [INF] Executed ViewResult - view VerifyEmail executed in 5.0787ms.
+2025-08-07 11:55:21 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 5.4643ms
+2025-08-07 11:55:21 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:55:21 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 9.9818ms
+2025-08-07 11:55:21 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:55:21 [INF] The file /js/verifyemail.js was not modified
+2025-08-07 11:55:21 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 304 null text/javascript 0.7908ms
+2025-08-07 11:55:21 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:55:21 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7607ms
+2025-08-07 11:55:21 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:55:21 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.4993ms
+2025-08-07 11:58:02 [INF] User profile is available. Using 'C:\Users\Acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-07 11:58:03 [INF] Request starting HTTP/2 GET https://localhost:44330/ - null null
+2025-08-07 11:58:03 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-07 11:58:03 [INF] Hosting environment: Development
+2025-08-07 11:58:03 [INF] Content root path: D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed
+2025-08-07 11:58:03 [INF] Executing endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 11:58:03 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.Controllers.HomeController (BloodInNeed.UI).
+2025-08-07 11:58:06 [INF] Executing ViewResult, running view Index.
+2025-08-07 11:58:07 [INF] Executed ViewResult - view Index executed in 3798.5136ms.
+2025-08-07 11:58:07 [INF] Executed action BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI) in 4199.9411ms
+2025-08-07 11:58:07 [INF] Executed endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 11:58:07 [INF] Request finished HTTP/2 GET https://localhost:44330/ - 200 null text/html; charset=utf-8 4406.0969ms
+2025-08-07 11:58:07 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:58:07 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.8851ms
+2025-08-07 11:58:07 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:58:07 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.0175ms
+2025-08-07 11:58:07 [INF] Request starting HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - application/json null
+2025-08-07 11:58:07 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 11:58:07 [INF] Route matched with {action = "GetStatByCountry", controller = "BaseApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[BloodInNeed.UI.Models.StatByCountry] GetStatByCountry(Int32) on controller BloodInNeed.UI.Controllers.ApiControllers.BaseApiController (BloodInNeed.UI).
+2025-08-07 11:58:07 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BloodInNeed.UI.Models.StatByCountry, BloodInNeed.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-07 11:58:07 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI) in 84.3256ms
+2025-08-07 11:58:07 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 11:58:07 [INF] Request finished HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - 200 null application/json; charset=utf-8 107.5374ms
+2025-08-07 11:58:10 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 11:58:10 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:58:10 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 11:58:10 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 11:58:10 [INF] Executed ViewResult - view VerifyEmail executed in 338.6311ms.
+2025-08-07 11:58:10 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 348.9461ms
+2025-08-07 11:58:10 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 11:58:10 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 367.9302ms
+2025-08-07 11:58:10 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 11:58:10 [INF] The file /js/verifyemail.js was not modified
+2025-08-07 11:58:10 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 304 null text/javascript 12.4012ms
+2025-08-07 11:58:10 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 11:58:10 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 11:58:10 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.9249ms
+2025-08-07 11:58:10 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 11:58:10 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 5.5645ms
+2025-08-07 11:58:10 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.3699ms
+2025-08-07 11:58:10 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 12:06:14 [INF] User profile is available. Using 'C:\Users\Acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-07 12:06:14 [INF] Request starting HTTP/2 GET https://localhost:44330/ - null null
+2025-08-07 12:06:14 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-07 12:06:14 [INF] Hosting environment: Development
+2025-08-07 12:06:14 [INF] Content root path: D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed
+2025-08-07 12:06:14 [INF] Executing endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:06:14 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.Controllers.HomeController (BloodInNeed.UI).
+2025-08-07 12:06:17 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:06:18 [INF] Executed ViewResult - view Index executed in 3373.3805ms.
+2025-08-07 12:06:18 [INF] Executed action BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI) in 3729.4589ms
+2025-08-07 12:06:18 [INF] Executed endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:06:18 [INF] Request finished HTTP/2 GET https://localhost:44330/ - 200 null text/html; charset=utf-8 3912.7276ms
+2025-08-07 12:06:18 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:06:18 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 4.0094ms
+2025-08-07 12:06:18 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:06:18 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.0924ms
+2025-08-07 12:06:18 [INF] Request starting HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - application/json null
+2025-08-07 12:06:18 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:06:18 [INF] Route matched with {action = "GetStatByCountry", controller = "BaseApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[BloodInNeed.UI.Models.StatByCountry] GetStatByCountry(Int32) on controller BloodInNeed.UI.Controllers.ApiControllers.BaseApiController (BloodInNeed.UI).
+2025-08-07 12:06:18 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BloodInNeed.UI.Models.StatByCountry, BloodInNeed.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-07 12:06:18 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI) in 47.6578ms
+2025-08-07 12:06:18 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:06:18 [INF] Request finished HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - 200 null application/json; charset=utf-8 91.5628ms
+2025-08-07 12:06:26 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 12:06:26 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:06:26 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:06:26 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 5.3693ms
+2025-08-07 12:06:26 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:06:26 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController' while attempting to activate 'BloodInNeed.UI.Controllers.LoginController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method54(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-07 12:06:27 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 500 null text/html; charset=utf-8 67.1578ms
+2025-08-07 12:06:27 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:06:27 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:06:27 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.2371ms
+2025-08-07 12:06:27 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.577ms
+2025-08-07 12:06:27 [INF] Request starting HTTP/2 GET https://localhost:44330/favicon.ico - null null
+2025-08-07 12:06:27 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed\wwwroot\favicon.ico'
+2025-08-07 12:06:27 [INF] Request finished HTTP/2 GET https://localhost:44330/favicon.ico - 200 5430 image/x-icon 25.2127ms
+2025-08-07 12:11:13 [INF] User profile is available. Using 'C:\Users\Acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-07 12:11:13 [INF] Request starting HTTP/2 GET https://localhost:44330/ - null null
+2025-08-07 12:11:13 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-07 12:11:13 [INF] Hosting environment: Development
+2025-08-07 12:11:13 [INF] Content root path: D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed
+2025-08-07 12:11:14 [INF] Executing endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:11:14 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.Controllers.HomeController (BloodInNeed.UI).
+2025-08-07 12:11:17 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:11:17 [INF] Executed ViewResult - view Index executed in 3457.2844ms.
+2025-08-07 12:11:17 [INF] Executed action BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI) in 3862.3344ms
+2025-08-07 12:11:17 [INF] Executed endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:11:17 [INF] Request finished HTTP/2 GET https://localhost:44330/ - 200 null text/html; charset=utf-8 4066.0925ms
+2025-08-07 12:11:18 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:11:18 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.9975ms
+2025-08-07 12:11:18 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:11:18 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.6982ms
+2025-08-07 12:11:19 [INF] Request starting HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - application/json null
+2025-08-07 12:11:19 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:11:19 [INF] Route matched with {action = "GetStatByCountry", controller = "BaseApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[BloodInNeed.UI.Models.StatByCountry] GetStatByCountry(Int32) on controller BloodInNeed.UI.Controllers.ApiControllers.BaseApiController (BloodInNeed.UI).
+2025-08-07 12:11:19 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BloodInNeed.UI.Models.StatByCountry, BloodInNeed.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-07 12:11:19 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI) in 60.1588ms
+2025-08-07 12:11:19 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:11:19 [INF] Request finished HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - 200 null application/json; charset=utf-8 80.8368ms
+2025-08-07 12:11:24 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 12:11:24 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:11:24 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:11:31 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:11:42 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 12:11:42 [INF] Executed ViewResult - view VerifyEmail executed in 263.84ms.
+2025-08-07 12:11:42 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 17997.159ms
+2025-08-07 12:11:42 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:11:42 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 18015.7273ms
+2025-08-07 12:11:42 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 12:11:42 [INF] The file /js/verifyemail.js was not modified
+2025-08-07 12:11:42 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 304 null text/javascript 11.235ms
+2025-08-07 12:11:42 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:11:42 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:11:42 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.2722ms
+2025-08-07 12:11:42 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.3002ms
+2025-08-07 12:11:42 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 12:11:42 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 4.6491ms
+2025-08-07 12:11:42 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 12:14:39 [INF] User profile is available. Using 'C:\Users\Acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-07 12:14:39 [INF] Request starting HTTP/2 GET https://localhost:44330/ - null null
+2025-08-07 12:14:39 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-07 12:14:39 [INF] Hosting environment: Development
+2025-08-07 12:14:39 [INF] Content root path: D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed
+2025-08-07 12:14:39 [INF] Executing endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:14:39 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.Controllers.HomeController (BloodInNeed.UI).
+2025-08-07 12:14:42 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:14:43 [INF] Executed ViewResult - view Index executed in 3177.6938ms.
+2025-08-07 12:14:43 [INF] Executed action BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI) in 3536.612ms
+2025-08-07 12:14:43 [INF] Executed endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:14:43 [INF] Request finished HTTP/2 GET https://localhost:44330/ - 200 null text/html; charset=utf-8 3701.8954ms
+2025-08-07 12:14:43 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:14:43 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.8765ms
+2025-08-07 12:14:43 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:14:43 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.8008ms
+2025-08-07 12:14:44 [INF] Request starting HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - application/json null
+2025-08-07 12:14:44 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:14:44 [INF] Route matched with {action = "GetStatByCountry", controller = "BaseApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[BloodInNeed.UI.Models.StatByCountry] GetStatByCountry(Int32) on controller BloodInNeed.UI.Controllers.ApiControllers.BaseApiController (BloodInNeed.UI).
+2025-08-07 12:14:44 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BloodInNeed.UI.Models.StatByCountry, BloodInNeed.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-07 12:14:44 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI) in 42.5469ms
+2025-08-07 12:14:44 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:14:44 [INF] Request finished HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - 200 null application/json; charset=utf-8 62.1649ms
+2025-08-07 12:14:53 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 12:14:53 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:14:53 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:14:57 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:15:06 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 12:15:06 [INF] Executed ViewResult - view VerifyEmail executed in 252.5613ms.
+2025-08-07 12:15:06 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 13255.3429ms
+2025-08-07 12:15:06 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:15:06 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 13273.3761ms
+2025-08-07 12:15:06 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 12:15:06 [INF] The file /js/verifyemail.js was not modified
+2025-08-07 12:15:06 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 304 null text/javascript 10.7349ms
+2025-08-07 12:15:06 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:15:06 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:15:06 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.412ms
+2025-08-07 12:15:06 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 12:15:06 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 5.7397ms
+2025-08-07 12:15:06 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 12:15:06 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.5843ms
+2025-08-07 12:15:10 [INF] Request starting HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - application/json 51
+2025-08-07 12:15:10 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 12:15:10 [INF] Route matched with {action = "SendCode", controller = "SendCodeApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[BloodInNeed.Data.Models.DbMessageWithValue] SendCode(BloodInNeed.UI.Models.SendCode) on controller BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController (BloodInNeed.UI).
+2025-08-07 12:15:10 [INF] Sending Code for Resend to the email sahityalovers@gmail.com
+2025-08-07 12:15:10 [INF] Sending Email data : System.Net.Mail.MailMessage
+2025-08-07 12:15:13 [INF] Executing ObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageWithValue'.
+2025-08-07 12:15:13 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI) in 2291.6296ms
+2025-08-07 12:15:13 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 12:15:13 [INF] Request finished HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - 200 null application/json; charset=utf-8 2300.1454ms
+2025-08-07 12:15:18 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 12:15:18 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:15:18 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:15:59 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:15:59 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 12:15:59 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:15:59 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 12:15:59 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:15:59 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 12:16:02 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 3054.6046ms
+2025-08-07 12:16:03 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:16:03 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 3721.751ms
+2025-08-07 12:16:04 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 12:16:04 [INF] Executed ViewResult - view VerifyEmail executed in 6.0652ms.
+2025-08-07 12:16:04 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 46029.9948ms
+2025-08-07 12:16:04 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:16:04 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 46036.3128ms
+2025-08-07 12:16:04 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:16:04 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:16:04 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.0876ms
+2025-08-07 12:16:04 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.619ms
+2025-08-07 12:16:26 [INF] Request starting HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - application/json 51
+2025-08-07 12:16:26 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:16:26 [INF] Route matched with {action = "VerifyEmail", controller = "SignupApi"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult VerifyEmail(BloodInNeed.UI.Models.VerifyEmail) on controller BloodInNeed.UI.Controllers.ApiControllers.SignupApiController (BloodInNeed.UI).
+2025-08-07 12:16:26 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:16:26 [INF] Executing OkObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessage'.
+2025-08-07 12:16:26 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI) in 1.7402ms
+2025-08-07 12:16:26 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SignupApiController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:16:26 [INF] Request finished HTTP/2 POST https://localhost:44330/api/signup/VerifyEmail - 200 null application/json; charset=utf-8 3.4947ms
+2025-08-07 12:16:31 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/Index - null null
+2025-08-07 12:16:31 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:16:31 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:16:32 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:16:32 [INF] Executed ViewResult - view Index executed in 444.3393ms.
+2025-08-07 12:16:32 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI) in 445.3827ms
+2025-08-07 12:16:32 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:16:32 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/Index - 200 null text/html; charset=utf-8 457.5955ms
+2025-08-07 12:16:32 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:16:32 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.0486ms
+2025-08-07 12:16:32 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:16:32 [INF] Request starting HTTP/2 GET https://localhost:44330/js/login.js?v=1.0.0.1 - null null
+2025-08-07 12:16:32 [INF] The file /js/login.js was not modified
+2025-08-07 12:16:32 [INF] Request finished HTTP/2 GET https://localhost:44330/js/login.js?v=1.0.0.1 - 304 null text/javascript 1.8923ms
+2025-08-07 12:16:32 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.1856ms
+2025-08-07 12:16:32 [INF] Request starting HTTP/2 GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-08-07 12:16:32 [INF] Request finished HTTP/2 GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json - 404 null null 1.3766ms
+2025-08-07 12:16:32 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-08-07 12:16:52 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 12:16:52 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:16:52 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:16:55 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:17:23 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 12:17:23 [INF] Executed ViewResult - view VerifyEmail executed in 5.3312ms.
+2025-08-07 12:17:23 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 31154.1586ms
+2025-08-07 12:17:23 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:17:23 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 200 null text/html; charset=utf-8 31162.4522ms
+2025-08-07 12:17:23 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 12:17:23 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:17:23 [INF] The file /js/verifyemail.js was not modified
+2025-08-07 12:17:23 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 304 null text/javascript 0.7676ms
+2025-08-07 12:17:23 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7445ms
+2025-08-07 12:17:23 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:17:23 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.3844ms
+2025-08-07 12:28:11 [INF] User profile is available. Using 'C:\Users\Acer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-07 12:28:11 [INF] Request starting HTTP/2 GET https://localhost:44330/ - null null
+2025-08-07 12:28:11 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-07 12:28:11 [INF] Hosting environment: Development
+2025-08-07 12:28:11 [INF] Content root path: D:\Software\BloodInNeed\BloodInNeed_New\BloodInNeed
+2025-08-07 12:28:11 [INF] Executing endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:28:11 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.Controllers.HomeController (BloodInNeed.UI).
+2025-08-07 12:28:30 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:28:30 [INF] Executed ViewResult - view Index executed in 17910.1921ms.
+2025-08-07 12:28:30 [INF] Executed action BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI) in 19075.3075ms
+2025-08-07 12:28:30 [INF] Executed endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:28:30 [INF] Request finished HTTP/2 GET https://localhost:44330/ - 200 null text/html; charset=utf-8 19303.7548ms
+2025-08-07 12:28:30 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:28:30 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.8046ms
+2025-08-07 12:28:30 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:28:30 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4595ms
+2025-08-07 12:28:31 [INF] Request starting HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - application/json null
+2025-08-07 12:28:31 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:28:31 [INF] Route matched with {action = "GetStatByCountry", controller = "BaseApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[BloodInNeed.UI.Models.StatByCountry] GetStatByCountry(Int32) on controller BloodInNeed.UI.Controllers.ApiControllers.BaseApiController (BloodInNeed.UI).
+2025-08-07 12:28:31 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BloodInNeed.UI.Models.StatByCountry, BloodInNeed.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-07 12:28:31 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI) in 47.7772ms
+2025-08-07 12:28:31 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:28:31 [INF] Request finished HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - 200 null application/json; charset=utf-8 68.1944ms
+2025-08-07 12:28:41 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 12:28:41 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:28:41 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:28:46 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:29:00 [INF] Executing RedirectResult, redirecting to /Login.
+2025-08-07 12:29:00 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 18853.0734ms
+2025-08-07 12:29:00 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:29:00 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 302 null null 18870.5878ms
+2025-08-07 12:29:00 [INF] Request starting HTTP/2 GET https://localhost:44330/Login - null null
+2025-08-07 12:29:00 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:29:00 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:29:00 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:29:00 [INF] Executed ViewResult - view Index executed in 296.0947ms.
+2025-08-07 12:29:00 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI) in 298.395ms
+2025-08-07 12:29:00 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:29:00 [INF] Request finished HTTP/2 GET https://localhost:44330/Login - 200 null text/html; charset=utf-8 304.46ms
+2025-08-07 12:29:00 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:29:00 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.9981ms
+2025-08-07 12:29:00 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:29:00 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3207ms
+2025-08-07 12:30:40 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 12:30:40 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:30:40 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:30:40 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:30:40 [INF] Executing RedirectResult, redirecting to /Login.
+2025-08-07 12:30:40 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 20.0626ms
+2025-08-07 12:30:40 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:30:40 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 302 null null 35.734ms
+2025-08-07 12:30:40 [INF] Request starting HTTP/2 GET https://localhost:44330/Login - null null
+2025-08-07 12:30:40 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:30:40 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:30:40 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:30:40 [INF] Executed ViewResult - view Index executed in 1.297ms.
+2025-08-07 12:30:40 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI) in 1.521ms
+2025-08-07 12:30:40 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:30:40 [INF] Request finished HTTP/2 GET https://localhost:44330/Login - 200 null text/html; charset=utf-8 4.5974ms
+2025-08-07 12:30:40 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:30:40 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:30:40 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.9681ms
+2025-08-07 12:30:40 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.3279ms
+2025-08-07 12:30:44 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - null null
+2025-08-07 12:30:44 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:30:44 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:30:44 [INF] Verifying Email address: sahityalovers@gmail.com
+2025-08-07 12:30:44 [INF] Executing RedirectResult, redirecting to /Login.
+2025-08-07 12:30:44 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 1.4621ms
+2025-08-07 12:30:44 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:30:44 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=sahityalovers@gmail.com - 302 null null 5.4712ms
+2025-08-07 12:30:44 [INF] Request starting HTTP/2 GET https://localhost:44330/Login - null null
+2025-08-07 12:30:44 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:30:44 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:30:44 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:30:44 [INF] Executed ViewResult - view Index executed in 0.8449ms.
+2025-08-07 12:30:44 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI) in 1.0599ms
+2025-08-07 12:30:44 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:30:44 [INF] Request finished HTTP/2 GET https://localhost:44330/Login - 200 null text/html; charset=utf-8 4.2483ms
+2025-08-07 12:30:44 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:30:44 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:30:44 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.0036ms
+2025-08-07 12:30:44 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.17ms
+2025-08-07 12:30:55 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=bsherpaili@gmail.com - null null
+2025-08-07 12:30:55 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:30:55 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:30:55 [INF] Verifying Email address: bsherpaili@gmail.com
+2025-08-07 12:30:55 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 12:30:55 [INF] Executed ViewResult - view VerifyEmail executed in 316.8229ms.
+2025-08-07 12:30:55 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 320.6443ms
+2025-08-07 12:30:55 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:30:55 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=bsherpaili@gmail.com - 200 null text/html; charset=utf-8 324.1685ms
+2025-08-07 12:30:55 [INF] Request starting HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - null null
+2025-08-07 12:30:55 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:30:55 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.6826ms
+2025-08-07 12:30:55 [INF] The file /js/verifyemail.js was not modified
+2025-08-07 12:30:55 [INF] Request finished HTTP/2 GET https://localhost:44330/js/verifyemail.js?v=1.0.0.1 - 304 null text/javascript 6.7285ms
+2025-08-07 12:30:55 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:30:55 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5503ms
+2025-08-07 12:30:55 [INF] Request starting HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - null null
+2025-08-07 12:30:55 [INF] Request finished HTTP/2 GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png - 404 null null 3.4556ms
+2025-08-07 12:30:55 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/css/~/wwwroot/images/verifyPage.png, Response status code: 404
+2025-08-07 12:31:40 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=bsherpaiiili@gmail.com - null null
+2025-08-07 12:31:40 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:31:40 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:31:40 [INF] Verifying Email address: bsherpaiiili@gmail.com
+2025-08-07 12:31:40 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 12:31:40 [INF] Executed ViewResult - view VerifyEmail executed in 1.6243ms.
+2025-08-07 12:31:40 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 14.9359ms
+2025-08-07 12:31:40 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:31:40 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=bsherpaiiili@gmail.com - 200 null text/html; charset=utf-8 23.5073ms
+2025-08-07 12:31:40 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:31:40 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:31:40 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.8723ms
+2025-08-07 12:31:40 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.1381ms
+2025-08-07 12:32:06 [INF] Request starting HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - application/json 50
+2025-08-07 12:32:06 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 12:32:06 [INF] Route matched with {action = "SendCode", controller = "SendCodeApi"}. Executing controller action with signature System.Threading.Tasks.Task`1[BloodInNeed.Data.Models.DbMessageWithValue] SendCode(BloodInNeed.UI.Models.SendCode) on controller BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController (BloodInNeed.UI).
+2025-08-07 12:32:06 [INF] Sending Code for Resend to the email bsherpaiiili@gmail.com
+2025-08-07 12:32:06 [INF] Sending Email data : System.Net.Mail.MailMessage
+2025-08-07 12:32:08 [INF] Executing ObjectResult, writing value of type 'BloodInNeed.Data.Models.DbMessageWithValue'.
+2025-08-07 12:32:08 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI) in 2161.6843ms
+2025-08-07 12:32:08 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController.SendCode (BloodInNeed.UI)'
+2025-08-07 12:32:08 [INF] Request finished HTTP/2 POST https://localhost:44330/api/sendcode/SendCode - 200 null application/json; charset=utf-8 2168.0678ms
+2025-08-07 12:32:13 [INF] Request starting HTTP/2 GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-08-07 12:32:13 [INF] Request finished HTTP/2 GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json - 404 null null 1.0381ms
+2025-08-07 12:32:13 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-08-07 12:32:13 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=bsherpaiiili@gmail.com - null null
+2025-08-07 12:32:13 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:32:13 [INF] Route matched with {action = "VerifyEmail", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] VerifyEmail(System.String) on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:32:13 [INF] Verifying Email address: bsherpaiiili@gmail.com
+2025-08-07 12:32:13 [INF] Executing ViewResult, running view VerifyEmail.
+2025-08-07 12:32:13 [INF] Executed ViewResult - view VerifyEmail executed in 1.6012ms.
+2025-08-07 12:32:13 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI) in 21.2341ms
+2025-08-07 12:32:13 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.VerifyEmail (BloodInNeed.UI)'
+2025-08-07 12:32:13 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/VerifyEmail?Email=bsherpaiiili@gmail.com - 200 null text/html; charset=utf-8 25.5124ms
+2025-08-07 12:32:13 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:32:13 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:32:13 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.8895ms
+2025-08-07 12:32:13 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.7726ms
+2025-08-07 12:32:13 [INF] Request starting HTTP/2 GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-08-07 12:32:13 [INF] Request finished HTTP/2 GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json - 404 null null 1.4493ms
+2025-08-07 12:32:13 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44330/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-08-07 12:33:38 [INF] Request starting HTTP/2 GET https://localhost:44330/Home/Index - null null
+2025-08-07 12:33:38 [INF] Executing endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:33:38 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.Controllers.HomeController (BloodInNeed.UI).
+2025-08-07 12:33:38 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:33:38 [INF] Executed ViewResult - view Index executed in 1.9732ms.
+2025-08-07 12:33:38 [INF] Executed action BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI) in 16.8757ms
+2025-08-07 12:33:38 [INF] Executed endpoint 'BloodInNeed.Controllers.HomeController.Index (BloodInNeed.UI)'
+2025-08-07 12:33:38 [INF] Request finished HTTP/2 GET https://localhost:44330/Home/Index - 200 null text/html; charset=utf-8 35.3728ms
+2025-08-07 12:33:38 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:33:38 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:33:38 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.859ms
+2025-08-07 12:33:38 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.9622ms
+2025-08-07 12:33:38 [INF] Request starting HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - application/json null
+2025-08-07 12:33:38 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:33:38 [INF] Route matched with {action = "GetStatByCountry", controller = "BaseApi"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[BloodInNeed.UI.Models.StatByCountry] GetStatByCountry(Int32) on controller BloodInNeed.UI.Controllers.ApiControllers.BaseApiController (BloodInNeed.UI).
+2025-08-07 12:33:38 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BloodInNeed.UI.Models.StatByCountry, BloodInNeed.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-07 12:33:38 [INF] Executed action BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI) in 3.8276ms
+2025-08-07 12:33:38 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.ApiControllers.BaseApiController.GetStatByCountry (BloodInNeed.UI)'
+2025-08-07 12:33:38 [INF] Request finished HTTP/2 GET https://localhost:44330/api/base/GetStatByCountry?CountryId=0 - 200 null application/json; charset=utf-8 5.5358ms
+2025-08-07 12:34:31 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/Index - null null
+2025-08-07 12:34:31 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:34:31 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:34:31 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:34:31 [INF] Executed ViewResult - view Index executed in 1.5016ms.
+2025-08-07 12:34:31 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI) in 1.704ms
+2025-08-07 12:34:31 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:34:31 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/Index - 200 null text/html; charset=utf-8 8.7287ms
+2025-08-07 12:34:31 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:34:31 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:34:31 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.7792ms
+2025-08-07 12:34:31 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.017ms
+2025-08-07 12:34:39 [INF] Request starting HTTP/2 GET https://localhost:44330/Login/ - null null
+2025-08-07 12:34:39 [INF] Executing endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:34:39 [INF] Route matched with {action = "Index", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller BloodInNeed.UI.Controllers.LoginController (BloodInNeed.UI).
+2025-08-07 12:34:39 [INF] Executing ViewResult, running view Index.
+2025-08-07 12:34:39 [INF] Executed ViewResult - view Index executed in 5.66ms.
+2025-08-07 12:34:39 [INF] Executed action BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI) in 6.1647ms
+2025-08-07 12:34:39 [INF] Executed endpoint 'BloodInNeed.UI.Controllers.LoginController.Index (BloodInNeed.UI)'
+2025-08-07 12:34:39 [INF] Request finished HTTP/2 GET https://localhost:44330/Login/ - 200 null text/html; charset=utf-8 10.3754ms
+2025-08-07 12:34:39 [INF] Request starting HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-07 12:34:39 [INF] Request starting HTTP/2 GET https://localhost:44330/_vs/browserLink - null null
+2025-08-07 12:34:39 [INF] Request finished HTTP/2 GET https://localhost:44330/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 0.8132ms
+2025-08-07 12:34:39 [INF] Request finished HTTP/2 GET https://localhost:44330/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.2455ms

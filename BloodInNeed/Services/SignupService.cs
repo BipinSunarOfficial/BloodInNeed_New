@@ -20,9 +20,9 @@ namespace BloodInNeed.UI.Services
         }
 
 
-        public DbMessage VerifyEmail(string Email, int code)
+        public DbMessage VerifyEmail(string Email, int Code)
         {
-            var data =  _SignupDBCtx.VerifyEmail(Email, code);
+            var data =  _SignupDBCtx.VerifyEmail(Email, Code);
             return data;
         }
 

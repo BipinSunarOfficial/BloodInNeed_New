@@ -2,6 +2,7 @@
 using BloodInNeed.UI.Models;
 using BloodInNeed.Controllers;
 using BloodInNeed.UI.Services;
+using BloodInNeed.UI.Controllers.ApiControllers;
 
 namespace BloodInNeed.UI.Controllers
 {
@@ -11,11 +12,14 @@ namespace BloodInNeed.UI.Controllers
 
         private readonly SidebarMenuService _sideBarMenuService;
 
-        public LoginController(ILogger<LoginController> logger, SidebarMenuService sidebarMenuService)
+        private readonly SignupService _SignupService;
+
+        public LoginController(ILogger<LoginController> logger, SidebarMenuService sidebarMenuService, SignupService SignupService)
    : base(sidebarMenuService)
         {
             _logger = logger;
             _sideBarMenuService = sidebarMenuService;
+            _SignupService = SignupService;
         }
 
 
@@ -40,11 +44,38 @@ namespace BloodInNeed.UI.Controllers
         }
 
         [HttpGet]       
-        public IActionResult VerifyEmail(string Email)
+        public async Task<IActionResult> VerifyEmail(string Email)
         {
-            ViewBag.VerificationEmail = Email;
+            if (IsSessionLogIn())
+            {
 
-            return View();
+                await PopulateSidebarData();
+
+                ViewBag.Username = CurrentUsername;
+
+                return RedirectToAction("Index", "Home");
+
+            }
+
+            else
+            {
+
+                var response = _SignupService.VerifyEmail(Email,0);
+
+                if (response.MsgType == "success" && response.Msg == "This Email is already verified. Go to login page and try logging in.")
+                {
+                  return RedirectToAction("Index", "Login");
+                }
+
+                else
+                {
+                    ViewBag.VerificationEmail = Email;
+                    return View();
+                }
+
+                  
+            }
+
         }
 
 

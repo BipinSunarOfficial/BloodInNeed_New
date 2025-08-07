@@ -84,6 +84,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.SendCodeApiController",
+    "Method": "SendCode",
+    "RelativePath": "api/sendcode/SendCode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BloodInNeed.UI.Models.SendCode",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BloodInNeed.Data.Models.DbMessageWithValue",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.SignupApiController",
     "Method": "SignUpUser",
     "RelativePath": "api/signup/SignUpUser",
@@ -108,14 +134,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "code",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "model",
+        "Type": "BloodInNeed.UI.Models.VerifyEmail",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

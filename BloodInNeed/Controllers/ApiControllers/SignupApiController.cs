@@ -25,9 +25,9 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
         }
 
         [HttpPost("VerifyEmail")]
-        public IActionResult VerifyEmail(string Email, int code)
+        public IActionResult VerifyEmail(VerifyEmail model)
         {
-            var result = _signupService.VerifyEmail(Email, code);
+            var result = _signupService.VerifyEmail(model.Email, model.Code);
 
             return Ok(result);
         }

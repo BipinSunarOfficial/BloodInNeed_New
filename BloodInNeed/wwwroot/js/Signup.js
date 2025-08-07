@@ -89,11 +89,10 @@ var Signup = {
     },
 
     SignupCallBack: function (result) {
-        debugger
-        console.log(result);
-
+       
         if (result.msgType === "success") {
             showProcessing();
+
             // Redirect to the Home page after a short delay
             setTimeout(() => {
                 window.location.href ="/Login/VerifyEmail?Email=" + result.value;

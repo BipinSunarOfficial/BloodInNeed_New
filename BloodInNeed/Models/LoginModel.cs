@@ -6,4 +6,12 @@
         public string Password { get; set; }
 
     }
+
+    public class VerifyEmail
+    {
+        public string Email { get; set; }
+
+        public int Code { get; set; }
+    }
+
 }

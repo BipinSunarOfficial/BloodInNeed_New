@@ -112,10 +112,7 @@ namespace BloodInNeed.UI.DBCtx
                 p.Add("@MsgType", direction: ParameterDirection.Output, size: 20);
                 p.Add("@Msg", direction: ParameterDirection.Output, size: 4000);
 
-                return ExecuteNonQueryResult("[dbo].[User.Save]", p);
-
-
-
+                return ExecuteNonQueryResult("[dbo].[Email.Verify]", p);
 
             }
 
