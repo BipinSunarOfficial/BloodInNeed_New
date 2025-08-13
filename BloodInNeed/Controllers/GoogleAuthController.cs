@@ -55,13 +55,16 @@ namespace BloodInNeed.UI.Controllers
 
             var response = _logInService.CheckGoogleLogIn(email, firstName, lastName, username, ip);
 
-            userId = response.UserId;
+            userId = Int32.Parse(response.Value.Split(',')[0]);
+
+            string userType = response.Value.Split(',')[1];
 
 
 
             // Set your session keys (matching your app’s design)
-            HttpContext.Session.SetString("UserId", userId.ToString());
+            HttpContext.Session.SetInt32("UserId", userId);
             HttpContext.Session.SetString("Username", username);
+            HttpContext.Session.SetString("UserType", userType);
             HttpContext.Session.SetString("Email", email);
             HttpContext.Session.SetString("IsLoggedIn", "true");
 

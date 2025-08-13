@@ -39,6 +39,7 @@ builder.Services.AddTransient<BaseService>();
 builder.Services.AddTransient<SidebarMenuService>();
 builder.Services.AddTransient<ProfileService>();
 builder.Services.AddTransient<SendCodeService>();
+builder.Services.AddTransient<BloodRequestService>();
 
 
 builder.Services.AddTransient<SideBarDBCtx>(); // Register SideBarDBCtx
@@ -47,6 +48,7 @@ builder.Services.AddScoped<SignupDBCtx>();
 builder.Services.AddScoped<BaseDBCtx>();
 builder.Services.AddScoped<ProfileDBCtx>();
 builder.Services.AddScoped<SendCodeDBCtx>();
+builder.Services.AddScoped<BloodRequestDbctx>();
 
 builder.Services.AddSession();
 

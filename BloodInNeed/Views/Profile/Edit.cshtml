@@ -1,5 +1,4 @@
-﻿@model BloodInNeed.Data.Models.PagedDataEditProfile<BloodInNeed.UI.Models.Country,BloodInNeed.UI.Models.BloodGroups>
-
+﻿@model BloodInNeed.UI.Models.ViewModels.EditProfileViewModel
 @{
     ViewBag.Title = "Edit Profile";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -23,26 +22,26 @@
     <div class="row mb-3">
         <div class="col">
             <select class="form-select form-select-lg" id="salutation" name="salutation">
-                <option value="" disabled selected>Select your Salutation</option>
-                <option value="Mr">Mr</option>
-                <option value="Ms">Ms</option>
-                <option value="Miss">Miss</option>
-                <option value="Mrs">Mrs</option>
-                <option value="Other">Other</option>
+                <option value="" disabled selected="@(Model.UserInfo.Salutation == "" ? "selected" : null)">Select your Salutation</option>
+                <option value="Mr" selected="@(Model.UserInfo.DonorSeeker == "Mr" ? "selected" : null)">Mr</option>
+                <option value="Ms" selected="@(Model.UserInfo.DonorSeeker == "Ms" ? "selected" : null)">Ms</option>
+                <option value="Miss" selected="@(Model.UserInfo.DonorSeeker == "Miss" ? "selected" : null)">Miss</option>
+                <option value="Mrs" selected="@(Model.UserInfo.DonorSeeker == "Mrs" ? "selected" : null)">Mrs</option>
+                <option value="Other" selected="@(Model.UserInfo.DonorSeeker == "Other" ? "selected" : null)">Other</option>
             </select>
             <label for="salutation" class="form-label">Salutation</label>
 
         </div>
         <div class="col">
-            <input type="text" id="editFirstName" class="form-control form-control-lg" placeholder="First Name" required />
+            <input type="text" id="editFirstName" class="form-control form-control-lg" placeholder="First Name" value="@Model.UserInfo.FirstName" required />
             <label for="editFirstName" class="form-label">First Name</label>
         </div>
         <div class="col">
-            <input type="text" id="editMiddleName" class="form-control form-control-lg" placeholder="Middle Name" />
+            <input type="text" id="editMiddleName" class="form-control form-control-lg" placeholder="Middle Name" value="@Model.UserInfo.MiddleName" />
             <label for="editMiddleName" class="form-label">Middle Name</label>
         </div>
         <div class="col">
-            <input type="text" id="editLastName" class="form-control form-control-lg" placeholder="Last Name" required />
+            <input type="text" id="editLastName" class="form-control form-control-lg" placeholder="Last Name" value="@Model.UserInfo.LastName" required />
             <label for="editLastName" class="form-label">Last Name</label>
         </div>
     </div>
@@ -52,9 +51,9 @@
         <div class="col">
             <select class="form-select form-select-lg" id="gender" name="gender">
                 <option value="" disabled selected>Select your Gender</option>
-                <option value="m">Male</option>
-                <option value="f">Female</option>
-                <option value="o">Rather not say</option>
+                <option value="m" selected="@(Model.UserInfo.Gender == "m" ? "selected" : null)">Male</option>
+                <option value="f" selected="@(Model.UserInfo.Gender == "f" ? "selected" : null)">Female</option>
+                <option value="o" selected="@(Model.UserInfo.Gender == "o" ? "selected" : null)">Rather not say</option>
             </select>
             <label for="gender" class="form-label">Gender</label>
 
@@ -62,21 +61,21 @@
 
 
         <div class="col form-outline mb-3">
-            <input type="email" id="editEmail" class="form-control form-control-lg" disabled />
+            <input type="email" id="editEmail" class="form-control form-control-lg" disabled value="@Model.UserInfo.Email" />
             <label class="form-label" for="editEmail">Email address</label>
         </div>
 
         <div class="col form-outline mb-3">
-            <input type="text" id="editUsername" class="form-control form-control-lg" />
+            <input type="text" id="editUsername" class="form-control form-control-lg" disabled value="@Model.UserInfo.UserName" />
             <label class="form-label" for="editUsername">Username</label>
         </div>
 
-        <div class="col">
-            <input type="password" id="editPassword" class="form-control form-control-lg" disabled />
+       @*  <div class="col">
+            <input type="password" id="editPassword" value="********" class="form-control form-control-lg" disabled />
             <label class="form-label" for="editPassword">Password</label>
             <br />
             <small id="editPasswordError" class="text-danger" style="display: none;">Input Strong Password</small>
-        </div>
+        </div> *@
 
     </div>
 
@@ -84,32 +83,36 @@
 
     <div class="row mb-3">
         <div class="col">
-            <select class="form-select form-select-lg" id="donorseeker" name="donorseeker" disabled>
-                <option value="donor">Donor</option>
-                <option value="seeker">Seeker</option>
+            
+            <select class="form-select form-select-lg" id="donorseeker" name="donorseeker" >
+                
+                    <option value="donor" selected="@(Model.UserInfo.DonorSeeker == "donor" ? "selected" : null)">Donor</option>
+                <option value="seeker" selected="@(Model.UserInfo.DonorSeeker == "seeker" ? "selected" : null)">Seeker</option>
+                    
+                
             </select>
             <label for="donorseeker" class="form-label">I am a</label>
         </div>
 
         <div class="col">
-            <input type="date" class="form-control form-control-lg" id="dob" name="dob" />
+            <input type="date" class="form-control form-control-lg" id="dob" name="dob" value="@Model.UserInfo.DOB.ToString("yyyy-MM-dd")" />
             <label for="dob" class="form-label">Date of Birth</label>
 
         </div>
 
         <div class="col">
-            <input type="text" id="editOccupation" class="form-control form-control-lg" />
+            <input type="text" id="editOccupation" class="form-control form-control-lg" value="@Model.UserInfo.Occupation" />
             <label class="form-label" for="editOccupation">Occupation</label>
         </div>
 
 
         <div class="col">
-            <input type="text" id="editFatherName" class="form-control form-control-lg" />
+            <input type="text" id="editFatherName" class="form-control form-control-lg" value="@Model.UserInfo.FatherName" />
             <label class="form-label" for="editFatherName">Father Name</label>
         </div>
 
         <div class="col">
-            <input type="text" id="editMotherName" class="form-control form-control-lg" />
+            <input type="text" id="editMotherName" class="form-control form-control-lg" value="@Model.UserInfo.MotherName" />
             <label class="form-label" for="editMotherName">Mother Name</label>
         </div>
 
@@ -131,9 +134,9 @@
         <div class="col">
             <select class="form-select form-select-lg" id="userCountryId" name="userCountry">
                 <option value="0">Select Country</option>
-                @foreach (var a in Model.Data)
+                @foreach (var a in Model.CountryList)
                 {
-                    <option value="@a.Cid" data-code="@a.PhoneCode">@a.CountryName</option>
+                    <option value="@a.CId" data-code="@a.PhoneCode" selected="@(Model.UserInfo.Country == a.CId ? "selected" : null)">@a.CountryName</option>
                 }
             </select>
             <label for="userCountry" class="form-label">Country</label>
@@ -143,6 +146,13 @@
         <div class="col">
             <select class="form-select form-select-lg" id="userCityId" name="userCity">
                 <option value="0">Select Country first</option>
+                @if(Model.UserInfo.Country>0)
+                {                    
+                    @foreach (var a in Model.Cities)
+                    {
+                        <option value="@a.CityId" selected="@(Model.UserInfo.City == a.CityId ? "selected" : null)">@a.City</option>
+                    }
+                }
 
             </select>
             <label for="userCity" class="form-label">City/Town</label>
@@ -152,8 +162,23 @@
         <div class="col">
 
             <div class="input-group" name="contactNumberDiv">
-                <span class="input-group-text" id="telCountryCode" style="width: 15%; padding:5px;"></span>
-                <input type="text" aria-label="phone" class="form-control" id="contactNumber" maxlength="15">
+
+                @{
+                    var selectedCountry = Model.UserInfo.Country > 0
+                    ? Model.CountryList.FirstOrDefault(c => c.CId == Model.UserInfo.Country)
+                    : null;
+
+                    var phoneCode = "";
+
+                    if(selectedCountry is not null)
+                    {
+                        phoneCode = selectedCountry.PhoneCode > 0 ? "+" + selectedCountry.PhoneCode : "";                        
+                    }
+
+                }
+
+                <span class="input-group-text" id="telCountryCode" style="width: 15%; padding:5px;" value="@phoneCode"> @phoneCode</span>
+                <input type="text" aria-label="phone" class="form-control" id="contactNumber" maxlength="15" value="@Model.UserInfo.Contact">
             </div>
             <label for="contactNumberDiv" class="form-label">Contact Number</label>
 
@@ -167,18 +192,18 @@
     <div class="row">
 
         <div class="col">
-            <input type="text" id="editAddress1" class="form-control form-control-lg" name="editAddress1" />
+            <input type="text" id="editAddress1" class="form-control form-control-lg" name="editAddress1" value="@Model.UserInfo.Address1" />
             <label class="form-label" for="editAddress1">Address 1</label>
         </div>
 
         <div class="col">
-            <input type="text" id="editAddress2" class="form-control form-control-lg" name="editAddress2" />
+            <input type="text" id="editAddress2" class="form-control form-control-lg" name="editAddress2" value="@Model.UserInfo.Address2" />
             <label class="form-label" for="editAddress2">Address 2<i>(optional)</i></label>
         </div>
 
 
         <div class="col">
-            <input type="text" id="editAddress3" class="form-control form-control-lg" name="editAddress3" />
+            <input type="text" id="editAddress3" class="form-control form-control-lg" name="editAddress3" value="@Model.UserInfo.Address3" />
             <label class="form-label" for="editAddress3">Address 3<i>(optional)</i></label>
         </div>
 
@@ -209,9 +234,9 @@
                 <div class="col-5">
                     <select class="form-select" id="bloodGroup" name="bloodGroup">
                         <option value="" disabled selected>Select your Blood Group</option>
-                        @foreach (var a in Model.Data2)
+                        @foreach (var a in Model.bloodGroups)
                         {
-                            <option value="@a.Bid" data-bg="@a.Symbol">@a.Symbol</option>
+                            <option value="@a.Bid" data-bg="@a.Symbol" selected="@(Model.UserInfo.BloodGroup == a.Bid ? "selected" : null)">@a.Symbol</option>
                         }
                     </select>
                 </div>
@@ -232,11 +257,11 @@
                 <div class="col-3">
                     <div class="row">
                         <div class="col">
-                            <input class="donateBefore" type="radio" value="1" name="donateBefore" />
+                            <input class="donateBefore" type="radio" value="1" name="donateBefore" checked="@(Model.UserInfo.DonatedBefore == 1 ? "selected" : null)" />
                             <label for="yes">Yes</label>
                         </div>
                         <div class="col">
-                            <input class="donateBefore" type="radio" value="0" name="donateBefore" />
+                            <input class="donateBefore" type="radio" value="0" name="donateBefore" checked="@(Model.UserInfo.DonatedBefore == 0 ? "selected" : null)" />
                             <label for="no">No</label>
                         </div>
                     </div>
@@ -260,7 +285,7 @@
                 </div>
 
                 <div class="col-5">
-                    <input type="number" class="form-control" min="0" placeholder="0"/>
+                    <input type="number" id="donationCount" class="form-control" min="0" placeholder="0" value="@Model.UserInfo.DonationCount" />
                 </div>
 
             </div>
@@ -278,7 +303,7 @@
                 </div>
 
                 <div class="col">
-                    <input type="date" class="form-control" />
+                    <input type="date" class="form-control" id="recentDonationDate" value="@Model.UserInfo.DonationDateRecent.ToString("yyyy-MM-dd")" />
                 </div>
 
             </div>
@@ -295,20 +320,21 @@
         </div>
 
         <div class="col">
-            <textarea class="form-control">
-
-            </textarea>
+            <textarea class="form-control" id="inspirationField" value="@Model.UserInfo.Inspiration">@Model.UserInfo.Inspiration</textarea>
         </div>
 
     </div>
-
-
-
-
 
 
 </div>
 
 
 
-<script src="~/js/editprofile.js"></script>
+<div class="pt-1 mb-4">
+    <button class="btn btn-outline-danger btn-lg btn-block" id="saveBtn">Save</button>
+    <button class="btn btn-secondary btn-outline-light btn-lg btn-block" href="/Home/Index" id="btnCancel">Cancel</button>
+</div>
+
+
+
+<script src="~/js/editprofile.js?v=@JSVersions.EditProfile"></script>

@@ -47,6 +47,182 @@
     ]
   },
   {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.BloodRequestApiController",
+    "Method": "AcceptRequest",
+    "RelativePath": "api/BloodRequest/AcceptRequest/{requestId}/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BloodInNeed.Data.Models.DbMessage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.BloodRequestApiController",
+    "Method": "CancelRequest",
+    "RelativePath": "api/BloodRequest/CancelRequest/{requestId}/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BloodInNeed.Data.Models.DbMessage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.BloodRequestApiController",
+    "Method": "CompleteRequest",
+    "RelativePath": "api/BloodRequest/CompleteRequest/{requestId}/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BloodInNeed.Data.Models.DbMessage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.BloodRequestApiController",
+    "Method": "CreateRequest",
+    "RelativePath": "api/BloodRequest/CreateRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BloodInNeed.UI.Models.BloodRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BloodInNeed.Data.Models.DbMessage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.BloodRequestApiController",
+    "Method": "DonorCancelRequest",
+    "RelativePath": "api/BloodRequest/DonorCancelRequest/{requestId}/{userId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BloodInNeed.Data.Models.DbMessage",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.BloodRequestApiController",
+    "Method": "RequestViewDetails",
+    "RelativePath": "api/BloodRequest/RequestViewDetails/{requestId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BloodInNeed.UI.Models.MyRequests",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.ProfileApiController",
     "Method": "CitybyCountryId",
     "RelativePath": "api/editProfile/CitybyCountryId",
@@ -58,6 +234,22 @@
         "Name": "CountryId",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BloodInNeed.UI.Controllers.ApiControllers.ProfileApiController",
+    "Method": "saveProfile",
+    "RelativePath": "api/editProfile/saveProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BloodInNeed.UI.Models.UserInfo",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

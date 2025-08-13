@@ -9,30 +9,19 @@
         });       
     }
 
-    // Handle submenu toggle in sidebar (for dropdowns)
-    //const navDropdownToggles = document.querySelectorAll(".nav-link.dropdown-toggle");
-    //navDropdownToggles.forEach((dropdownToggle) => {
-    //    dropdownToggle.addEventListener("click", (event) => {
-    //        event.preventDefault();
-    //        const submenu = dropdownToggle.nextElementSibling; // Get the related submenu
-    //        if (submenu && submenu.classList.contains('collapse')) {
-    //            submenu.classList.toggle("show"); // Toggle visibility of submenu
-    //        }
-    //    });
-    //});
+    document.addEventListener('mouseover', (event) => {
+        // Check if the hovered element is an option inside a select
+        if (event.target.tagName === 'OPTION') {
+            event.target.classList.add('hovered-option');
+        }
+    });
 
-    //// Close all dropdowns when clicking outside the sidebar
-    //document.addEventListener("click", (event) => {
-    //    const isDropdown = event.target.closest(".collapse");
-    //    const isSidebar = event.target.closest(".sidebar");
-
-    //    if (!isSidebar && !isDropdown) {
-    //        const allDropdowns = document.querySelectorAll(".collapse.show");
-    //        allDropdowns.forEach((dropdown) => {
-    //            dropdown.classList.remove("show"); // Hide all dropdowns when clicking outside
-    //        });
-    //    }
-    //});
+    document.addEventListener('mouseout', (event) => {
+        // Remove hover effect when the mouse leaves the option
+        if (event.target.tagName === 'OPTION') {
+            event.target.classList.remove('hovered-option');
+        }
+    });
 
 
 });

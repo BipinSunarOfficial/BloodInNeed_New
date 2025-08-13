@@ -20,3 +20,34 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar-collapse.collapse {
+    display: none !important;
+}
+
+    .navbar-collapse.collapse.show {
+        display: block !important;
+    }
+
+@media (min-width: 992px) {
+    .navbar-collapse.collapse {
+        display: flex !important;
+    }
+}
+
+
+.dropdown-menu {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: block; /* keep it block to allow transitions, but hide via opacity */
+    pointer-events: none; /* disable interaction when hidden */
+    visibility: hidden;
+}
+
+    .dropdown-menu.show {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+        visibility: visible;
+    }

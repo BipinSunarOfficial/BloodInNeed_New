@@ -28,6 +28,8 @@ namespace BloodInNeed.UI.DBCtx
                 p.Add("@UserName", dbType : DbType.String ,direction: ParameterDirection.Output, size: 100);
                 p.Add("@MsgType", direction: ParameterDirection.Output, size: 20);
                 p.Add("@Msg", direction: ParameterDirection.Output, size: 4000);
+                p.Add("@UserType", direction: ParameterDirection.Output, size: 4000);
+                p.Add("@UserId", dbType: DbType.Int32 , direction: ParameterDirection.Output, size: 4000);
 
                 return ExecuteNonQueryResult2("[dbo].[LogIn.Check]", p);
                 
@@ -108,7 +110,7 @@ namespace BloodInNeed.UI.DBCtx
 
 
 
-        public DbMessage CheckGoogleLogIn(string email, string firstName, string lastName, string username, string ip)
+        public DbMessageWithValue CheckGoogleLogIn(string email, string firstName, string lastName, string username, string ip)
         {
             try
             {
@@ -119,12 +121,12 @@ namespace BloodInNeed.UI.DBCtx
                 p.Add("@LastName", lastName);
                 p.Add("@Username", username);
                 p.Add("@CreatedIP", ip);
-                p.Add("@UserId", dbType: DbType.Int32, direction: ParameterDirection.Output);
+                p.Add("@Value", direction: ParameterDirection.Output, size: 20);
 
                 p.Add("@MsgType", direction: ParameterDirection.Output, size: 20);
                 p.Add("@Msg", direction: ParameterDirection.Output, size: 4000);
 
-                return ExecuteNonQueryResult("[dbo].[AddOrGetGoogleUser]", p);
+                return ExecuteNonQueryResultValue("[dbo].[AddOrGetGoogleUser]", p);
 
                 //return p.Get<int>("@UserId");
             }

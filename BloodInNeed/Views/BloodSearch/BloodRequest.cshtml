@@ -1,0 +1,138 @@
+﻿@model BloodInNeed.UI.Models.UserInfo
+
+@{
+    ViewBag.Title = "Blood Request";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h5 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">Requeset Blood</h5>
+
+
+<div class="catagory-box">
+
+    @* <h6 class="fw-normal mb-3 pb-3 themeColor" style="letter-spacing: 1px;">General Information</h6> *@
+
+    <div class="row mb-3">
+        @*  <div class="col">
+
+        <label for="salutation" class="form-label">Salutation</label>
+
+        </div> *@
+        <div class="col">
+            <input type="text" id="receipentName" class="form-control form-control-lg" placeholder="Name" required disabled
+                   value="@($"{Model.FirstName} {Model.MiddleName} {Model.LastName}")" />
+            <label for="receipentName" class="form-label">Full Name</label>
+        </div>
+        <div class="col">
+            <input type="text" id="patientName" class="form-control form-control-lg" placeholder="PatientName" />
+            <label for="patientName" class="form-label">Patient Name</label>
+        </div>
+        <div class="col">
+            <select class="form-select form-control-lg" id="bloodGroup" name="bloodGroup">
+                <option value="0" disabled selected>Select your Blood Group</option>
+                @foreach (var a in ViewBag.BloodGroups)
+                {
+                    <option value="@a.Bid" data-bg="@a.Symbol">@a.Symbol</option>
+                }
+            </select>
+            <label for="bloodGroup" class="form-label">Blood Group</label>
+        </div>
+
+        <div class="col">
+            <input type="number" id="requiredUnits" class="form-control form-control-lg" placeholder="Required Units" min="0" required
+                   value="@Model.FirstName + ' '+ @Model.MiddleName+ ' '+ @Model.LastName" />
+            <label for="requiredUnits" class="form-label">Required Units</label>
+        </div>
+
+
+        <div class="row mb-3">
+
+            <div class="col">
+                <select class="form-select form-control-lg" id="urgencyLevel" name="urgencyLevel">
+                    <option value="Normal" selected>Normal</option>
+                    <option value="Urgent">Urgent</option>
+                    <option value="Emergency">Emergency</option>
+
+
+                </select>
+                <label for="urgencyLevel" class="form-label">Urgency Level</label>
+            </div>
+
+            <div class="col">
+                <input type="text" id="hospitalName" class="form-control form-control-lg" placeholder="Hospital Name" required />
+                <label for="hospitalName" class="form-label">Hospital Name</label>
+            </div>
+
+
+            <div class="col">
+                <select class="form-select form-control-lg" id="bloodCity" name="bloodCity">
+                    <option value="0" disabled selected>Select City</option>
+                    @foreach (var a in ViewBag.CityList)
+                    {
+                        <option value="@a.CityId">@a.City_ASCII</option>
+                    }
+                </select>
+                <label for="bloodCity" class="form-label">City</label>
+            </div>
+
+            <div class="col">
+                <input type="date" id="dueDate" class="form-control form-control-lg" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                <label for="dueDate" class="form-label">Needed Date Up To</label>
+            </div>
+            </<div>
+
+
+                <div class="row mb-3">
+
+                    <div class="col">
+                        <input type="text" id="contactNumber" class="form-control form-control-lg" placeholder="Contact Number if other than recipient." />
+                        <label for="contactNumber" class="form-label">Contact Number</label>
+                    </div>
+
+
+                    <div class="col">
+                        <input type="text" id="diagnosis" class="form-control form-control-lg" placeholder="Diagnosis" />
+                        <label for="diagnosis" class="form-label">Diagnosis</label>
+                    </div>
+
+                    <div class="col-12">
+                        <textarea id="notes" class="form-control form-control-lg" placeholder="Additional Notes or Instructions"></textarea>
+                        <label for="notes" class="form-label">Additional Notes</label>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <span class="themeColor" id="errorMsg"></span>
+
+        </div>
+
+
+        <div class="pt-1 mb-4">
+            <button class="btn btn-outline-danger btn-lg btn-block" id="saveBtn">Save</button>
+            <button class="btn btn-secondary btn-outline-light btn-lg btn-block" href="/Home/Index" id="btnCancel">Cancel</button>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+<script src="~/js/toast.js"></script>
+
+<script src="~/js/bloodrequest.js?v=@JSVersions.Version"></script>
+
+
+
+
+
+
+
+
+

@@ -22,8 +22,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFzZVxEb25hdGVEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/BloodSearch/BloodRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RTZWFyY2hcQmxvb2RSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/BloodSearch/MyDonations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RTZWFyY2hcTXlEb25hdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/BloodSearch/MyRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RTZWFyY2hcTXlSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/BloodSearch/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RTZWFyY2hcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/BloodSearch/ViewRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvb2RTZWFyY2hcVmlld1JlcXVlc3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Software/BloodInNeed/BloodInNeed_New/BloodInNeed/Views/Home/Index.cshtml]

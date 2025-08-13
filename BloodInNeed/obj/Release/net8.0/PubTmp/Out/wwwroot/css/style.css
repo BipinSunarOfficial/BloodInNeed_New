@@ -1,7 +1,42 @@
-﻿/* Top Navbar */
+﻿:root {
+    --redThemeColor: #b30808e6;
+}
+
+/* Entire scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Vertical scrollbar */
+    height: 8px; /* Horizontal scrollbar */
+}
+
+/* Track (the background) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+    background: var(--redThemeColor);
+    border-radius: 10px;
+}
+
+    /* Thumb on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #a93226;
+        cursor:grab;
+    }
+
+    ::-webkit-scrollbar-thumb:hover:active {
+        background: #a93226;
+        cursor: grabbing;
+    }
+
+
+
+/* Top Navbar */
 .navbar {
     background: rgb(249, 249, 249);
-    background: linear-gradient(90deg, rgba(249, 249, 249, 1) 0%, rgba(219, 21, 21, 0.69) 100%);
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1) -80%, var(--redThemeColor) 100%);
 }
 
 .nav_middle {
@@ -23,7 +58,7 @@
 }
 
 /* Sidebar */
-.sidebar {
+/*.sidebar {
     width: 250px;
     height: 100vh;
     position: sticky;
@@ -32,42 +67,44 @@
     border-right: 1px solid #ddd;
     padding: 1rem;
     transition: transform 0.3s ease-in-out;
-    color:red;
+    color: red;*/
     /*display:flex;
     flex-direction:column;
     justify-content:space-around;*/
-}
+/*}*/
+
 .nav-link {
     color: red;
 }
-    /*.sidebar {
+/*.sidebar {
     width: 250px;
     height: 100vh;
     position: fixed;
     top: 0;
     left: -250px;*/ /* Hide sidebar off-screen */
-    /*background-color: #f8f9fa;
+/*background-color: #f8f9fa;
     border-right: 1px solid #ddd;
     padding: 1rem;
     transition: left 0.3s ease-in-out;*/ /* Transition the 'left' property */
-    /*}*/
-    /* Sidebar links */
-    .sidebar .nav-link {
-        padding: 10px;
-        font-size: 16px;
-        color:red;
-    }
+/*}*/
+/* Sidebar links */
+/*.sidebar .nav-link {
+    padding: 10px;
+    font-size: 16px;
+    color: red;
+}
 
-    .sidebar .collapse .btn-toggle-nav {
-        padding-left: 15px;
-    }
-    .sidebar.show {
-        left: 0; /* Move the sidebar into view */
-    }
+.sidebar .collapse .btn-toggle-nav {
+    padding-left: 15px;
+}
+
+.sidebar.show {
+    left: 0;*/ /* Move the sidebar into view */
+/*}*/
 
 .nav-link.active, .nav-link:hover, a.dropdown-item:hover {
     /*background-color: #f10f0fcf;*/
-   background: linear-gradient(90deg, rgba(249, 249, 249, 1) -80%, rgba(219, 21, 21, 0.69) 100%);
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1) -80%, rgba(219, 21, 21, 0.69) 100%);
     color: white !important;
     border-radius: 5px; /* Optional for rounded corners */
 }
@@ -75,11 +112,35 @@
 .nav-link:hover {
     color: white !important;
 }*/
+/*
+.sidebar-footer:hover, .sidebar-footer.active {
+    background: linear-gradient(90deg, rgba(249, 249, 249, 1) -80%, rgba(219, 21, 21, 0.69) 100%);
+    color: white !important;
+    border-radius: 5px;
+}
+
+    .sidebar-footer:hover .editProfile, .sidebar-footer.active .editProfile {
+        color: white;
+    }
+
+
+*/
+
+.catagory-box {
+    border: 1px solid #ccc; /* Light border */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background for the box */
+    margin-bottom: 20px; /* Spacing at the bottom */
+}
+
+
+
 
 
 /* Sidebar hidden by default on small screens */
 @media (max-width: 768px) {
-   /* .sidebar {
+    /* .sidebar {
         transform: translateX(-100%);
         position: absolute;
         z-index: 1030;
@@ -115,14 +176,14 @@
 
 /* Navbar Toggler */
 /*.navbar-toggler {*/
-    /*display: none;*/ /* Hidden by default on larger screens */
-    /*border: none;
+/*display: none;*/ /* Hidden by default on larger screens */
+/*border: none;
 }*/
-.navbar-toggler {
+/*.navbar-toggler {
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
-}
+}*/
 
 /*.navbar-toggler-icon {
     background-color: rgba(0, 0, 0, 0.5);
@@ -130,12 +191,12 @@
     height: 20px;
     width: 20px;
 }*/
-.navbar-toggler-icon {
+/*.navbar-toggler-icon {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     height: 20px;
     width: 20px;
-}
+}*/
 
 /* Table Styling */
 .table thead th {
@@ -213,7 +274,7 @@ main {
     overflow: hidden;
 }*/
 
-.collapse.show, .collapse{
+.collapse.show, .collapse {
     display: block !important;
 }
 
@@ -254,13 +315,13 @@ main {
         caret-color: #ff7676;
     }
 
-    .search-1 input:focus {
-        border-color: none;
-        box-shadow: none;
-        outline: none;
-    }
+        .search-1 input:focus {
+            border-color: none;
+            box-shadow: none;
+            outline: none;
+        }
 
-   /* .search-1 i {
+/* .search-1 i {
         position: absolute;
         top: 12px;
         left: 5px;
@@ -377,23 +438,25 @@ main {
     color: white !important;
 }
 
-.loginregbtn:hover {
-    background: linear-gradient(90deg, rgba(249, 249, 249, 1) -70%, rgba(219, 21, 21, 0.69) 100%);
-}
-
-.sidebar-footer {
-    margin-top: auto; /* Pushes this section to the bottom of the sidebar */
-    /*text-align: center;*/
-    padding: 10px 0;
-    cursor:pointer;
-}
-    .sidebar-footer a {
-        cursor: pointer;
-        text-decoration:none;
-        color:red;
+    .loginregbtn:hover {
+        background: linear-gradient(90deg, rgba(249, 249, 249, 1) -70%, rgba(219, 21, 21, 0.69) 100%);
     }
 
-    /*.sidebar-footer a {
+/*.sidebar-footer {
+    margin-top: auto;*/ /* Pushes this section to the bottom of the sidebar */
+    /*text-align: center;*/
+    /*padding: 8px 2px;
+    cursor: pointer;
+    width: 50%;
+}
+
+    .sidebar-footer a {
+        cursor: pointer;
+        text-decoration: none;
+        color: red;
+    }*/
+
+/*.sidebar-footer a {
         width: 100%;
         padding: 10px;
         border: none;
@@ -413,8 +476,8 @@ main {
     margin-top: 10px;
 }
 
-.editProfile{
-    cursor:pointer;
+.editProfile {
+    cursor: pointer;
 }
 
 .home-button {
@@ -446,3 +509,29 @@ main {
         height: auto;
         margin-bottom: 20px;
     }
+
+
+.themeColor{
+    color : var(--redThemeColor);
+}
+
+.hovered-option{
+    background-color: var(--redThemeColor);
+    color: white;
+}
+/*
+
+@media (min-width: 992px) {
+    collapse:not(.show) {
+        display: none !important;
+    }
+
+    collapse {
+            display: block !important;
+    }
+}*/
+
+
+#profileDropdown{
+    font-size: 3vh;
+}

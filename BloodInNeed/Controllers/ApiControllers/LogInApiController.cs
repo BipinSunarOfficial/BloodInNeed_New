@@ -36,6 +36,8 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
             if(result.MsgType == "success" && result.Msg == "User found but need to verify email address.")
             {
                 HttpContext.Session.SetString("Username", result.Username);
+                HttpContext.Session.SetInt32("UserId", result.UserId);
+                HttpContext.Session.SetString("UserType", result.UserType);
                 HttpContext.Session.SetString("IsLoggedIn", "false");               
 
             }
@@ -43,6 +45,8 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
             if (result.MsgType == "success" && result.Msg == "Login Successful.")
             {
                 HttpContext.Session.SetString("Username", result.Username);
+                HttpContext.Session.SetInt32("UserId", result.UserId);
+                HttpContext.Session.SetString("UserType", result.UserType);
                 HttpContext.Session.SetString("IsLoggedIn", "true");
             }
 

@@ -42,7 +42,7 @@ namespace BloodInNeed.UI.Services
             return data;
         }
 
-        public DbMessage CheckGoogleLogIn(string email, string firstName, string lastName, string username, string ip)
+        public DbMessageWithValue CheckGoogleLogIn(string email, string firstName, string lastName, string username, string ip)
         {
             var data = _logInDBCtx.CheckGoogleLogIn(email, firstName, lastName, username, ip);
 

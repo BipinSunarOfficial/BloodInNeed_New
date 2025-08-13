@@ -1,6 +1,7 @@
 ﻿using BloodInNeed.Data.DataAccess;
 using BloodInNeed.UI.DBCtx;
 using BloodInNeed.UI.Models;
+using Dapper;
 
 namespace BloodInNeed.UI.Services
 {
@@ -27,6 +28,13 @@ namespace BloodInNeed.UI.Services
                 //return false;
             }
         }
+
+        public UserInfo GetUserInfo(int UserId)
+        {
+            var data = _sideBarDBCtx.GetUserInfo(UserId);
+            return data;
+        }
+
 
         public BloodGroups DonateDetail(int BGId)
         {

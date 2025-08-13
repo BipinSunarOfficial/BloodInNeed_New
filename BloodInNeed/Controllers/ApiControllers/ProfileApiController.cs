@@ -1,4 +1,5 @@
-﻿using BloodInNeed.UI.Services;
+﻿using BloodInNeed.UI.Models;
+using BloodInNeed.UI.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,6 +23,17 @@ namespace BloodInNeed.UI.Controllers.ApiControllers
 
             var result = _profileService.CitybyCountryId(CountryId);
            
+            return Ok(result);
+
+        }
+
+
+        [HttpPost("saveProfile")]
+        public IActionResult saveProfile(UserInfo model)
+        {
+
+            var result = _profileService.saveProfile(model);
+
             return Ok(result);
 
         }

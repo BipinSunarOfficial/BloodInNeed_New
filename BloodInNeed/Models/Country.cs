@@ -2,7 +2,7 @@
 {
     public class Country
     {
-        public int Cid { get; set; }
+        public int CId { get; set; }
 
         public string CountryCode { get; set; }
         public string CountryName { get; set; }

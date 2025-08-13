@@ -32,8 +32,8 @@
             , contentType: "application/json"
             , success: function (result) {
                 if (isSync) {
-                    hideProcessing();
                     successCallback(result);
+                    hideProcessing();
                 }
                 else {
                     successCallback(result);
@@ -42,7 +42,7 @@
             }
             , error: function (xhr, s, e) {
                 ApiCall.checkAjaxFailure(xhr);
-                failureCallback(xhr, s, e);
+                //failureCallback(xhr, s, e);
                 hideProcessing();
             }
         });
@@ -140,6 +140,9 @@ var ServiceCall = {
         else if (xhr.status == 403) alert('warning', xhr.statusText);
         else alert('error', 'Something went wrong while processing your request. Please try again');
     }
+     ,failureCallback: function (xhr, s, e) {
+
+    }
 }
 
 var HandlerCall = {
@@ -192,5 +195,9 @@ var HandlerCallPromise = {
         if (xhr.status == 401) askLogin();
         else if (xhr.status == 403) alert('warning', xhr.statusText);
         else alert('error', 'Something went wrong while processing your request. Please try again');
+    }
+    ,
+    failureCallback: function (xhr, s, e) {
+
     }
 };

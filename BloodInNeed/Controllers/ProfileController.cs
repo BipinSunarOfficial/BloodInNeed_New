@@ -24,25 +24,35 @@ namespace BloodInNeed.UI.Controllers
         }
         public IActionResult Edit()
         {
-            //if (IsSessionLogIn())
-            //{
+            if (IsSessionLogIn())
+            {
 
-            //    PopulateSidebarData();
-            //    ViewBag.Username = CurrentUsername;
-            //    return View();
+                PopulateSidebarData();
+                ViewBag.Username = CurrentUsername;
+                ViewBag.UserId = CurrentUserId;
 
-            //}
-            //else
-            //{
-            //    return RedirectToAction("Index", "Home");
-            //}
-
-            //var viewModel = new EditProfileViewModel();
+                var viewModel = new EditProfileViewModel();
 
 
-            var data = _profileService.GetCountryList();
-                        
-            return View(data);
+
+                viewModel.CountryList = _profileService.GetCountryList();
+
+
+                viewModel.UserInfo = _profileService.GetUserInfo(ViewBag.UserId);
+
+                viewModel.bloodGroups = _profileService.GetBloodGroups();
+
+                viewModel.Cities = _profileService.CitybyCountryId(viewModel.UserInfo.Country);
+
+                return View(viewModel);
+
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+
         }
     }
 }

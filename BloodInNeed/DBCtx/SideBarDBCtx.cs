@@ -31,6 +31,15 @@ namespace BloodInNeed.UI.DBCtx
         }
 
 
+        public UserInfo GetUserInfo(int UserId)
+        {
+            DynamicParameters p = new DynamicParameters();
+
+            p.Add("@UserId", UserId);
+
+            return ExecuteAsObject<UserInfo>("[dbo].[User.Details.Get]", p);
+        }
+
         public BloodGroups DonateDetail(int BGId)
         {
             try

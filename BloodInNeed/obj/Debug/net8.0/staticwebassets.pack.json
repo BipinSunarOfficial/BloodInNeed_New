@@ -177,6 +177,10 @@
       "PackagePath": "staticwebassets\\images\\5e6ad515-a964-42e9-9441-96c3cb604df5.webp"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\BloodRequestPage.png",
+      "PackagePath": "staticwebassets\\images\\BloodRequestPage.png"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\images\\LoginImage.webp",
       "PackagePath": "staticwebassets\\images\\LoginImage.webp"
     },
@@ -209,6 +213,10 @@
       "PackagePath": "staticwebassets\\js\\ApiCall.js"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\BloodRequest.js",
+      "PackagePath": "staticwebassets\\js\\BloodRequest.js"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\BloodSearch.js",
       "PackagePath": "staticwebassets\\js\\BloodSearch.js"
     },
@@ -229,6 +237,10 @@
       "PackagePath": "staticwebassets\\js\\Login.js"
     },
     {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\MyRequest.js",
+      "PackagePath": "staticwebassets\\js\\MyRequest.js"
+    },
+    {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\Signup.js",
       "PackagePath": "staticwebassets\\js\\Signup.js"
     },
@@ -239,6 +251,10 @@
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\VerifyEmail.js",
       "PackagePath": "staticwebassets\\js\\VerifyEmail.js"
+    },
+    {
+      "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\ViewRequests.js",
+      "PackagePath": "staticwebassets\\js\\ViewRequests.js"
     },
     {
       "Id": "D:\\Software\\BloodInNeed\\BloodInNeed_New\\BloodInNeed\\wwwroot\\js\\script.js",

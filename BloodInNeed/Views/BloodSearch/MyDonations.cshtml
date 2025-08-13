@@ -1,0 +1,106 @@
+﻿@model IEnumerable<BloodInNeed.UI.Models.ViewRequests>
+
+@{
+    ViewBag.Title = "My Donations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>My Blood Donations</h2>
+
+<div class="table-responsive">
+
+    <table class="table table-bordered text-center align-middle shadow-sm">
+        <thead class="table-light">
+            <tr>
+                <th>SN</th>
+                <th>Blood Group</th>
+                <th>Units</th>
+                <th>Urgency</th>
+                <th>Hospital</th>
+                <th>Needed By</th>
+                <th>Accepted On</th>
+
+                <th colspan="3">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Count() > 0)
+            {
+                foreach (var r in Model)
+                {
+                    <tr>
+                        <td>@r.SN</td>
+                        <td>@r.bloodGroup</td>
+                        <td>@r.requiredUnits</td>
+                        <td>@r.urgencyLevel</td>
+                        <td>@r.hospitalName</td>
+                        <td>@r.dueDate.ToString("dd MMM yyyy")</td>
+                        <td>@r.AcceptedOn.ToString("dd MMM yyyy")</td>
+
+                        <td>
+                            <button class="btn btn-outline-primary btn-sm view-request" data-id="@r.RequestId">View</button>
+
+
+                        </td>
+                        <td>
+
+                            
+                            @if (r.Status == "accepted")
+                            {
+
+                                <button class="btn btn-outline-danger btn-sm cancel-request " data-id="@r.RequestId">Cancel</button>
+                                <button class="btn btn-outline-success btn-sm fulfill-request " data-id="@r.RequestId">Completed</button>
+                            }
+                            @if (r.Status == "fulfilled")
+                            {
+
+                                <button class="btn btn-success btn-sm" disabled data-id="@r.RequestId">Fulfilled</button>
+                            }
+
+
+                        </td>
+
+                        @* <td>
+                <button class="btn btn-secondary btn-sm" data-id="@r.RequestId">Ignore</button>
+
+                </td> *@
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="8" class="text-center">No requests found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+    <!-- Request Details Modal -->
+    <div class="modal fade" id="requestDetailsModal" tabindex="-1" aria-labelledby="requestDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="requestDetailsModalLabel">Request Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="requestDetailsContent">
+                    <div class="text-center py-4">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<script src="~/js/viewrequests.js?v=@JSVersions.Version"></script>

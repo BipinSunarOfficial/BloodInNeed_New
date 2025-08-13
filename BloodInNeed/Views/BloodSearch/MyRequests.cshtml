@@ -1,0 +1,100 @@
+﻿@model IEnumerable<BloodInNeed.UI.Models.MyRequests>
+
+@{
+    ViewBag.Title = "My Requests";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>My Blood Requests</h2>
+
+<div class="table-responsive">
+
+<table class="table table-bordered text-center align-middle shadow-sm">
+    <thead class="table-light">
+        <tr>
+            <th>SN</th>
+            <th>Blood Group</th>
+            <th>Units</th>
+            <th>Urgency</th>
+            <th>Hospital</th>
+            <th>Needed By</th>
+            <th>Status</th>
+            <th colspan="2">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var r in Model)
+            {
+                <tr>
+                    <td>@r.SN</td>
+                    <td>@r.bloodGroup</td>
+                    <td>@r.requiredUnits</td>
+                    <td>@r.urgencyLevel</td>
+                    <td>@r.hospitalName</td>
+                    <td>@r.dueDate.ToString("dd MMM yyyy")</td>
+                    <td>
+                        <span class="badge bg-@(r.Status == "pending" ? "warning" :
+                                                r.Status == "accepted" ? "success" :
+                                                r.Status == "cancelled" ? "danger" : "secondary")">
+                            @r.Status
+                        </span>
+                    </td>
+                    <td>
+                        <button class="btn btn-primary btn-sm view-request" data-id="@r.RequestId">View</button>                        
+                        
+                    </td>
+
+                        <td>
+                            
+                            @if (r.Status == "pending")
+                            {
+                                <button class="btn btn-danger btn-sm cancel-request" data-id="@r.RequestId">Cancel</button>
+                            }
+                            else
+                            {
+                                <button class="btn btn-danger btn-sm cancel-request" data-id="@r.RequestId"  disabled>Cancel</button>
+                            }
+
+                        </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="8" class="text-center">No requests found.</td>
+            </tr>
+        }
+
+
+
+    </tbody>
+</table>
+
+
+    <!-- Request Details Modal -->
+    <div class="modal fade" id="requestDetailsModal" tabindex="-1" aria-labelledby="requestDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="requestDetailsModalLabel">Request Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="requestDetailsContent">
+                    <div class="text-center py-4">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="~/js/toast.js"></script>
+<script src="~/js/myrequest.js?v=@JSVersions.Version"></script>
